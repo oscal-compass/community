@@ -14,7 +14,7 @@ Please report unacceptable behavior to one of the Code of Conduct [Committee mem
 
 ### Related repositories
 
-In addition to this repository, InstructLab has three related repositories:
+In addition to this repository, OSCAl Compass has three main repositories:
 
 
 * [Trestle](https://github.com/oscal-compass/compliance-trestle) - Command line tool and SDK for interacting with OSCAL-based documents
@@ -49,46 +49,6 @@ requires extensive rework (by you or by us), sits in backlog for a long time, or
 cannot be accepted at all!**
 
 We have also adopted [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
-
-### Proposing new features
-
-If you would like to implement a new feature, please raise an issue in the respective repository
-labelled `enhancement` before sending a pull request so the feature can be discussed. This is to avoid
-you wasting your valuable time working on a feature that the project developers
-are not interested in accepting into the code base.
-
-### Fixing bugs
-
-If you would like to fix a bug, please raise an issue labelled `bug` before sending a
-pull request so it can be tracked.
-
-### Merge approval
-
-The project maintainers use LGTM (Looks Good To Me) in comments on the code
-review to indicate acceptance. A change requires LGTMs from one of the maintainers.
-
-For a list of the maintainers, see the [maintainers](MAINTAINERS.md) page.
-
-### Merging and release workflow
-
-OSCAL Compass projects operate on a simple, yet opinionated, method for continuous integration. It's designed to give developers a coherent understanding of the objectives of other past developers.
-The criteria for this are below. OSCAL Compass effectively uses a gitflow workflow with one modification: PR's merge into develop are squash merged as one commit.
-
-In the CI environment this results in the following rules:
-
-1. All Commit's *MUST* be signed off with `git commit --signoff` irrespective of the author's affiliation. This ensures all code can be attributed.
-   1. This is enforced by DCO bot and can be overrided by maintainers presuming at least one commit is signed-off.
-1. All commits *SHOULD* use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
-   1. This is as github, when only one commit is in a PR, will use the native git commit message as the merge commit title.
-      1. When only a single commit is provided the commit MUST be an conventional commit and will be checked the `Lint PR` aciton.
-1. All PR's title's MUST be formed as an [convention commit](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
-   1. This is checked by the `Lint PR` action
-1. All PR's to `develop` and hotfix PR's to `main` must close at least one issue by [linking the PR to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
-1. Trestle will release on demand the default approach for a hot fix should be to merge into `develop`, followed by releasing to `main`, unless this will release functionality that is not ready.
-1. Each feature/fix/chore (PR into develop) be represented by a single commit into develop / main with a coherent title (in the PR).
-   1. The trestle preference for doing this is to use squash merge functionality when merging a PR into develop.
-1. Developers *MUST* pass the required CI checks for each PR.
-1. Developers are encouraged to use GitHub's automated merge process where possible to keep the number of active PR's low.
 
 ### Merge details for committers:
 
