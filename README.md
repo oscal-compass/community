@@ -1,6 +1,6 @@
 # Welcome to the OSCAL Compass community repository
 <picture>
-  <img alt="OSCAL Compass logo" src="compass-circle.png" height="150">
+  <img alt="OSCAL Compass logo" src="assets/compass-circle.png" height="150">
 </picture>
 
 ----
@@ -61,7 +61,7 @@ Our project welcomes external contributions. Please consult [contributing](CONTR
 ## License & Authors
 
 If you would like to see the detailed LICENSE click [here](LICENSE).
-Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for vairous projects in the oscal-compass community.
+Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for various projects in the oscal-compass community.
 
 ```text
 # Copyright (c) 2020 IBM Corp. All rights reserved.
