@@ -26,7 +26,7 @@ If an emeritus Maintainer or other retired contributor wants to regain an active
 
 ### OSCAL Compass Oversight Committee Overview
 
-The Oversight Committee functions as the organization manainers.
+The Oversight Committee functions as the organization mantainers.
 
 An initial Oversight Committee was appointed by the founding sponsors of the OSCAL Compass project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group. Current Oversight Committee members are defined in the community [MAINTAINERS.md](./MAINTAINERS.md) file.
 
@@ -54,9 +54,9 @@ Generally, there are two methods for decision making for the OSCAL Compass proje
 
 ## Consensus
 
-Many of the day-to-day project maintenance can be done through the lazy consensus model. This means that any decision is considered supported by the team making it so long as no one objects. Silence on any consensus decision is implicit agreement, and equivalent to explicit agreement. Please note that decisions that warrant wider input should be made public by using the defined proposal process(./PROCESS.md).
+Many of the day-to-day project maintenance can be done through the lazy consensus model. This means that any decision is considered supported by the team making it so long as no one objects. Silence on any consensus decision is implicit agreement, and equivalent to explicit agreement. Please note that decisions that warrant wider input should be made public by using the defined [proposal process](./PROCESS.md).
 
-In the event that a consensus cannot be met, a Maintainer can call for a vote on a decision.
+In the event that consensus cannot be reached, a Maintainer can call for a vote on a decision.
 
 ## Explicit Voting
 
@@ -67,6 +67,10 @@ The secondary decision-making process is done by explicit voting.
 If a vote is called, the default is a simple majority vote - more than half of the appropriate deciding body.
 
 ### Supermajority Vote
+
+In some cases, a supermajority vote for decision making - at least two-thirds of the appropriate deciding body.
+
+Some examples include:
 
 * Carrying out [Code of Conduct](./CODE_OF_CONDUCT.md) decisions requiring severe censure (supermajority of the Oversight Committee)
 * Removing a [Maintainer](./MAINTAINERS.md) for any reason other than inactivity (supermajority of the Oversight Committee)
