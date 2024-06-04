@@ -15,7 +15,7 @@ Contributing new features, resolving bugs and issues, and refining the documenta
 
 The goals of this open source community includes the following:
 
-* Drive adoption of the OSCAL standard usng Trestle, Agile Authroing, and C2P tools for end-to-end compliance automation.
+* Drive adoption of the OSCAL standard usng Trestle, Agile Authoring, and C2P tools for end-to-end compliance automation.
 * Come up with use-cases for automating compliance processes in an organization and the required tooling support.
 * Influence the OSCAL standard based on the requirements and use-cases identified.
 
@@ -64,7 +64,7 @@ If you would like to see the detailed LICENSE click [here](LICENSE).
 Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for various projects in the oscal-compass community.
 
 ```text
-# Copyright (c) 2020 IBM Corp. All rights reserved.
+# Copyright (c) 2020 The OSCAL Compass Authors. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
