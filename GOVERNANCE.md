@@ -54,7 +54,7 @@ Generally, there are two methods for decision making for the OSCAL Compass proje
 
 ## Consensus
 
-Many of the day-to-day project maintenance can be done through the lazy consensus model. This means that any decision is considered supported by the team making it so long as no one objects. Silence on any consensus decision is implicit agreement, and equivalent to explicit agreement. Please note that decisions that warrant wider input should be made public by using the defined [proposal process](./PROCESS.md).
+Many of the day-to-day project maintenance can be done through the lazy consensus model. This means that any decision is considered supported by the team making it so long as no one objects. Silence on any consensus decision is implicit agreement, and equivalent to explicit agreement. Please note that decisions that warrant wider input should be made public by using the defined [proposal process](./proposals/README.md).
 
 In the event that consensus cannot be reached, a Maintainer can call for a vote on a decision.
 
@@ -72,7 +72,7 @@ In some cases, a supermajority vote for decision making - at least two-thirds of
 
 Some examples include:
 
-* Carrying out [Code of Conduct](./CODE_OF_CONDUCT.md) decisions requiring severe censure (supermajority of the Oversight Committee)
+* Carrying out [Code of Conduct](https://oscal-compass.github.io/compliance-trestle/mkdocs_code_of_conduct/) decisions requiring severe censure (supermajority of the Oversight Committee)
 * Removing a [Maintainer](./MAINTAINERS.md) for any reason other than inactivity (supermajority of the Oversight Committee)
 * Non-trivial changes to the governance (this document) (supermajority of the Oversight Committee)
 * Licensing and intellectual property changes such as new logos or wordmarks (majority of the Oversight Committee)
