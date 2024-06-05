@@ -10,11 +10,11 @@ The following is a set of guidelines for contributing. These are just guidelines
 
 This project adheres to a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
-Please report unacceptable behavior to one of the Code of Conduct [Committee members][MAINTAINERS.md].
+Please report unacceptable behavior to one of the Code of Conduct [Committee members](./MAINTAINERS.md).
 
 ### Related repositories
 
-In addition to this repository, OSCAl Compass has three main repositories:
+In addition to this repository, OSCAL Compass has three main repositories:
 
 
 * [Trestle](https://github.com/oscal-compass/compliance-trestle) - Command line tool and SDK for interacting with OSCAL-based documents
