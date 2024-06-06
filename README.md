@@ -1,6 +1,8 @@
 # Welcome to the OSCAL Compass community repository
 <picture>
-  <img alt="OSCAL Compass logo" src="assets/compass-circle.png" height="150">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/oscal-compass-icon-800x800.pg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/oscal-compass-icon-800x800-transparent.png">
+  <img alt="OSCAL Compass logo" src="assets/oscal-compass-icon-1200x1200.png" height="150">
 </picture>
 
 ----
