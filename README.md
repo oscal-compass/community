@@ -9,7 +9,7 @@
 
 The OSCAL Compass project is a set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL ([Open Security Controls Asessment Language](https://pages.nist.gov/OSCAL/)) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL adoption.
 
-OSCAL Compass is made up of several projects with different release cycles. Collectively, these enable end-to-end automation of vairous compliance processes. This repository shares OSCAL Compass's activity and collaboration details across the community and include the most current information about the project.
+OSCAL Compass is made up of several projects with different release cycles. Collectively, these enable end-to-end automation of various compliance processes. This repository shares OSCAL Compass's activity and collaboration details across the community and include the most current information about the project.
 
 Contributing new features, resolving bugs and issues, and refining the documentation experience through pull requests are welcome. More information about contributing to the OSCAL Compass projects, contributor roles, governance and legal, and licenses can be found in proceeding sections of this document.
 

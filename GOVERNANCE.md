@@ -6,7 +6,7 @@ The following document outlines how the OSCAL Compass project governance operate
 
 The OSCAL Compass Project has a two-level governance structure with an Oversight Committee and Project Maintainers.
 
-Except where otherwise noted, decisions should always start at the most local level of project governance. If a decision only affects a single project, the dicussion should start with the project maintainers. While communication between the different project teams is important as they are all interconnected, minor decisions do not need organization-wide consensus and can be moved forward at the project level.
+Except where otherwise noted, decisions should always start at the most local level of project governance. If a decision only affects a single project, the discussion should start with the project maintainers. While communication between the different project teams is important as they are all interconnected, minor decisions do not need organization-wide consensus and can be moved forward at the project level.
 
 ### Project Maintainers overview
 
@@ -26,7 +26,7 @@ If an emeritus Maintainer or other retired contributor wants to regain an active
 
 ### OSCAL Compass Oversight Committee Overview
 
-The Oversight Committee functions as the organization mantainers.
+The Oversight Committee functions as the organization maintainers.
 
 An initial Oversight Committee was appointed by the founding sponsors of the OSCAL Compass project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group. Current Oversight Committee members are defined in the community [MAINTAINERS.md](./MAINTAINERS.md) file.
 
