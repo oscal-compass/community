@@ -1,0 +1,25 @@
+name: CI
+
+on:                               
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - '**/*.md'
+
+env:
+  LC_ALL: en_US.UTF-8
+
+jobs:
+  spellcheck:
+    name: Check spelling
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
+        with:
+          fetch-depth: 0
+      - name: Check spelling
+        uses: rojopolis/spellcheck-github-actions@e36f662b21ead3f6f29794ac5c35069bf236463c # v0.37.0
