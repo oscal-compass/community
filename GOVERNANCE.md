@@ -14,7 +14,7 @@ Project Maintainers focus on a single codebase or a group of related codebases. 
 
 To be considered an _active project Maintainer_, it is required to be associated with at least one active, non-archived project. If only listed on archived projects, they become _emeritus Maintainers_ and are no longer eligible to become an organization Maintainer.
 
-More information about the Maintainer role can be found in the [Membership](./MEMBERSHIP.md) document. The list of current maintainers for each project can be found be found in the `MAINTAINERS.md` at the repository level.
+More information about the Maintainer role can be found in the [Membership](./MEMBERSHIP.md) document. The list of current maintainers for each project can be found in the `MAINTAINERS.md` at the repository level.
 
 #### Stepping Down and the Emeritus Process
 
@@ -68,7 +68,7 @@ If a vote is called, the default is a simple majority vote - more than half of t
 
 ### Supermajority Vote
 
-In some cases, a supermajority vote for decision making - at least two-thirds of the appropriate deciding body.
+In some cases, a supermajority vote is required for decision making - at least two-thirds of the appropriate deciding body.
 
 Some examples include:
 
