@@ -6,9 +6,9 @@ This document outlines the how to propose large scale or architectural project c
 
 # When to use this process
 
-On many occassions, ideas for new functionality or upgrades can be brought forth in a GitHub issue or dicussion concerning the project. These suggestions are publicly discussed among maintainers, contributors, users, and other concerned stakeholders. Once an agreement is reached among participants, the proposed alterations move through the pull request process, during which the implementation specifics are examined, approved, or rejected by maintainers.
+On many occasions, ideas for new functionality or upgrades can be brought forth in a GitHub issue or discussion concerning the project. These suggestions are publicly discussed among maintainers, contributors, users, and other concerned stakeholders. Once an agreement is reached among participants, the proposed alterations move through the pull request process, during which the implementation specifics are examined, approved, or rejected by maintainers.
 
-Some change may be larger in scale or affect multplie projects. For changes such as these, we ask for a change proposal process be followed
+Some change may be larger in scale or affect multiple projects. For changes such as these, we ask for a change proposal process be followed
 so that all stakeholders can agree before implementation.
 
 An example of a change that would require a proposal:

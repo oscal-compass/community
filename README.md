@@ -1,13 +1,10 @@
-# Welcome to the OSCAL Compass community repository
-<picture>
-  <img alt="OSCAL Compass logo" src="assets/compass-circle.png" height="150">
-</picture>
+# <img alt="Logo" width="50px" src="./assets/oscal-compass-icon-800x800.png" style="vertical-align: middle;" /> OSCAL Compass Community
 
-----
+## Welcome to the OSCAL Compass Community repository
 
-The OSCAL Compass project is a set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL ([Open Security Controls Asessment Language](https://pages.nist.gov/OSCAL/)) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL adoption.
+The OSCAL Compass project is a set of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL ([Open Security Controls Assessment Language](https://pages.nist.gov/OSCAL/)) as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL adoption.
 
-OSCAL Compass is made up of several projects with different release cycles. Collectively, these enable end-to-end automation of vairous compliance processes. This repository shares OSCAL Compass's activity and collaboration details across the community and include the most current information about the project.
+OSCAL Compass is made up of several projects with different release cycles. Collectively, these enable end-to-end automation of various compliance processes. This repository shares OSCAL Compass's activity and collaboration details across the community and include the most current information about the project.
 
 Contributing new features, resolving bugs and issues, and refining the documentation experience through pull requests are welcome. More information about contributing to the OSCAL Compass projects, contributor roles, governance and legal, and licenses can be found in proceeding sections of this document.
 
@@ -15,19 +12,26 @@ Contributing new features, resolving bugs and issues, and refining the documenta
 
 The goals of this open source community includes the following:
 
-* Drive adoption of the OSCAL standard usng Trestle, Agile Authoring, and C2P tools for end-to-end compliance automation.
+* Drive adoption of the OSCAL standard using Trestle, Agile Authoring, and C2P tools for end-to-end compliance automation.
 * Come up with use-cases for automating compliance processes in an organization and the required tooling support.
 * Influence the OSCAL standard based on the requirements and use-cases identified.
 
 
 ## Learn about the projects
 
-[Trestle](https://github.com/oscal-compass/compliance-trestle) - Command line tool and SDK for interacting with OSCAL-based documents
+[Trestle](https://github.com/oscal-compass/compliance-trestle)
 
-[Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring) - Ready to use CI/CD pipeline configuration and setup using a GitOps approach with Trestle for OSCAL document management and collaboration.
+Trestle is an ensemble of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs. It leverages NIST's OSCAL as a standard data format for interchange between tools and people, and provides an opinionated approach to OSCAL adoption.
 
-[Compliance to Policy](https://github.com/oscal-compass/compliance-to-policy) (aka C2P) - C2P is a GitOps extension as a pluggable bridge to normalize the policy administration in the policy validation tools. Bridge between compliance-as-code and policy-as-code.
+Trestle is designed to operate as a CI/CD pipeline running on top of compliance artifacts in git, to provide transparency for the state of compliance across multiple stakeholders in an environment friendly to developers. Trestle passes the generated artifacts onto tools that orchestrate the enforcement, measurement, and reporting of compliance.
 
+[Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring)
+
+Agile Authoring is a collaborative platform enabling various compliance personas to orchestrate their individual aspects of the compliance artifacts via an interface of their choice. It is a Trestle-based GitOps automated workflow and ensures artifacts consistency and traceability. It provides ready to use CI/CD pipeline configuration and setup using a GitOps approach with Trestle for OSCAL document management and collaboration.
+
+[Compliance to Policy](https://github.com/oscal-compass/compliance-to-policy) (aka C2P)
+
+Compliance-to-Policy (C2P) bridges Compliance as Code and Policy as Code. C2P takes Compliance requirements and generates technical policies for Policy Validation Points (PVPs), and takes PVP native results and generates Compliance Assessment Results. C2P reduces the cost to implement the interchange between Compliance artifacts and PVP proprietary artifacts. C2P is extensible to various PVPs through plugin.
 
 ## Community meetings and communications
 

@@ -19,7 +19,7 @@ The project-wide oversight committee
 
 ### Community Maintainers
 
-Team which maintainers access to the Community repository
+Team with maintainer access to the Community repository
 
 - [`jpower432`](https://github.com/jpower432)
 - [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
