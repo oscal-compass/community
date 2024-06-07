@@ -31,9 +31,7 @@ Agile Authoring is a collaborative platform enabling various compliance personas
 
 [Compliance to Policy](https://github.com/oscal-compass/compliance-to-policy) (aka C2P)
 
-Compliance-to-Policy (C2P) bridges Compliance and policy validation points (PVP). C2P takes Compliance requirements and generates technical policies for PVP, and takes PVP native results and generates Compliance Assessment Results.
-
-C2P reduces the cost to implement the interchange between Compliance artifacts and PVP proprietary artifacts. C2P is extensible to various PVPs through plugin.
+Compliance-to-Policy (C2P) bridges Compliance as Code and Policy as Code. C2P takes Compliance requirements and generates technical policies for Policy Validation Points (PVPs), and takes PVP native results and generates Compliance Assessment Results. C2P reduces the cost to implement the interchange between Compliance artifacts and PVP proprietary artifacts. C2P is extensible to various PVPs through plugin.
 
 ## Community meetings and communications
 
