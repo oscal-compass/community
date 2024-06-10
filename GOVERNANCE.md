@@ -48,25 +48,25 @@ The Oversight Committee is responsible for the following duties:
 
 This process is currently being determined by the bootstrap Oversight Committee.
 
-#### Decision Making Process
+## Decision Making Process
 
 Generally, there are two methods for decision making for the OSCAL Compass project: by consensus or by explicit voting.
 
-## Consensus
+### Consensus
 
 Many of the day-to-day project maintenance can be done through the lazy consensus model. This means that any decision is considered supported by the team making it so long as no one objects. Silence on any consensus decision is implicit agreement, and equivalent to explicit agreement. Please note that decisions that warrant wider input should be made public by using the defined [proposal process](./proposals/README.md).
 
 In the event that consensus cannot be reached, a Maintainer can call for a vote on a decision.
 
-## Explicit Voting
+### Explicit Voting
 
 The secondary decision-making process is done by explicit voting. 
 
-### Simple Majority Vote
+#### Simple Majority Vote
 
 If a vote is called, the default is a simple majority vote - more than half of the appropriate deciding body.
 
-### Supermajority Vote
+#### Supermajority Vote
 
 In some cases, a supermajority vote is required for decision making - at least two-thirds of the appropriate deciding body.
 
