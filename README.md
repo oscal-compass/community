@@ -44,13 +44,15 @@ Please attend! All are invited.
 Every other Tuesday starting on April 23, 2024 · 11:00 – 11:30am ET
 [convert to your local time](https://mytime.io/11am/ET)
 
-**Where**: [Google Meet Link](https://meet.google.com/mwp-affd-tvu)
+**Where**: [Google Meet Link](https://meet.google.com/cfr-rkxp-emg)
 
 Dial in:
-(US) +1 402-627-0247 PIN: 535 362 764#\
-[More phone numbers](https://tel.meet/mwp-affd-tvu?pin=9717189704231)
+(US) +1 319-483-6865‬ PIN: ‪269 825 741‬#\
+[More phone numbers](https://tel.meet/cfr-rkxp-emg?pin=9717189704231)
 
 **What**: Meeting agenda and notes [Google Docs](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)
+
+We also have a [shared calendar](https://calendar.google.com/calendar/u/0?cid=NjZjNjdjY2E0ZGZmMWYwN2Q5OGQwZjkxYTMyOGFjZWYyZjRhNjdhMzQzOWYxNGY4NmIyZGU1NmEwYTgzNGEwMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
 ##### Chat anytime
 
