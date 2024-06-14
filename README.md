@@ -54,7 +54,7 @@ Dial in:
 
 ##### Email
 
-Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)
+Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)\
 oscal-compass@googlegroups.com
 
 ##### Chat anytime
