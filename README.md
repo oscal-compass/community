@@ -52,6 +52,11 @@ Dial in:
 
 **What**: Meeting agenda and notes [Google Docs](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)
 
+##### Email
+
+Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)\
+oscal-compass@googlegroups.com
+
 ##### Chat anytime
 
 Slack: [#oscal-compliance-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
