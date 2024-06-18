@@ -54,6 +54,12 @@ Dial in:
 
 We also have a [shared calendar](https://calendar.google.com/calendar/u/0?cid=NjZjNjdjY2E0ZGZmMWYwN2Q5OGQwZjkxYTMyOGFjZWYyZjRhNjdhMzQzOWYxNGY4NmIyZGU1NmEwYTgzNGEwMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
+##### Email
+
+Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)\
+oscal-compass@googlegroups.com
+
+
 ##### Chat anytime
 
 Slack: [#oscal-compliance-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
