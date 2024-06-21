@@ -30,7 +30,7 @@ The Oversight Committee functions as the organization maintainers.
 
 An initial Oversight Committee was appointed by the founding sponsors of the OSCAL Compass project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group. Current Oversight Committee members are defined in the community [MAINTAINERS.md](./MAINTAINERS.md) file.
 
-The Oversight Committee consists of 3 to 7 leaders on the OSCAL Compass project. These members will serve to supervise the overall project and its health. It will also consist of a selected Chair member who will set agendas and call meetings. These meetings can be public or private at the discretion of the Oversight Committee.
+The Oversight Committee consists of 3 to 7 leaders on the OSCAL Compass project. These members will serve to supervise the overall project and its health.
 
 The Oversight Committee is responsible for the following duties:
 
@@ -43,6 +43,27 @@ The Oversight Committee is responsible for the following duties:
 * Deciding what projects are part of the OSCAL Compass project
 * Overseeing the resolution and disclosure of security issues
 * Managing financial decisions related to the project
+
+The Oversight Committee will also consists of a selected Chair and Vice Chair member who will share committee facilitation responsibilities and call meetings. These meetings can be public or private at the discretion of the Oversight Committee.
+
+#### Oversight Committee Chair
+
+The Chair is expected to perform a variety of functions to support Oversight Committee activities:
+
+- Support onboarding new committee members as needed
+- Gathering agenda items for meetings
+- Scheduling and facilitating Oversight Committee meetings
+- Extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time
+- Facilitating the creation and execution of Oversight Committee activities
+
+#### Oversight Committee Vice Chair
+
+The Vice Chair is expected support the Oversight Committee by sharing the below functions of the Chair:
+
+- Gathering agenda items for meetings
+- Support onboarding new committee members as needed
+- Scheduling and facilitating Oversight Committee meetings
+- Extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time
 
 #### Oversight Committee Succession Procedures
 
@@ -87,4 +108,6 @@ Trivial changes that do not introduce policy changes may be approved by two memb
 ## Acknowledgements
 
 This governance approach and documentation was adapted from InstructLab [governance](https://github.com/instructlab/community/blob/main/GOVERNANCE.md).
+
+The Oversight Committee Chair responsibilities and structure was adapted from the CNCF TOC [structure](https://github.com/cncf/toc/blob/5932333cfc2e49f4e9cd6a6c10a7c64f397ffa98/operations/toc-chair-vicechair.md).
 
