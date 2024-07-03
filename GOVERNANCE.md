@@ -44,26 +44,17 @@ The Oversight Committee is responsible for the following duties:
 * Overseeing the resolution and disclosure of security issues
 * Managing financial decisions related to the project
 
-The Oversight Committee will also consists of a selected Chair and Vice Chair member who will share committee facilitation responsibilities and call meetings. These meetings can be public or private at the discretion of the Oversight Committee.
+The Oversight Committee will also consists of a two selected Chair members who will share committee facilitation responsibilities and call meetings. These meetings can be public or private at the discretion of the Oversight Committee.
 
-#### Oversight Committee Chair
+#### Oversight Committee Chairs
 
-The Chair is expected to perform a variety of functions to support Oversight Committee activities:
+The Chairs are expected to perform a variety of functions to support Oversight Committee activities:
 
 - Support onboarding new committee members as needed
 - Gathering agenda items for meetings
 - Scheduling and facilitating Oversight Committee meetings
 - Extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time
 - Facilitating the creation and execution of Oversight Committee activities
-
-#### Oversight Committee Vice Chair
-
-The Vice Chair is expected support the Oversight Committee by sharing the below functions of the Chair:
-
-- Gathering agenda items for meetings
-- Support onboarding new committee members as needed
-- Scheduling and facilitating Oversight Committee meetings
-- Extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time
 
 #### Oversight Committee Succession Procedures
 
@@ -108,6 +99,3 @@ Trivial changes that do not introduce policy changes may be approved by two memb
 ## Acknowledgements
 
 This governance approach and documentation was adapted from InstructLab [governance](https://github.com/instructlab/community/blob/main/GOVERNANCE.md).
-
-The Oversight Committee Chair responsibilities and structure was adapted from the CNCF TOC [structure](https://github.com/cncf/toc/blob/5932333cfc2e49f4e9cd6a6c10a7c64f397ffa98/operations/toc-chair-vicechair.md).
-
