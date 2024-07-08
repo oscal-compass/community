@@ -2,6 +2,8 @@ name: New organization membership nomination
 description: Nomination for OSCAL-Compass organization membership
 title: 'New membership for @'
 labels: ["nomination"]
+assignees:
+  - community-maintainers
 body:
   - type: input
     validations:
@@ -18,11 +20,11 @@ body:
         If you are nominating another contributor, this checklist can be added in an issue comment by the nominee.
 
         Relevant documentation:
-        - [Community membership guidelines](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md)
-        - [Contributing guidelines](https://github.com/oscal-compass/community/blob/main/CONTRIBUTING.md)
-        - [Code of Conduct](https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md
+          - [Community membership guidelines](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md)
+          - [Contributing guidelines](https://github.com/oscal-compass/community/blob/main/CONTRIBUTING.md)
+          - [Code of Conduct](https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md)
       options:
-        - label: I have reviewed the community membership guidelines]
+        - label: I have reviewed the community membership guidelines
         - label: I have read the organization contributing guidelines
         - label: I am actively contributing to 1 or more projects in the OSCAL-Compass organization
         - label: I have enabled 2FA in GitHub
