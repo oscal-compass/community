@@ -15,6 +15,16 @@ The project-wide oversight committee
 - [`mrgadgil`](https://github.com/mrgadgil)
 - [`yuji-watanabe-jp`](https://github.com/yuji-watanabe-jp)
 
+### Org Admins
+
+Team with admin access to the `oscal-compass` org.
+
+> Note: The purpose of this role is to restrict access to admin level functionality in the org. This team serves the community, but does not have decision-making power on their own. This team consists of the community maintainers and the Oversight Committee Chair.
+
+- [`jpower432`](https://github.com/jpower432)
+- [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
+- TBD: Oversight Committee Chair
+
 ## Community
 
 ### Community Maintainers

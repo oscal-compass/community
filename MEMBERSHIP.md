@@ -1,6 +1,6 @@
 # Community roles and membership
 
-This document outlines the various responsibilities of contributor roles in the OSCAL Compass organization. OSCAL Compass is made up of several projects that are defined as codebases and services with different release cycles, thus the responsibiltes for roles are scope to individual projects. Where applicable for OSCAL Compass overall, contributor status is equal to the highest status that they have on any project.
+This document outlines the various responsibilities of contributor roles in the OSCAL Compass organization. OSCAL Compass is made up of several projects that are defined as codebases and services with different release cycles, thus the responsibilities for roles are scope to individual projects. Where applicable for OSCAL Compass overall, contributor status is equal to the highest status that they have on any project.
 
 This document outlines a core number of contributor roles for OSCAL Compass projects, such as _Member_, _Triager_, and _Maintainer_. An _Oversight Committee_ also serves to supervise the overall OSCAL Compass project and its health. Using transparent criteria, the journey between roles is based on individual participation. Criteria will be reevaluated periodically to ensure that we can meet the needs of each project with the resources available to contribute.
 
@@ -123,4 +123,4 @@ Changes to contributor roles must be approved by a vote of the Oversight Committ
 
 ## Acknowledgements
 
-Contributor roles and responsibilities were adpated from InstructLab [contributor roles](https://raw.githubusercontent.com/instructlab/community/main/CONTRIBUTOR_ROLES.md)
+Contributor roles and responsibilities were adapted from InstructLab [contributor roles](https://raw.githubusercontent.com/instructlab/community/main/CONTRIBUTOR_ROLES.md)
