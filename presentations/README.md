@@ -17,7 +17,7 @@ It covers:
 
 ## License
 
-These material are licensed under the Apache 2.0 License - see the LICENSE[https://github.com/oscal-compass/community/blob/main/LICENSE] file for details.
+These materials are licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/oscal-compass/community/blob/main/LICENSE) file for details.
 
 ## Feedback
 
