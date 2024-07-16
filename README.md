@@ -54,6 +54,10 @@ Dial in:
 
 We also have a [shared calendar](https://calendar.google.com/calendar/u/0?cid=NjZjNjdjY2E0ZGZmMWYwN2Q5OGQwZjkxYTMyOGFjZWYyZjRhNjdhMzQzOWYxNGY4NmIyZGU1NmEwYTgzNGEwMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 
+**Recordings**
+
+All of our meeting recordings are available for review on our YouTube [channel](https://www.youtube.com/@OSCAL-Compass).
+
 ##### Email
 
 Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)\
