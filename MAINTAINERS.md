@@ -6,24 +6,23 @@
 
 The project-wide oversight committee
 
-> Note: Committee chair is to be determined
-
 - [`ancatri`](https://github.com/ancatri)
 - [`degenaro`](https://github.com/degenaro)
-- [`jflowers`](https://github.com/jflowers)
+- [`jflowers`](https://github.com/jflowers) - Chair
 - [`jpower432`](https://github.com/jpower432)
-- [`mrgadgil`](https://github.com/mrgadgil)
+- [`mrgadgil`](https://github.com/mrgadgil) - Chair
 - [`yuji-watanabe-jp`](https://github.com/yuji-watanabe-jp)
 
 ### Org Admins
 
 Team with admin access to the `oscal-compass` org.
 
-> Note: The purpose of this role is to restrict access to admin level functionality in the org. This team serves the community, but does not have decision-making power on their own. This team consists of the community maintainers and the Oversight Committee Chair.
+> Note: The purpose of this role is to restrict access to admin level functionality in the org. This team serves the community, but does not have decision-making power on their own. This team consists of the community maintainers and the Oversight Committee Chairs.
 
 - [`jpower432`](https://github.com/jpower432)
 - [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
-- TBD: Oversight Committee Chair
+- [`mrgadgil`](https://github.com/mrgadgil)
+- [`jflowers`](https://github.com/jflowers)
 
 ## Community
 
