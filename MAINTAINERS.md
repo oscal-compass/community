@@ -23,6 +23,7 @@ Team with admin access to the `oscal-compass` org.
 - [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
 - [`mrgadgil`](https://github.com/mrgadgil)
 - [`jflowers`](https://github.com/jflowers)
+- [`thelinuxfoundation`](https://github.com/thelinuxfoundation)
 
 ## Community
 
