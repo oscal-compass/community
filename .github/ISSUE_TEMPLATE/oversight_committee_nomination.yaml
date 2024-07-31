@@ -32,5 +32,6 @@ body:
       label: CV
       description: Short CV (three to five sentences)
   - type: textarea
-    attributes: Motivation and Time Commitment
-    description: Motivation for the role and commitment on how much time you/they can dedicate.
+    attributes:
+      label: Motivation and Time Commitment
+      description: Motivation for the role and commitment on how much time you/they can dedicate.
