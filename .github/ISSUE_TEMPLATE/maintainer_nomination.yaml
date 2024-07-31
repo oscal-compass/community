@@ -6,8 +6,9 @@ assignees:
   - community-maintainers
 body:
   - type: markdown
-    content: |
-      *Please review our [membership documentation](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md) for more details.*
+    attributes:
+      value: |
+        *Please review our [membership documentation](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md) for more details.*
   - type: input
     validations:
       required: true
