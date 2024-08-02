@@ -33,6 +33,12 @@ Agile Authoring is a collaborative platform enabling various compliance personas
 
 Compliance-to-Policy (C2P) bridges Compliance as Code and Policy as Code. C2P takes Compliance requirements and generates technical policies for Policy Validation Points (PVPs), and takes PVP native results and generates Compliance Assessment Results. C2P reduces the cost to implement the interchange between Compliance artifacts and PVP proprietary artifacts. C2P is extensible to various PVPs through plugin.
 
+### Video Introduction
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=wC9QEUoCcuo" target="_blank">
+ <img src="http://img.youtube.com/vi/wC9QEUoCcuo/mqdefault.jpg" alt="Watch the video"/>
+</a>
+
 ## Community meetings and communications
 
 ##### Scheduled meetings
