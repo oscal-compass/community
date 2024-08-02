@@ -1,0 +1,46 @@
+name: New organization membership nomination
+description: Nomination for OSCAL-Compass organization membership
+title: 'New membership for @'
+labels: ["nomination"]
+assignees:
+  - community-maintainers
+body:
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: GitHub username
+      description: The GitHub username for the nominee
+  - type: checkboxes
+    id: membership
+    attributes:
+      label: Membership Requirements
+      description: |
+        Please confirm the following requirements are met.
+        If you are nominating another contributor, this checklist can be added in an issue comment by the nominee.
+
+        [Community membership guidelines](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md)
+        [Contributing guidelines](https://github.com/oscal-compass/community/blob/main/CONTRIBUTING.md)
+        [Code of Conduct](https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I have reviewed the community membership guidelines
+        - label: I have read the organization contributing guidelines
+        - label: I am actively contributing to 1 or more projects in the OSCAL-Compass organization
+        - label: I have enabled 2FA in GitHub
+        - label: I have reviewed and agree to follow the OSCAL-Compass Code of Conduct
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Sponsors
+      description: |
+        List the GitHub usernames of the two project Maintainers who are sponsoring the application.
+        The sponsors need to be contact ahead of the application.
+      placeholder: |
+        @sponsor1
+        @sponsor2
+  - type: textarea
+    attributes:
+      label: Contributions
+      description: |
+        Provide a list of contributions the nominee has made to 1 or more projects in the OSCAL-Compass organization.

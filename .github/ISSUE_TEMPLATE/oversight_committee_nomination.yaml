@@ -1,0 +1,37 @@
+name: New Oversight Committee nomination
+description: Nomination for OSCAL Compass Oversight Committee
+title: 'Oversight Committee role for @'
+labels: ["nomination"]
+assignees:
+  - community-maintainers
+body:
+  - type: markdown
+    attributes:
+      value: |
+        *Please review our [membership documentation](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md) for more details.*
+  - type: checkboxes
+    id: requirement
+    attributes:
+      label: Eligibility
+      description: |
+        Please confirm the following requirements are met.
+      options:
+        - label: The nominee is eligible for the Oversight Committee role.
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: GitHub username
+      description: The GitHub username for the nominee
+  - type: textarea
+    attributes:
+      label: Affiliation
+      description: Professional affiliation of the nominee.
+  - type: textarea
+    attributes:
+      label: CV
+      description: Short CV (three to five sentences)
+  - type: textarea
+    attributes:
+      label: Motivation and Time Commitment
+      description: Motivation for the role and commitment on how much time you/they can dedicate.
