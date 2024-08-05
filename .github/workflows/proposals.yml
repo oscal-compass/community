@@ -31,4 +31,4 @@ jobs:
       run: pip install -U compliance-trestle
 
     - name: Run trestle validate
-      run: trestle validate -tn proposals -hv
+      run: trestle author docs validate -tn proposals -hv
