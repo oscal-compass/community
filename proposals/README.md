@@ -36,6 +36,9 @@ Complete the following steps before creating a change proposal:
 
 ## Process 
 
-* Submit a change proposal under `proposals` by opening a pull request. A proposal template with be created in the future.
+* Create an instance of the template using `trestle author docs create-sample -tn proposals`.
+* Submit a change proposal under `proposals` by opening a pull request.
+  * Ensure that the pipeline for trestle passes.
+  * This can be tested locally via `trestle author docs validate --task-name proposals -hv`
 * At least two maintainers have to approve the proposal before it can be merged.
 * Once merged, the proposal may be implemented in target project(s). The progress could be tracked using the pull request number from the merged proposal.

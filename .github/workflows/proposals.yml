@@ -1,0 +1,26 @@
+name: Validate proposals with trestle
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Don't mess with line endings
+      run: |
+        git config --global core.autocrlf false
+
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install trestle
+      run: pip install -r requirements.txt
+
+    - name: Run trestle validate
+      run: trestle author docs validate -tn proposals -hv
