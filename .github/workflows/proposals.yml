@@ -20,7 +20,7 @@ jobs:
         cache: 'pip'
 
     - name: Install trestle
-      run: pip install -U compliance-trestle
+      run: pip install -r requirements.txt
 
     - name: Run trestle validate
       run: trestle author docs validate -tn proposals -hv
