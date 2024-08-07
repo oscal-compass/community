@@ -18,6 +18,16 @@ To report a vulnerability, either:
 
 2. Send an email to `oscal-compass-oversight@googlegroups.com` detailing the issue and impacted project(s).
 
+### What to include
+
+Make sure to include all the details that might help maintainers better understand and prioritize it, for example here is a list of details that might be worth adding:
+
+* Versions of impacted project(s) used
+* Detailed list of steps to reproduce the vulnerability
+* Consequences of the vulnerability
+* Severity you feel should be attributed to the vulnerabilities
+* Screenshots or logs
+
 ## Public Disclosure
 
 Vulnerabilities once fixed will be shared publicly as a Github [security
