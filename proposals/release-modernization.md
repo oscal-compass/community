@@ -1,5 +1,5 @@
 ---
-title: Release process modernization and standardization for OSCAL compass
+title: Modernisation and standardisation of release management across OSCAL compass
 x-trestle-template-version: 0.0.1
 authors:
   - butler54
