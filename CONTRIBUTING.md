@@ -102,5 +102,5 @@ local git repository using the following command:
 git commit --signoff
 ```
 
-Note that DCO signoff is enforced by [DCO bot](https://github.com/probot/dco). Missing DCO's will be required to be rebased
+Note that DCO signoff is enforced on all repositories by [DCO bot](https://github.com/probot/dco). Missing DCO's will be required to be rebased
 with a signed off commit before being accepted.
