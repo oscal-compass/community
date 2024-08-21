@@ -60,6 +60,8 @@ We have also adopted [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Legal
 
+### License Headers
+
 Each source file must include a license header for the Apache
 Software License 2.0. Using the SPDX format is the simplest approach.
 e.g.
@@ -80,13 +82,19 @@ e.g.
 # limitations under the License.
 ```
 
-We have tried to make it as easy as possible to make contributions. This
-applies to how we handle the legal aspects of contribution. We use the
-same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://oscal-compass.github.io/compliance-trestle/contributing/DCO/) - that the Linux® Kernel [community](https://elinux.org/Developer_Certificate_Of_Origin)
-uses to manage code contributions.
+### Developer's Certificate of Origin
 
-We simply ask that when submitting a patch for review, the developer
-must include a sign-off statement in the commit message.
+We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution. 
+
+We use the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/) to manage code contributions (the same approach as the Linux® Kernel [community](https://elinux.org/Developer_Certificate_Of_Origin))
+
+The DCO requires developers to sign off each of their commits to certify that they have the right to submit the code to the project and that they agree to license their contribution under the project's open source license.
+
+You can read more about the DCO and its guidelines [here](https://github.com/cncf/foundation/blob/main/dco-guidelines.md).
+
+Note that DCO sign-off is enforced on all repositories by [DCO bot](https://github.com/probot/dco). Commits with a missing sign-off will be required to be rebased with the sign-off statement added before being accepted.
+
+#### How to Sign Off
 
 Here is an example Signed-off-by line, which indicates that the
 submitter accepts the DCO:
@@ -101,6 +109,3 @@ local git repository using the following command:
 ```bash
 git commit --signoff
 ```
-
-Note that DCO signoff is enforced on all repositories by [DCO bot](https://github.com/probot/dco). Missing DCO's will be required to be rebased
-with a signed off commit before being accepted.
