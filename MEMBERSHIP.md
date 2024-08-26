@@ -54,8 +54,8 @@ As a project Member, you have the following responsibilities and privileges:
 
 * You are responsive to issues and the pull requests assigned to them.
 * You are an active owner of code that you have contributed, unless ownership is explicitly transferred:
-* You provide code that consistently pass tests.
-* You consistently address bugs or issues that are discovered after code has been accepted.
+  * You provide code that consistently pass tests.
+  * You consistently address bugs or issues that are discovered after code has been accepted.
 
 ### Reviewer
 
