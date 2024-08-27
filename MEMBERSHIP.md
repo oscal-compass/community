@@ -24,7 +24,7 @@ The following table provides information about the current roles available to th
 | Reviewer   | Write with merging restricted via CODEOWNERS | 
 | Maintainer | Maintain                                     | 
 
-> Note: Each project will require push restriction branch protection rule to allow only CODEOWNERS to push to default branches.
+> Note: Each project will require branch protection rule to require CODEOWNER approval for PRs to default branches. It GitHub this would mean setting the `Require review from Code Owners`.
 
 ### Member
 
@@ -84,7 +84,7 @@ Any person who meets the requirements may be nominated by a contributor, includi
 
 As a project Reviewer, you have the following responsibilities and privileges:
 
-* You have the permission to approve, but not merge, a PR.
+* You have the permission to approve and merge a PR with CODEOWNER approval
 * You have permission to label issues and PRs.
 * You consistently assign, close, and reopen issues or PRs.
 * You actively triage issues and PRs with high quality.
