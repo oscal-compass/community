@@ -59,7 +59,7 @@ As a project Member, you have the following responsibilities and privileges:
 
 ### Reviewer
 
-Reviewers are knowledgeable about both the codebase and are able review code for quality and correctness. They should expect issues and pull requests (PRs) to be assigned to them and respond per community expectations.
+Reviewers are knowledgeable about the codebase and are able review code for quality and correctness. They should expect issues and pull requests (PRs) to be assigned to them and respond per community expectations.
 
 #### Reviewer requirements
 
