@@ -1,4 +1,4 @@
-# <img alt="Logo" width="50px" src="./assets/oscal-compass-icon-800x800.png" style="vertical-align: middle;" /> OSCAL Compass Community
+# <img alt="Logo" width="50px" src="./assets/oscal-compass-icon-1200x1200.png" style="vertical-align: middle;" /> OSCAL Compass Community
 
 ## Welcome to the OSCAL Compass Community repository
 
