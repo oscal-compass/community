@@ -14,49 +14,79 @@ status: accepted #deferred, rejected, withdrawn or replaced - PR's are not accep
 <!--> Add extra fields for management here <!-->
 
 - [x] Template passes validation with `trestle`
-- [ ] Proposal cuts across multiple `oscal-compass` projects
+- [x] Proposal cuts across multiple `oscal-compass` projects
 
 
 
 ## Summary/Abstract
 
-Provide a high-level summary of the proposed change. Keep it short.
+OSCAL compass has grown to a number of projects. Today all of these projects are software (not a service) which is being built and distributed via package registries.
+CI & release infrastructure has been developed and coded individually over time matching the capabilities of emerging systems. The result has been duplication and variation between projects. In addition to this some aspects, such as the use of `setuptools` are aging.
 
-This design process establishes a series of standard practices for planning and recording features or changes proposed for the project. The intent is to provide the project a consistent means to track decisions for historical reference and future plans while fully capturing how the feature or change will come to be. Additional benefits include making the process of building the release changelog easier and faster when the feature or change is ready to be released. It is a combination of a feature and effort-tracking document, a product requirements document, and a design document.
+Here we are proposing to:
+1. Rationalize on a modernized set of build configuration and management infrastructure, as much as is realistically possible.
+2. Establish a set of common pipelines that are reused. Keeping the code as "DRY" as possible.
+3. Continuing to use platforms that are freely available for open source projects. 
+
 
 ## Background
 
 ### Motivation and problem space
 
-Describe the need, problem, and motivation for the feature or change and any context required to understand the motivation. 
+Today the CI and project release infrastructure is increasingly complex due to: 
+
+1. An external forced march due to version changes in the OSCAL schema
+2. Autogeneration tasks within the pipeline related to the schema.
+3. Inter-project dependencies (e.g `compliance-trestle` is a dependency of [compliance-trestle-fedramp](https://github.com/oscal-compass/compliance-trestle-fedramp) and []`compliance-to-policy`](https://github.com/oscal-compass/compliance-to-policy).
+4. General improvements required to match CNCF and broader industry trends.
+5. Each project has built its' own pipelines.
+6. Historically `compliance-trestle` restricted the toolset to python. However, this has led to choices who are not best in breed.
+7. The pipelines are tightly coupled. The result is changes to the pipelines often induce unnecessary releases.
+
+In addition for this there are two areas where state of the art has evolved significantly:
+
+1. GitHub Actions: `compliance-trestle` was an early adopter of GitHub actions. The result is there are features which could streamline operations which have not been adopted.
+2. Python package management: Python has had a number of options for package and release management. This has created multiple approaches and configuration files (`setup.py` vs `setup.cfg` vs `pyproject.toml` vs `requirements.txt` etc.)
+
+
 
 ### Impact and desired outcome
 
-Describe any potential impact this feature or change would have. Readers should be able to understand why the feature or change is important. Briefly describe the desired outcome if the change or feature were implemented as designed. 
+Oscal compass codebase has common pipelines for CICD. The common pipelines 
+
 
 ### Prior discussion and links
 
-Often these proposals start as an issue, forum post, email and it's helpful to link to those resources in this section to provide context and credit the right people for the idea.
+- [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- []
+- []
+- []
 
-It is vital for projects to be able to track the chain of custody for a proposed enhancement from conception through implementation which can sometimes be difficult to do in a single Github issue, especially when it is a larger design decision or cuts across multiple areas of the project.
+#### Current related issues
 
-The purpose of the design proposal processes is to reduce the amount of "siloed knowledge" in a community. By moving decisions from a smattering of mailing lists, video calls, slack messages, GitHub exchanges, and hallway conversations into a well tracked artifact, the process aims to enhance communication and discoverability.
+- []()
+- []
+
 
 ## User/User Story (Optional)
 
-Define who your the intended users of the feature or change are. Detail the things that your users will be able to do with the feature if it is implemented. Include as much detail as possible so that people can understand the "how" of the system. This can also be combined with the prior sections.
-
+- As a developer I want to minimize duplicate code in the cicd pipelines
+- As a community I want to have consistentcy in CICD behaviour across different pipelines
+- As a external contributor I want to be easily be able to run the GitHub actions pipelines
+- As a developer I want a single place to configure the project tooling
+- 
 ## Goals
 
 List the desired goal or goals that the design is intended to achieve. These goals can be leveraged to structure and scope the design and discussions and may be reused as the "definition of done" -  the criteria you use to know the implementation of the design has succeeded in accomplishing its goals.
 
 ## Non-Goals
 
-Describe what is out of scope for the design proposal. Listing non-goals helps to focus discussion and make progress.
+This proposal does not want to change the branching or releasing strategy where the teams are hitting a decent cadence.
 
 ## Proposal
 
-This is where we get down to the specifics of what the proposal actually is. It should have enough detail that reviewers can understand exactly what you're proposing, but should not include things like API designs or implementation. This section should expand on the desired outcome and include details on how to measure success.
+
+
 
 ## Design Details
 
@@ -78,14 +108,19 @@ List crucial impacts and key questions, some of which may still be open. They li
 This will also help people understand the caveats to the proposal, other important details that didn't come across above, and alternatives that could be considered. It can also be a good place to talk about core concepts and how they relate. It can be helpful to explicitly list the pros and cons of each decision. Later, this information can be reused to update project documentation, guides, and Frequently Asked Questions (FAQs).
 
 ### Pros
+
 Pros are defined as the benefits and positive aspects of the design as described. It should further reinforce how and why the design meets its goals and intended outcomes. This is a good place to check for any assumptions that have been made in the design.
+
 ### Cons
 Cons are defined as the negative aspects or disadvantages of the design as described. This section has the potential to capture outstanding challenge areas or future improvements needed for the project and could be referenced in future PRs and issues. This is also a good place to check for any assumptions that have been made in the design.
+
 ## Risks and Mitigations
 
 Describe the risks of this proposal and how they can be mitigated. This should be broadly scoped and describe how it will impact the larger ecosystem and potentially adopters of the project; such as if adopters need to immediately update, or support a new port or protocol. It should include drawbacks to the proposed solution. 
 
 ### Security Considerations
+
+
 
 When attempting to identify security implications of the changes, consider the following questions:
 * Does the change alter the permissions or access of users, services, components - this could be an improvement or downgrade or even just a different way of doing it?
@@ -98,7 +133,9 @@ This section can also be combined into the one above.
 
 ## Future Milestones (Optional)
 
-List things that the design will enable but that are out of scope for now. This can help understand the greater impact of a proposal without requiring to extend the scope of a proposal unnecessarily.
+Currently `oscal compass` is mostly python with some go.
+The focus of this proposal is to flush out details on the python ecosystem. 
+Parts will need to be extended for the go projects.
 
 ## Implementation Details (Optional) 
 
@@ -106,15 +143,22 @@ Some projects may desire to track the implementation details in the design propo
 
 ### Testing Plan
 
-An overview on the approaches used to test the implementation.
+Testing CICD is hard without having side effects.
+In order to test this it is recommended that a fork is developed including **fully releasing** to a testing pypi project to ensure that, at least for `compliance trestle`, there are no broken releases. 
+
 
 ### Update/Rollback Compatibility
 
-How the design impacts update compatibility and how users can test rollout and rollback.
+There are three considerations:
+1. GitHub actions workflow: This is effectively a hard cut-over for the maintaining team. Once the changes are introduced into develop the changes should be releases as soon as possible to avoid any issues relating to hot fixes.
 
+2. End users (installers): Technically there is no breaking change here. The buildtools which change are for develop time not install time. 
+
+3. Developers: Developers will need to update their environment. Rolling back will be difficult but not impossible.
+  
 ### Scalability
 
-Describe how the design scales, especially how changes API calls, resource usage, or impacts SLI/SLOs.
+There are no scalability concerns with this approach at this time. 
 
 ### Implementation Phases/History
 
