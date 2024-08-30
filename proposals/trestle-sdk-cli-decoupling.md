@@ -60,24 +60,56 @@ Initial discussion occurred in the OSCAL Compass [community meeting](https://www
 
 ## Proposal
 
-> TODO
+The solution proposed in this document is to move certain pieces of the codebase located in the [compliance-trestle](https://github.com/oscal-compass/compliance-trestle) repository to a new repository containing a Python-based SDK for interaction with OSCAL documents.
 
-*This is where we get down to the specifics of what the proposal actually is. It should have enough detail that reviewers can understand exactly what you're proposing, but should not include things like API designs or implementation. This section should expand on the desired outcome and include details on how to measure success.*
+Below is high-level description of what would be moved:
+
+**OSCAL Classes**: The classes that represet the OSCAL data model.
+**Core Functionality**: Contains the fundamental APIs for interacting with OSCAL objects.  
+**Abstractions**: Abstractions for common operations like resolution or core OSCAL validation
+  
+</details>
 
 ## Design Details
 
-> TODO
+Below is diagram with existing `trestle` logic that is proposed to be part of the SDK. Links to where this type of logic exists currently are included:
 
-This section should contain enough information to allow the following to occur:
-* potential contributors understand how the feature or change should be implemented
-* users or operators understand how the feature of change is expected to function and interact with other components of the project
-* users or operators can take action to pre-plan any needed changes within their architecture that impacted by the upcoming feature or change if it's approved for implementation
-* decisions or opinions on a specific approach are fully discussed and explained
-* users, operators, and contributors can gain a comprehensive understanding of compatibility of the feature or change with past releases of the project.
+```mermaid
+classDiagram
+    OSCALBaseModel <|-- Catalog
+    OSCALBaseModel <|-- Profile
+    OSCALBaseModel <|-- ComponentDefinitions
+    OSCALBaseModel <|-- SSP
+    OSCALBaseModel <|-- AssessmentPlan
+    OSCALBaseModel <|-- AssessmentResult
+    OSCALBaseModel <|-- POAM
+    class OSCALBaseModel{
+      +Config
+      +write()
+      +read()
+    }
+    class Catalog{
+      +CatalogAPI
+    }
+    class Validator{
+      +isValid(OSCALBaseModel)
+    }
+    class Resolver{
+      +Fetcher
+      +import()
+      +merge()
+      +modify()
+      +prune()
+    }
+```
 
-This may include API specs (though not always required), code snippets, data flow diagrams, sequence diagrams, etc. 
+### Relevant Links
 
-If there's any ambiguity about HOW your proposal will be implemented, this is the place to discuss them. This can also be combined with the proposal section above. It should also address how the solution is backward compatible and how to deal with these incompatibilities, possibly with defaulting or migrations. It may be useful to refer back to the goals and non-goals to assist in articulating the "why" behind your approach.
+ - OSCAL Classes: https://github.com/oscal-compass/compliance-trestle/tree/develop/trestle/oscal
+  - Core Logic: https://github.com/oscal-compass/compliance-trestle/blob/develop/trestle/core/models/
+  - Abstractions: 
+    - https://github.com/oscal-compass/compliance-trestle/tree/develop/trestle/core/resolver
+    - https://github.com/oscal-compass/compliance-trestle/blob/dfe892936e5960ad64f6f387dbe5918314049e89/trestle/core/validator.py
 
 ## Impacts / Key Questions
 
@@ -113,7 +145,7 @@ Some of my main questions around this proposal are the following:
 
 ### Testing Plan
 
-> TODO
+This should be defined per sub-project repository.
 
 ### Update/Rollback Compatibility
 
@@ -121,9 +153,7 @@ The `compliance-trestle-python` SDK could be created first to test the rollout a
 
 ### Scalability
 
-> TODO
-
-*Describe how the design scales, especially how changes API calls, resource usage, or impacts SLI/SLOs.*
+This change mainly impact project scalability and maintenance as noted in the above sections.
 
 ### Implementation Phases/History
 
