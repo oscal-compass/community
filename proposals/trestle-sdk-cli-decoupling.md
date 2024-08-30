@@ -51,7 +51,7 @@ Initial discussion occurred in the OSCAL Compass [community meeting](https://www
 
 - `compliance-trestle` continues to contain the `trestle` CLI logic
 - `compliance-trestle-python` is created as the Python SDK repository
-- `compliance-trestle` and other OSCAL Compass project migration importing the SDK from the new python
+- `compliance-trestle` and other OSCAL Compass projects migration to the new SDK for applicable logic
 
 ## Non-Goals
 
@@ -64,9 +64,9 @@ The solution proposed in this document is to move certain pieces of the codebase
 
 Below is high-level description of what would be moved:
 
-**OSCAL Classes**: The classes that represet the OSCAL data model.
+**OSCAL Classes**: The classes that represet the OSCAL data model.  
 **Core Functionality**: Contains the fundamental APIs for interacting with OSCAL objects.  
-**Abstractions**: Abstractions for common operations like resolution or core OSCAL validation
+**Abstractions**: Abstractions for common operations like resolution or core OSCAL validation.  
   
 </details>
 
