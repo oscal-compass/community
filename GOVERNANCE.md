@@ -81,15 +81,29 @@ In the event that consensus cannot be reached, a Maintainer can call for a vote 
 
 ### Explicit Voting
 
-The secondary decision-making process is done by explicit voting. 
+The secondary decision-making process is done by explicit voting.
 
-#### Simple Majority Vote
+#### Process
 
-If a vote is called, the default is a simple majority vote - more than half of the appropriate deciding body.
+We use the [GitVote](https://github.com/cncf/gitvote) bot to streamline our voting efforts.
 
-#### Supermajority Vote
+- Organization-level voting must take place in the community (this repository) repository.
+- Only GitHub Issues and Pull Requests are supported.
 
-In some cases, a supermajority vote is required for decision making - at least two-thirds of the appropriate deciding body.
+The GitVote [repository](https://github.com/cncf/gitvote/blob/main/README.md) has additional information on usage.
+
+There are some constant configurations between voting profiles:
+
+- The Oversight Committee members have binding votes in the community repository. All in the community can and are encouraged to participate in the vote, even if their vote is not binding.
+- The duration for voting is four weeks with status checks occurring at the two week mark.
+
+##### Simple Majority Vote
+
+If a vote is called, the default is a simple majority vote - more than half of the appropriate deciding body. This is the default profile used when calling a vote with `/vote`
+
+##### Supermajority Vote
+
+In some cases, a supermajority vote is required for decision making - at least two-thirds of the appropriate deciding body. You can use `/vote-super` to initiate this type of vote.
 
 Some examples include:
 
