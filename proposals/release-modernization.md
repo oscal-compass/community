@@ -46,7 +46,7 @@ Today the CI and project release infrastructure is increasingly complex due to:
 In addition for this there are two areas where state of the art has evolved significantly:
 
 1. GitHub Actions: `compliance-trestle` was an early adopter of GitHub actions. The result is there are features which could streamline operations which have not been adopted.
-2. Python package management: Python has had a number of options for package and release management. This has created multiple approaches and configuration files (`setup.py` vs `setup.cfg` vs `pyproject.toml` vs `requirements.txt` etc.)
+2. Python package management: Python has had a number of options for package and release management. This has created multiple approaches and configuration files (`setup.py` vs `setup.cfg` vs `pyproject.toml` vs `yafp` etc.)
 
 
 
@@ -86,9 +86,21 @@ This proposal does not want to change the branching or releasing strategy where 
 ## Proposal
 
 
-
-
 ## Design Details
+
+
+### Local lintning toolchain (`pre-commit`)
+
+
+
+
+
+### Python package management and configuration
+
+
+### CICD
+
+#### Establish common build stages (across languages)
 
 This section should contain enough information to allow the following to occur:
 * potential contributors understand how the feature or change should be implemented
