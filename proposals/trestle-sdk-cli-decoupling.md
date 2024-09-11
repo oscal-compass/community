@@ -1,9 +1,9 @@
 ---
-title: Decouple the trestle SDK from the CLI
+title: Decouple the trestle CLI from the SDK
 x-trestle-template-version: 0.0.1
 authors:
   - jpower432
-description: TBD
+description: Create a separately managed SDK
 begin-design-discussions: 2024-08-22 #Insert
 status: accepted #deferred, rejected, withdrawn or replaced - PR's are not accepted. Status is based on main. Rejected is unlikely to exist except where a clear record is required 
 ---
@@ -64,9 +64,16 @@ The solution proposed in this document is to move certain pieces of the codebase
 
 Below is high-level description of what would be moved:
 
-**OSCAL Classes**: The classes that represet the OSCAL data model.  
-**Core Functionality**: Contains the fundamental APIs for interacting with OSCAL objects.  
-**Abstractions**: Abstractions for common operations like resolution or core OSCAL validation.  
+**OSCAL Classes**: The classes that represent the OSCAL data model.
+
+**Core Functionality**: Contains the fundamental APIs for interacting with OSCAL objects.
+
+**Abstractions**: Abstractions for common operations like resolution or core OSCAL validation.
+
+**Transformers**: A subset of the transformers with the following constraints:
+- OSCAL to OSCAL Transformations only
+- Transformation that do not require external data
+
   
 </details>
 
@@ -90,6 +97,9 @@ classDiagram
     }
     class Catalog{
       +CatalogAPI
+    }
+    class SSP{
+      +SSPInheritanceAPI
     }
     class Validator{
       +isValid(OSCALBaseModel)
@@ -157,4 +167,8 @@ This change mainly impact project scalability and maintenance as noted in the ab
 
 ### Implementation Phases/History
 
-Implementation details will be tracked in an issue on `compliance-trestle`. This will be linked here once/if accepted.
+The implementation can be completed in the following phases (high-level):
+
+**Create an API Layer**: Define the packages we want to include in the SDK and use that to define an API layer in `compliance-trestle`
+**Create the SDK**: Create an SDK repository and copy the packages from `compliance-trestle`. This will also give us an opportunity to setup a modernized build process covered in this [proposal](https://github.com/oscal-compass/community/pull/61).Setup documentation for SDK in the new repository and create the first release.
+**Migration**: Migrate `compliance-trestle` from internal libraries to the SDK as a breaking change.
