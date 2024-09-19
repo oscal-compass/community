@@ -2,6 +2,15 @@
 
 The following document outlines how the OSCAL Compass project governance operates.
 
+## Principles
+
+The OSCAL Compass community adheres to the following principles:
+
+**Open**: OSCAL-Compass is open source. See project guidelines [here](./CONTRIBUTING.md).
+**Welcoming and respectful**: See [Code of Conduct](./CODE_OF_CONDUCT.md).
+**Transparent and accessible**: Work and collaboration should be done in public.
+**Merit**: Ideas and contributions are accepted according to their technical merit and alignment with project objectives, scope, and design principles. See our design proposal [process](./proposals/README.md)
+
 ## Governance Structure Overview
 
 The OSCAL Compass Project has a two-level governance structure with an Oversight Committee and Project Maintainers.
@@ -112,4 +121,4 @@ Trivial changes that do not introduce policy changes may be approved by two memb
 
 ## Acknowledgements
 
-This governance approach and documentation was adapted from InstructLab [governance](https://github.com/instructlab/community/blob/main/GOVERNANCE.md).
+Sections of this document were adapted from [InstructLab](https://github.com/instructlab/community/blob/main/GOVERNANCE.md) and [CoreDNS](https://github.com/coredns/coredns/blob/master/GOVERNANCE.md) projects.
