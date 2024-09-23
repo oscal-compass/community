@@ -4,7 +4,7 @@ x-trestle-template-version: 0.0.1
 authors:
 - jpower432
 description: New project - Go SDK and OSCAL API (vote required)
-begin-design-discussions: YYYY-MM-DD #Insert
+begin-design-discussions: 2024-09-19
 status: accepted #deferred, rejected, withdrawn or replaced - PR's are not accepted. Status is based on main. Rejected is unlikely to exist except where a clear record is required 
 ---
 
@@ -22,15 +22,15 @@ This proposal outlines the development of an OSCAL Go SDK. The primary objective
 
 Benefits:
 
-**Simplified Integration**: Streamline the process of incorporating OSCAL capabilities into cloud-native applications.
-**Leveraging Go's Strengths**: Utilize Go's performance, concurrency, and ecosystem to build a robust and efficient SDK.
+**Simplified Integration**: Streamline the process of incorporating OSCAL capabilities into cloud-native applications.  
+**Leveraging Go's Strengths**: Utilize Go's performance, concurrency, and ecosystem to build a robust and efficient SDK.  
 
 ## Background
 
 ### Motivation and problem space
 
-**Support Cloud-Native Development**: Expand integration options with cloud-native applications by providing an SDK in Go, a language commonly used in this space.
-**Multi-Language OSCAL Compass Support**: Address the need in OSCAL Compass existing projects for OSCAL SDKs in both Python (existing) and Go (proposed).
+**Support Cloud-Native Development**: Expand integration options with cloud-native applications by providing an SDK in Go, a language commonly used in this space.  
+**Multi-Language OSCAL Compass Support**: Address the need in OSCAL Compass existing projects for OSCAL SDKs in both Python (existing) and Go (proposed).  
 
 ### Impact and desired outcome
 
@@ -47,11 +47,12 @@ Prior discussion on this topic was captured in the following meetings and issues
 
 ## User/User Story (Optional)
 
-*Define who your the intended users of the feature or change are. Detail the things that your users will be able to do with the feature if it is implemented. Include as much detail as possible so that people can understand the "how" of the system. This can also be combined with the prior sections.*
+As a developer, I want to create custom APIs that interact with OSCAL content so that I can build tailored security applications for specific use cases.
+As a security engineer, I want to integrate OSCAL with my automation tool so that I can automate security tasks based on the defined security controls.
 
 ## Goals
 
-**Native Go implementation**: Create a purely Go-based OSCAL SDK.
+**Native Go implementation**: Create a purely Go-based OSCAL SDK.  
 
 ## Non-Goals
 
@@ -78,14 +79,14 @@ The SDK will consist of two key components:
 
 While Go bindings offer a faster initial implementation path, they may introduce limitations:
 
-**Python Runtime Dependency**: Using Go bindings would necessitate installing Python and the compliance-trestle library, increasing usage complexity.
-**Performance Overhead**: Python is generally slower than Go, especially for computationally intensive tasks. Calling Python code from Go can introduce significant performance overhead, especially if the Python code is executed frequently.
+**Python Runtime Dependency**: Using Go bindings would necessitate installing Python and the compliance-trestle library, increasing usage complexity.  
+**Performance Overhead**: Python is generally slower than Go, especially for computationally intensive tasks. Calling Python code from Go can introduce significant performance overhead, especially if the Python code is executed frequently.  
 
 ## Impacts / Key Questions
 
 ### Pros
 
-**Enhanced developer experience**: Provides a native Go SDK, making it easier for Go developers to integrate OSCAL into their projects.   
+**Enhanced developer experience**: Provides a native Go SDK, making it easier for Go developers to integrate OSCAL into their projects.     
 **Stronger community support**: Attracts a wider developer base and fosters collaboration within the Go community.  
 **Alignment with cloud-native trends**: Positions OSCAL Compass as a more accessible solution for cloud-native applications.  
 
@@ -96,7 +97,7 @@ While Go bindings offer a faster initial implementation path, they may introduce
 
 ## Risks and Mitigations
 
-**Risk**: The Go SDK functionality could diverge from the Python SDK.
+**Risk**: The Go SDK functionality could diverge from the Python SDK.  
 **Mitigation**: Implement a community design proposal process for functional changes to either SDK which would result in new test cases.
 
 ### Security Considerations
@@ -105,13 +106,24 @@ Security considerations will be addressed throughout the development process to 
 
 ## Future Milestones (Optional)
 
-- Develop cross-language test cases and test data for functional testing to ensure consistency across languages.
+- None
 
 ## Implementation Details (Optional) 
 
 ### Testing Plan
 
- A comprehensive testing plan will be developed to ensure the quality and functionality of the Go SDK. This will be documented in repository issues.
+The below testing approach would be done in conjunction with [Proposal Issue 68](https://github.com/oscal-compass/community/pull/68) and [Proposal Issue 61](https://github.com/oscal-compass/community/pull/61).
+
+> Note: While the `testinfra` is being built out, we can prototype with the Python SDK to validate ideas and design feasibility.
+
+1. Define high level workflows that we want each SDK to be able to perform.
+2. Develop an approach for conformance testing. This could be write test cases with Python or using something like [Cucumber](https://cucumber.io/).
+   1. This could be a pre-built testing that could be run as a GitHub Action.
+   2. Each SDK could implement a CLI wrapper for testing purposes.
+   3. Validate OSCAL outputs and perform `oscal-cli` testing where applicable.
+3. Create a common `testinfra` repository to store centralized test data, common OSCAL schemas, and conformance testing.
+   1. A proposal to support new OSCAL versions in OSCAL Compass can be captured here and releases can
+   be coordinated to ensure we maintain project compatibility across the organization.
 
 ### Update/Rollback Compatibility
 
@@ -133,6 +145,6 @@ Following proposal approval, the development process will involve:
 **Research & Exploration**: Identifying existing Go libraries for OSCAL data types and low-level functionalities.
 > Note: [`go-oscal`](https://github.com/defenseunicorns/go-oscal) candidate library to explore.
 
-**SDK Design**: Defining common SDK interfaces and developing cross-language test cases. 
-**Implementation & Documentation**: Building the Go SDK followed by comprehensive documentation creation.  
-**Feedback & Testing**: Facilitating a period for community feedback and rigorous testing of the SDK.  
+**SDK Design**: Defining common SDK interfaces and developing cross-language test cases.
+**Implementation & Documentation**: Building the Go SDK followed by comprehensive documentation creation.   
+**Feedback & Testing**: Facilitating a period for community feedback and rigorous testing of the SDK.   
