@@ -69,7 +69,7 @@ The SDK will consist of two key components:
 `core-library` (may be imported from an existing Go library):
 - OSCAL data types and core logic
 - Import or define functionalities for OSCAL document validation and parsing
-- 
+
 `go-sdk`:
 - High-level OSCAL transformations and normalized workflows (e.g. OSCAL profile Resolution)
 - Inheritance and leveraged authorization workflows
@@ -106,7 +106,7 @@ Security considerations will be addressed throughout the development process to 
 
 ## Future Milestones (Optional)
 
-- None
+None
 
 ## Implementation Details (Optional) 
 
@@ -117,10 +117,10 @@ The below testing approach would be done in conjunction with [Proposal Issue 68]
 > Note: While the `testinfra` is being built out, we can prototype with the Python SDK to validate ideas and design feasibility.
 
 1. Define high level workflows that we want each SDK to be able to perform.
-2. Develop an approach for conformance testing. This could be write test cases with Python or using something like [Cucumber](https://cucumber.io/).
-   1. This could be a pre-built testing that could be run as a GitHub Action.
+2. Develop an approach for conformance testing. This could be writing test cases with Python or using something like [Cucumber](https://cucumber.io/).
+   1. The testing could be delivered as a pre-built GitHub Action or git submodules could be used.
    2. Each SDK could implement a CLI wrapper for testing purposes.
-   3. Validate OSCAL outputs and perform `oscal-cli` testing where applicable.
+   3. Validation of OSCAL outputs and perform `oscal-cli` testing should be completed where applicable.
 3. Create a common `testinfra` repository to store centralized test data, common OSCAL schemas, and conformance testing.
    1. A proposal to support new OSCAL versions in OSCAL Compass can be captured here and releases can
    be coordinated to ensure we maintain project compatibility across the organization.
