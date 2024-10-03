@@ -12,9 +12,9 @@ Contributing new features, resolving bugs and issues, and refining the documenta
 
 The goals of this open source community includes the following:
 
-* Drive adoption of the OSCAL standard using Trestle, Agile Authoring, and C2P tools for end-to-end compliance automation.
-* Come up with use-cases for automating compliance processes in an organization and the required tooling support.
-* Influence the OSCAL standard based on the requirements and use-cases identified.
+- Drive adoption of the OSCAL standard using Trestle, Agile Authoring, and C2P tools for end-to-end compliance automation.
+- Come up with use-cases for automating compliance processes in an organization and the required tooling support.
+- Influence the OSCAL standard based on the requirements and use-cases identified.
 
 
 ## Learn about the projects
@@ -41,7 +41,7 @@ Compliance-to-Policy (C2P) bridges Compliance as Code and Policy as Code. C2P ta
 
 ## Community meetings and communications
 
-##### Scheduled meetings
+### Scheduled meetings
 
 Please attend! All are invited.
 
@@ -64,13 +64,12 @@ We also have a [shared calendar](https://calendar.google.com/calendar/u/0?cid=Nj
 
 All of our meeting recordings are available for review on our YouTube [channel](https://www.youtube.com/@OSCAL-Compass).
 
-##### Email
+### Email
 
 Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)\
 oscal-compass@googlegroups.com
 
-
-##### Chat anytime
+### Chat anytime
 
 Slack: [#oscal-compliance-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
 
@@ -114,4 +113,3 @@ We are a Cloud Native Computing Foundation sandbox project.
 The Linux Foundation® (TLF) has registered trademarks and uses trademarks. For a list of TLF trademarks, see [Trademark Usage](https://www.linuxfoundation.org/legal/trademark-usage)".
 
 *OSCAL Compass was originally contributed by IBM.*
-

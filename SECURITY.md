@@ -37,6 +37,7 @@ and mentioned in the fixed versions' release notes.
 ## Supported Versions
 
 All OSCAL Compass projects follow [Semantic Versioning](https://semver.org/) terminology and are expressed as x.y.z:
+
 - where x is the major version
 - y is the minor version
 - and z is the patch version
