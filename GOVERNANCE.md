@@ -2,6 +2,15 @@
 
 The following document outlines how the OSCAL Compass project governance operates.
 
+## Principles
+
+The OSCAL Compass community adheres to the following principles:
+
+**Open**: OSCAL-Compass is open source. See project guidelines [here](./CONTRIBUTING.md).
+**Welcoming and respectful**: See [Code of Conduct](./CODE_OF_CONDUCT.md).
+**Transparent and accessible**: Work and collaboration should be done in public.
+**Merit**: Ideas and contributions are accepted according to their technical merit and alignment with project objectives, scope, and design principles. See our design proposal [process](./proposals/README.md)
+
 ## Governance Structure Overview
 
 The OSCAL Compass Project has a two-level governance structure with an Oversight Committee and Project Maintainers.
@@ -72,15 +81,29 @@ In the event that consensus cannot be reached, a Maintainer can call for a vote 
 
 ### Explicit Voting
 
-The secondary decision-making process is done by explicit voting. 
+The secondary decision-making process is done by explicit voting.
 
-#### Simple Majority Vote
+#### Process
 
-If a vote is called, the default is a simple majority vote - more than half of the appropriate deciding body.
+We use the [GitVote](https://github.com/cncf/gitvote) bot to streamline our voting efforts.
 
-#### Supermajority Vote
+- Organization-level voting must take place in the community (this repository) repository.
+- Only GitHub Issues and Pull Requests are supported.
 
-In some cases, a supermajority vote is required for decision making - at least two-thirds of the appropriate deciding body.
+The GitVote [repository](https://github.com/cncf/gitvote/blob/main/README.md) has additional information on usage.
+
+There are some constant configurations between voting profiles:
+
+- The Oversight Committee members have binding votes in the community repository. All in the community can and are encouraged to participate in the vote, even if their vote is not binding.
+- The duration for voting is four weeks with status checks occurring at the two week mark.
+
+##### Simple Majority Vote
+
+If a vote is called, the default is a simple majority vote - more than half of the appropriate deciding body. This is the default profile used when calling a vote with `/vote`
+
+##### Supermajority Vote
+
+In some cases, a supermajority vote is required for decision making - at least two-thirds of the appropriate deciding body. You can use `/vote-super` to initiate this type of vote.
 
 Some examples include:
 
@@ -98,4 +121,4 @@ Trivial changes that do not introduce policy changes may be approved by two memb
 
 ## Acknowledgements
 
-This governance approach and documentation was adapted from InstructLab [governance](https://github.com/instructlab/community/blob/main/GOVERNANCE.md).
+Sections of this document were adapted from [InstructLab](https://github.com/instructlab/community/blob/main/GOVERNANCE.md) and [CoreDNS](https://github.com/coredns/coredns/blob/master/GOVERNANCE.md) projects.

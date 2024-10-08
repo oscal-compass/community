@@ -1,4 +1,4 @@
-# <img alt="Logo" width="50px" src="./assets/oscal-compass-icon-800x800.png" style="vertical-align: middle;" /> OSCAL Compass Community
+# <img alt="Logo" width="50px" src="./assets/oscal-compass-icon-1200x1200.png" style="vertical-align: middle;" /> OSCAL Compass Community
 
 ## Welcome to the OSCAL Compass Community repository
 
@@ -50,15 +50,12 @@ Please attend! All are invited.
 Every other Tuesday starting on April 23, 2024 · 11:00 – 11:30am ET
 [convert to your local time](https://mytime.io/11am/ET)
 
-**Where**: [Google Meet Link](https://meet.google.com/cfr-rkxp-emg)
+**Where**: [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d)
 
-Dial in:
-(US) +1 319-483-6865‬ PIN: ‪269 825 741‬#\
-[More phone numbers](https://tel.meet/cfr-rkxp-emg?pin=9717189704231)
 
 **What**: Meeting agenda and notes [Google Docs](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)
 
-We also have a [shared calendar](https://calendar.google.com/calendar/u/0?cid=NjZjNjdjY2E0ZGZmMWYwN2Q5OGQwZjkxYTMyOGFjZWYyZjRhNjdhMzQzOWYxNGY4NmIyZGU1NmEwYTgzNGEwMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+We also have a [shared calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/trestlegrc?view=week).
 
 **Recordings**
 
@@ -86,7 +83,7 @@ If you would like to see the detailed LICENSE click [here](LICENSE).
 Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for various projects in the oscal-compass community.
 
 ```text
-# Copyright (c) 2020 The OSCAL Compass Authors. All rights reserved.
+# Copyright (c) 2024 The OSCAL Compass Authors. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -101,3 +98,17 @@ Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for va
 # limitations under the License.
 
 ```
+
+-----
+
+We are a Cloud Native Computing Foundation sandbox project.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.cncf.io/wp-content/uploads/2022/07/cncf-white-logo.svg">
+  <img src="https://www.cncf.io/wp-content/uploads/2022/07/cncf-color-bg.svg" width=300 />
+</picture>
+
+The Linux Foundation® (TLF) has registered trademarks and uses trademarks. For a list of TLF trademarks, see [Trademark Usage](https://www.linuxfoundation.org/legal/trademark-usage)".
+
+*OSCAL Compass was originally contributed by IBM.*
+
