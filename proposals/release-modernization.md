@@ -52,8 +52,7 @@ In addition for this there are two areas where state of the art has evolved sign
 
 ### Impact and desired outcome
 
-Oscal compass codebase has common pipelines for CICD. The common pipelines 
-
+Oscal compass codebase has a consistent approach across all projects. Gates are consistent across project.
 
 ### Prior discussion and links
 
@@ -64,9 +63,11 @@ Oscal compass codebase has common pipelines for CICD. The common pipelines
 
 #### Current related issues
 
-- []()
-- []
-
+- [Merge bot for trestle](https://github.com/oscal-compass/compliance-trestle/issues/1716)
+- [Python Sem ver issues](https://github.com/oscal-compass/compliance-trestle/issues/1590)
+- [Container build for trestle](https://github.com/oscal-compass/compliance-trestle/issues/983)
+- [Abstract github pipelines](https://github.com/oscal-compass/compliance-trestle/issues/1608)
+- [Pipeline creation for informing release has been made](https://github.com/oscal-compass/compliance-trestle/issues/1503)
 
 ## User/User Story (Optional)
 
@@ -74,7 +75,7 @@ Oscal compass codebase has common pipelines for CICD. The common pipelines
 - As a community I want to have consistentcy in CICD behaviour across different pipelines
 - As a external contributor I want to be easily be able to run the GitHub actions pipelines
 - As a developer I want a single place to configure the project tooling
-- 
+
 ## Goals
 
 List the desired goal or goals that the design is intended to achieve. These goals can be leveraged to structure and scope the design and discussions and may be reused as the "definition of done" -  the criteria you use to know the implementation of the design has succeeded in accomplishing its goals.
@@ -84,6 +85,101 @@ List the desired goal or goals that the design is intended to achieve. These goa
 This proposal does not want to change the branching or releasing strategy where the teams are hitting a decent cadence.
 
 ## Proposal
+
+Exclusion
+
+![]()
+
+
+### Release process
+
+### Exclusions
+  
+1. https://github.com/oscal-compass/oscal-compass.github.io
+2. https://github.com/oscal-compass/community
+
+
+
+### Conventional commits
+
+- All projects must use conventional commits
+  - A single conventional commit is associated with each 
+
+
+### Automated merges and releases
+
+- All projects, excluding the community project, use automated merges
+  - Projects with a version >= 1.0.0 require two reviews for merge to default branch and release gates.
+  - Projects with a version < 1.0.0 require one review, however, may require two at their own discretion
+  - Projects with a version < 0.1.0 are at the discretion of the user
+- codeowners used for specific changes
+
+### Documentation websites
+
+- All documentation websites use `mkdocs-material`
+  - Plugins must be consistent
+- 
+- Documentation websites must be versioned
+  - Latest documentation update occurs when merging to the default branch
+- Release versions occur on a release tag
+  - Major and minor versions are saved in the dropdown.
+    - E.g. you can see 3.4 and 3.3 but 3.4.1 will overwrite the 3.4 release
+
+### SBoMs
+
+
+###
+
+  
+### Language specific tools
+
+
+
+#### Python
+
+##### Standardize on `pyproject.toml` and `hatch`
+
+Python packaging and project definition has been inconsistent for many years.
+The [python packaging authority](https://packaging.python.org/en/latest/flow/) has standardized on `pyproject.toml`
+While `setup.py` is not deprecated, [certain elements of it's use are](https://packaging.python.org/en/latest/discussions/setup-py-deprecated/#is-setup-py-deprecated).
+Today we are split, in compliance-trestle across `setup.py`, `setup.cfg`, `pyproject.toml` and some external files such as `.yapf-config` and `.pylintrc`
+Rationalize on `pyproject.toml` to avoid split-brain scenarios.
+
+There are a number of tools for [python packaging and build backends](https://packaging.python.org/en/latest/key_projects/). Some are supported by the packing authority and some are not.
+
+[`hatch` and `hatchling`](https://hatch.pypa.io/latest/) appear [to be the most popular](https://github.com/pypa/hatch/graphs/commit-activity), modernized build tool supported by  
+
+
+#### Go
+
+
+### Workflows
+
+
+
+
+## CI Phases
+1. Pull request review:
+   1. Linting
+   2. SAST
+   3. 
+
+2. Develop commit:
+   1. Update documentation website with 'Latest' branch
+
+
+Workflows required
+
+1. Package release
+2. Website release
+3. Quality gate
+4. Tag release
+5. 
+
+
+
+
+
 
 
 ## Design Details
