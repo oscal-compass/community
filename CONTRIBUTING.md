@@ -67,7 +67,7 @@ Software License 2.0. Using the SPDX format is the simplest approach.
 e.g.
 
 ```text
-# Copyright (c) 2020 The OSCAL Compass Authors. All rights reserved.
+# Copyright (c) 20204 The OSCAL Compass Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
