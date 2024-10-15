@@ -6,10 +6,10 @@ The following document outlines how the OSCAL Compass project governance operate
 
 The OSCAL Compass community adheres to the following principles:
 
-**Open**: OSCAL-Compass is open source. See project guidelines [here](./CONTRIBUTING.md).
-**Welcoming and respectful**: See [Code of Conduct](./CODE_OF_CONDUCT.md).
-**Transparent and accessible**: Work and collaboration should be done in public.
-**Merit**: Ideas and contributions are accepted according to their technical merit and alignment with project objectives, scope, and design principles. See our design proposal [process](./proposals/README.md)
+**Open**: OSCAL-Compass is open source. See project guidelines [here](./CONTRIBUTING.md).  
+**Welcoming and respectful**: See [Code of Conduct](./CODE_OF_CONDUCT.md).  
+**Transparent and accessible**: Work and collaboration should be done in public.  
+**Merit**: Ideas and contributions are accepted according to their technical merit and alignment with project objectives, scope, and design principles. See our design proposal [process](./proposals/README.md)  
 
 ## Governance Structure Overview
 

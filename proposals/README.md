@@ -4,7 +4,7 @@ This document outlines the how to propose large scale or architectural project c
 
 > Note: This is a draft process
 
-# When to use this process
+## When to use this process
 
 On many occasions, ideas for new functionality or upgrades can be brought forth in a GitHub issue or discussion concerning the project. These suggestions are publicly discussed among maintainers, contributors, users, and other concerned stakeholders. Once an agreement is reached among participants, the proposed alterations move through the pull request process, during which the implementation specifics are examined, approved, or rejected by maintainers.
 
@@ -24,9 +24,9 @@ Examples of changes to handle on the project level:
 * Fixing a flaky test
 * Code Refactoring
 
-# How to engage in the process
+## How to engage in the process
 
-## Prerequisites
+### Prerequisites
 
 Complete the following steps before creating a change proposal:
 
@@ -34,7 +34,7 @@ Complete the following steps before creating a change proposal:
 * Optionally, create a prototype in your own fork
 * If a new project or codebase is proposed, identify project maintainers
 
-## Process 
+### Process 
 
 * Create an instance of the template using `trestle author docs create-sample -tn proposals`.
 * Submit a change proposal under `proposals` by opening a pull request.
