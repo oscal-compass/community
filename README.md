@@ -82,7 +82,7 @@ If you would like to see the detailed LICENSE click [here](LICENSE).
 Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for various projects in the oscal-compass community.
 
 ```text
-# Copyright (c) 2024 The OSCAL Compass Authors. All rights reserved.
+# Copyright (c) 2024 The OSCAL Compass Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
