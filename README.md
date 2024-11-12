@@ -68,7 +68,7 @@ oscal-compass@googlegroups.com
 
 ### Chat anytime
 
-Slack: [#oscal-compliance-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
+Slack: [#oscal-compass-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
 
 - **Note**: You can login to Slack using another account like Google, Apple
 
