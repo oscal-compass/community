@@ -20,9 +20,9 @@ The following table provides information about the current roles available to th
 
 | Role       | GitHub Permissions                           |
 |------------|----------------------------------------------|
-| Member     | Read                                         | 
-| Reviewer   | Write with merge restricted by CODEOWNER approval | 
-| Maintainer | Maintain                                     | 
+| Member     | Read                                         |
+| Reviewer   | Write with merge restricted by CODEOWNER approval |
+| Maintainer | Maintain                                     |
 
 > Note: Each project will require branch protection rule to require CODEOWNER approval for PRs to default branches. In GitHub, this would mean setting the `Require review from Code Owners` in branch protection rule setting.
 
