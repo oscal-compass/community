@@ -1,6 +1,6 @@
-name: New triager nomination 
-description: Nomination for triager role for the community repository
-title: 'Triager role for @'
+name: New reviewer nomination 
+description: Nomination for reviewer role for the community repository
+title: 'Reviewer role for @'
 labels: ["nomination"]
 assignees:
   - community-maintainers
