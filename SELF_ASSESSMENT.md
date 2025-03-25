@@ -9,6 +9,8 @@
   - [Overview](#overview)
     - [Background](#background)
     - [Actors](#actors)
+      - [Compliance Trestle](#compliance-trestle)
+      - [Compliance-to-policy](#compliance-to-policy)
     - [Actions](#actions)
     - [Goals](#goals)
     - [Non-goals](#non-goals)
@@ -16,8 +18,15 @@
   - [Security functions and features](#security-functions-and-features)
   - [Project compliance](#project-compliance)
   - [Secure development practices](#secure-development-practices)
+    - [Development Pipeline](#development-pipeline)
+    - [Communication Channels](#communication-channels)
+    - [Ecosystem](#ecosystem)
   - [Security issue resolution](#security-issue-resolution)
+    - [Responsible Disclosures Process](#responsible-disclosures-process)
+    - [Vulnerability Response Process](#vulnerability-response-process)
+    - [Incident Response](#incident-response)
   - [Appendix](#appendix)
+    - [Open SSF Best Practices](#open-ssf-best-practices)
 
 ## Metadata
 
@@ -169,7 +178,8 @@ patching/update availability.--->
 <!---* Known Issues Over Time. List or summarize statistics of past vulnerabilities
   with links. If none have been reported, provide data, if any, about your track
 record in catching issues in code review or automated testing.-->
-### [Open SSF Best Practices](https://www.bestpractices.dev/en).
+### [Open SSF Best Practices](https://www.bestpractices.dev/en)
+
   Best Practices. A brief discussion of where the project is at
   with respect to CII best practices and what it would need to
   achieve the badge.
