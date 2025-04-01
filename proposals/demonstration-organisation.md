@@ -113,7 +113,7 @@ The biggest question is how much needs to be recorded in the document itself as 
 
 ### Cons
 
-- Adoption cost 
+TBC BELOW THIS POINT
 
 ## Risks and Mitigations
 
