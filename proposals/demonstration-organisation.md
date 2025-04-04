@@ -95,6 +95,10 @@ The result is we do not have a consistent set of project demonstration content.
 9.  Demonstrations must include appropriate blerbs and cross linking from:
    1.  Oscal Compass community website
    2.  and optionally project websites (e.g. `compliance-trestle` or `compliance-to-policy`)
+10. Event specific demonstrations (e.g. Kubecon) should follow the following practice
+    1.  The SHOULD be kept stable with respect to the documentation and videos
+    2.  If reused in another event they MUST be renamed with another project name
+    3.  If reused and renamed the events it is used at MUST be referenced in the README.md for traceability
 
 
 ## Design Details
@@ -109,43 +113,46 @@ The biggest question is how much needs to be recorded in the document itself as 
 
 
 ### Pros
-
+- Provides clear guidance to curate demonstrations
+- Keeps the core organisation clear
+- Provides clear expectations for both demo developers and consumers.
+- Provides expectations to demo developers and maintainers of required ongoing efforts.
 
 ### Cons
 
-TBC BELOW THIS POINT
+- It's additional overhead from an OSCAL compass organization perspective which carries the risk of being ignored.
+
 
 ## Risks and Mitigations
 
-Describe the risks of this proposal and how they can be mitigated. This should be broadly scoped and describe how it will impact the larger ecosystem and potentially adopters of the project; such as if adopters need to immediately update, or support a new port or protocol. It should include drawbacks to the proposed solution. 
+N/A
 
 ### Security Considerations
 
-This proposal relies on the underlying configuration of the underlying GitHub project to maintain security of the process.
+- Github Actions automation carries risks based on how authorization is performed. This proposal will decrease risk as it isolates demo automation further away from core oscal compass projects.
 
-The process is not intended for security-related processes such as responsible disclosure.
-
-
+- The ongoing risk with authoritative demonstrations is that it is a larger body of code and projects 
 ## Future Milestones (Optional)
 
 None
 
 ## Implementation Details (Optional) 
 
-In addition to this pull request:
-  
-1. GitHub actions will need to be configured.
-2. GitHub project configuration should ensure the required reviewers and actions pipelines are required.
-
+1. Setup the organization via the CNCF with the correct set of permissions.
+2. Create a request workflow for new demo repos in the community github organization.
+3. (Optional) create a minimum GitHub template, in the demo to provide organizational minimums.
+   1. CNCF references and licenses
+   2. Minimum Security workflows for actions
+   3. Any other standards deemed necessary
+4. Identify and move across existing projects. 
 
 ### Testing Plan
 
-Post implementation the first proposal which is not authored by this PR's should examine the workflow.
-
+None
 
 ### Update/Rollback Compatibility
 
-None - this is the starting point.
+The biggest issue is the movement of projects from a URL perspective. Thankfully most of these issues are managed by Github.
 
 ### Scalability
 
@@ -153,5 +160,4 @@ No concerns
 
 ### Implementation Phases/History
 
-This is self contained to this PR and is net new capability.
-Lifecycle management can be conducted using the ability of `trestle author docs` to support multiple template revisions. 
+The biggest implementation challenge is (4) above. This will need to be conducted in phases.
