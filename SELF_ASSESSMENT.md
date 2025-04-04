@@ -180,9 +180,8 @@ patching/update availability.--->
 record in catching issues in code review or automated testing.-->
 ### [Open SSF Best Practices](https://www.bestpractices.dev/en)
 
-  OSCAL Compass is making great progress towards earning OpenSSF Best Practices badges across all repositories! 
-
-  🚀 The team has focused on the most mature components, and we are excited to share that Trestle has already met the passing level criteria! 
+  OSCAL Compass is making great progress towards earning OpenSSF Best Practices badges across all repositories!
+  🚀 The team has focused on the most mature components, and we are excited to share that Trestle has already met the passing level criteria!
   ✅ We're on track to achieve full compliance soon! 🎯
 
 <!---* Case Studies. Provide context for reviewers by detailing 2-3 scenarios of
