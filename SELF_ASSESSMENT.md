@@ -161,17 +161,30 @@ Flibber encryption by default.)-->
 ## Security issue resolution
 
 ### Responsible Disclosures Process
-<!--- A outline of the project's responsible
-  disclosures process should suspected security issues, incidents, or
-vulnerabilities be discovered both external and internal to the project. The
-outline should discuss communication methods/strategies.-->
+An outline of the project's responsible disclosures process should suspected security issues, incidents, or vulnerabilities be discovered both external and internal to the project. The outline should discuss communication methods/strategies.
+
+- Reporters should submit potential security issues via the [Security Advisory](https://github.com/oscal-compass/community/security/advisories) page.
+- For external disclosures, the project encourages the use of responsible disclosure practices and expects reporters to provide adequate time for the project team to investigate and address the issue before public disclosure.
+- The project team will acknowledge receipt of the report within a reasonable time frame and will communicate with the reporter throughout the process of investigating and mitigating the issue.
+
 ### Vulnerability Response Process
-<!---Who is responsible for responding to a
-    report. What is the reporting process? How would you respond?-->
+Who is responsible for responding to a report. What is the reporting process? How would you respond?
+
+- The project security team is responsible for responding to vulnerability reports.
+- Upon receiving a report, the security team will:
+  1. Acknowledge the receipt of the report.
+  2. Confirm the vulnerability and assess its impact.
+  3. Develop a mitigation or patch for the issue.
+  4. Communicate with the reporter throughout the process.
+  5. Publish an advisory and release the patch once the issue is resolved.
+
 ### Incident Response
-<!--A description of the defined procedures for triage,
-  confirmation, notification of vulnerability or security incident, and
-patching/update availability.--->
+A description of the defined procedures for triage, confirmation, notification of vulnerability or security incident, and patching/update availability.
+
+- Triage: The security team will categorize the reported issue based on severity and impact.
+- Confirmation: The team will verify the reported issue and gather necessary information to understand the scope.
+- Notification: Affected parties, including users and stakeholders, will be notified of the confirmed issue and any interim mitigation steps.
+- Patching/Update: The team will work to develop, test, and deploy a patch or update to resolve the issue. Once available, the update will be communicated to all users.
 
 ## Appendix
 
