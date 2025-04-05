@@ -12,9 +12,9 @@ Contributing new features, resolving bugs and issues, and refining the documenta
 
 The goals of this open source community includes the following:
 
-* Drive adoption of the OSCAL standard using Trestle, Agile Authoring, and C2P tools for end-to-end compliance automation.
-* Come up with use-cases for automating compliance processes in an organization and the required tooling support.
-* Influence the OSCAL standard based on the requirements and use-cases identified.
+- Drive adoption of the OSCAL standard using Trestle, Agile Authoring, and C2P tools for end-to-end compliance automation.
+- Come up with use-cases for automating compliance processes in an organization and the required tooling support.
+- Influence the OSCAL standard based on the requirements and use-cases identified.
 
 
 ## Learn about the projects
@@ -41,38 +41,32 @@ Compliance-to-Policy (C2P) bridges Compliance as Code and Policy as Code. C2P ta
 
 ## Community meetings and communications
 
-##### Scheduled meetings
+### Scheduled meetings
 
 Please attend! All are invited.
 
-**When**:
+|          | When    | Where |
+| -------- | ------- | -------- |
+| **Global**  | Every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [convert to your local time.](https://mytime.io/11am/ET)   | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d) |
+| **APAC friendly** | Every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [convert to your local time.](https://mytime.io/5am/GMT)    |[Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) |
 
-Every other Tuesday starting on April 23, 2024 · 11:00 – 11:30am ET
-[convert to your local time](https://mytime.io/11am/ET)
 
-**Where**: [Google Meet Link](https://meet.google.com/cfr-rkxp-emg)
+Meeting agenda and notes [Google Docs](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)
 
-Dial in:
-(US) +1 319-483-6865‬ PIN: ‪269 825 741‬#\
-[More phone numbers](https://tel.meet/cfr-rkxp-emg?pin=9717189704231)
-
-**What**: Meeting agenda and notes [Google Docs](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)
-
-We also have a [shared calendar](https://calendar.google.com/calendar/u/0?cid=NjZjNjdjY2E0ZGZmMWYwN2Q5OGQwZjkxYTMyOGFjZWYyZjRhNjdhMzQzOWYxNGY4NmIyZGU1NmEwYTgzNGEwMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
+We also have a [shared calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/trestlegrc?view=week).
 
 **Recordings**
 
 All of our meeting recordings are available for review on our YouTube [channel](https://www.youtube.com/@OSCAL-Compass).
 
-##### Email
+### Email
 
 Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)\
 oscal-compass@googlegroups.com
 
+### Chat anytime
 
-##### Chat anytime
-
-Slack: [#oscal-compliance-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
+Slack: [#oscal-compass-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
 
 - **Note**: You can login to Slack using another account like Google, Apple
 
@@ -86,7 +80,7 @@ If you would like to see the detailed LICENSE click [here](LICENSE).
 Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for various projects in the oscal-compass community.
 
 ```text
-# Copyright (c) 2020 The OSCAL Compass Authors. All rights reserved.
+# Copyright (c) 2024 The OSCAL Compass Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -101,3 +95,16 @@ Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for va
 # limitations under the License.
 
 ```
+
+-----
+
+We are a Cloud Native Computing Foundation sandbox project.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.cncf.io/wp-content/uploads/2022/07/cncf-white-logo.svg">
+  <img src="https://www.cncf.io/wp-content/uploads/2022/07/cncf-color-bg.svg" width=300 />
+</picture>
+
+The Linux Foundation® (TLF) has registered trademarks and uses trademarks. For a list of TLF trademarks, see [Trademark Usage](https://www.linuxfoundation.org/legal/trademark-usage)".
+
+*OSCAL Compass was originally contributed by IBM.*

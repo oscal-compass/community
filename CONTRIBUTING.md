@@ -50,7 +50,7 @@ cannot be accepted at all!**
 
 We have also adopted [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
 
-### Merge details for committers:
+### Merge details for committers
 
 1. All merges into develop MUST be conducted by a squash-merge
 1. All merges from develop into main MUST be done by a merge commit (e.g. preserving the history of commits into the develop branch).
@@ -67,7 +67,7 @@ Software License 2.0. Using the SPDX format is the simplest approach.
 e.g.
 
 ```text
-# Copyright (c) 2020 The OSCAL Compass Authors. All rights reserved.
+# Copyright (c) 2024 The OSCAL Compass Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -84,7 +84,7 @@ e.g.
 
 ### Developer's Certificate of Origin
 
-We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution. 
+We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution.
 
 We use the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/) to manage code contributions (the same approach as the Linux® Kernel [community](https://elinux.org/Developer_Certificate_Of_Origin))
 
