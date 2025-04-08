@@ -47,7 +47,7 @@ Please attend! All are invited.
 
 |          | When    | Where |
 | -------- | ------- | -------- |
-| **Global**  | Every other Tuesday starting on April 23, 2024 · 11:00 – 11:30am ET [convert to your local time.](https://mytime.io/11am/ET)   | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d) |
+| **Global**  | Every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [convert to your local time.](https://mytime.io/11am/ET)   | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d) |
 | **APAC friendly** | Every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [convert to your local time.](https://mytime.io/5am/GMT)    |[Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) |
 
 
