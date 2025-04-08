@@ -1,1 +1,1 @@
-compliance-trestle>=3.3.0
+compliance-trestle>=3.7.0
