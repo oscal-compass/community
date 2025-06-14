@@ -142,6 +142,65 @@ information such as if contributors are required to sign commits, if any contain
 images immutable and signed, how many reviewers before merging, any automated checks for
 vulnerabilities, etc.--->
 
+Code changes across OSCAL Compass repositories are managed through a well-defined pull request (PR) process.
+
+All contributions must be submitted via PRs — **direct commits to the `main` branch are disallowed**. The workflow enforces a **Developer Certificate of Origin (DCO) sign-off**, which ensures that contributors have the right to submit their code and agree to the license. This is enforced via the [DCO bot](https://github.com/dcoapp/app), and commits without a sign-off will not be accepted until properly rebased. Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
+
+```text
+Signed-off-by: John Doe <john.doe@example.com>
+```
+
+You can include this automatically when you commit a change to your
+local git repository using the following command:
+
+```bash
+git commit --signoff
+```
+
+Each source file must include a license header for the Apache
+Software License 2.0. Using the SPDX format is the simplest approach.
+e.g.
+
+```text
+# Copyright (c) 2024 The OSCAL Compass Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+```
+
+Commit merging rules include:
+
+- All merges into the `develop` branch must be done via squash merge.
+- Merges from `develop` into `main` must use a merge commit to preserve history.
+- Hotfixes into `main` must be squash-merged.
+- Merges into branches other than `main` and `develop` are left to developer discretion.
+- **Autocommit usage is encouraged** to maintain standardized commit messages and merge behavior.
+
+Code reviews are mandatory:
+
+- Each PR must be reviewed and approved by **at least one maintainer**.
+- Mature repositories (e.g., `compliance-trestle`) may require two reviewers prior to merge.
+
+Automated testing is integrated into most repositories via GitHub Actions. These checks typically include:
+
+- Unit tests
+- Integration tests
+- Linting and style enforcement
+
+Container images (where applicable) are:
+
+- Built via CI/CD pipelines defined in [Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring)
+- **Immutable and signed** to ensure artifact integrity and reproducibility
+
 ### Communication Channels
 
 <!--Reference where you document how to reach your team or
