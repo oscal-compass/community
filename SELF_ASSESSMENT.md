@@ -31,7 +31,7 @@
 ## Metadata
 
 |                   |                                                                                                                                                                                         |
-|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Assessment Stage  | Incomplete                                                                                                                                                                              |
 | Software          | [OSCAL Compass](https://github.com/oscal-compass)                                                                                                                                       |
 | Security Provider | No. OSCAL Compass is designed to enable compliance document authoring, validation, and transformation. It can integrate with security providers, but is not itself a security provider. |
@@ -41,7 +41,7 @@
 ### Security links
 
 | Document      | URL                                                              |
-|---------------|------------------------------------------------------------------|
+| ------------- | ---------------------------------------------------------------- |
 | Security file | https://github.com/oscal-compass/community/blob/main/SECURITY.md |
 
 ## Overview
@@ -76,9 +76,9 @@ what prevents an attacker from moving laterally after a compromise.--->
 
 <!---These are the steps that a project performs in order to provide some service
 or functionality.  These steps are performed by different actors in the system.
-Note, that an action need not be overly descriptive at the function call level.  
+Note, that an action need not be overly descriptive at the function call level.
 It is sufficient to focus on the security checks performed, use of sensitive
-data, and interactions between actors to perform an action.  
+data, and interactions between actors to perform an action.
 
 For example, the access server receives the client request, checks the format,
 validates that the request corresponds to a file the client is authorized to
@@ -233,7 +233,56 @@ Automated testing is integrated into most repositories via GitHub Actions. These
   * Outbound. How do you communicate with your users? (e.g. flibble-announce@
     mailing list)-->
 
+<details open>
+<summary><b>Internal</b>: How to communicate with your team mates?</summary>
+<!--All you need is a blank line-->
+
+| Communication Channel                                                                                                                            | Usage                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Slack](https://cloud-native.slack.com/archives/C06F3PEPNBW)                                                                                     | Real-time chats and team collaboration.                                                                                                                     |
+| [Google Group](https://groups.google.com/g/oscal-compass)                                                                                        | Formal email communications. Address is oscal-compass@googlegroups.com.                                                                                     |
+| [GitHub Issues](https://github.com/oscal-compass/community/issues)                                                                               | Tracks development tasks, bugs, and feature requests.                                                                                                       |
+| [GitHub Pull Requests](https://github.com/oscal-compass/community/pulls)                                                                         | Used exclusively for code reviews and internal feedback on contributions.                                                                                   |
+| [Zoom Meetings - Global](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d)        | Every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [(convert to your local time)](https://mytime.io/11am/ET).                              |
+| [Zoom Meetings - APAC Friendly](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) | Every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [(convert to your local time)](https://mytime.io/5am/GMT). |
+| [Meeting Agenda & Notes](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)                       | Shared notes and agendas for meetings.                                                                                                                      |
+| [Shared Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/trestlegrc?view=week)                                                   | Schedule of upcoming meetings and events.                                                                                                                   |
+| [YouTube Channel](https://www.youtube.com/@OSCAL-Compass)                                                                                        | Provides users access to video recordings, tutorials, and meeting recordings.                                                                               |
+
+</details>
+
+<details open>
+<summary><b>Inbound</b>: How do users or prospective users communicate with the team?</summary>
+<!--All you need is a blank line-->
+
+| Communication Channel                                              | Usage                                                                              |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| [Slack](https://cloud-native.slack.com/archives/C06F3PEPNBW)       | Public channel for quick user questions.                                           |
+| [Google Group](https://groups.google.com/g/oscal-compass)          | Forum for user discussions and support. Address is oscal-compass@googlegroups.com. |
+| [GitHub Issues](https://github.com/oscal-compass/community/issues) | Enables users to report issues and request features.                               |
+| [YouTube Channel](https://www.youtube.com/@OSCAL-Compass)          | Provides users access to video recordings, tutorials, and meeting recordings.      |
+
+</details>
+
+<details open>
+<summary><b>Outbound</b>: How do contributors communicate with the users?</summary>
+<!--All you need is a blank line-->
+
+| Communication Channel                                                                                                                            | Usage                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Slack](https://cloud-native.slack.com/archives/C06F3PEPNBW)                                                                                     | Community announcements and engagement.                                                                                                                                                                    |
+| [Google Group](https://groups.google.com/g/oscal-compass)                                                                                        | Broadcasts updates and announcements to the community. Address is oscal-compass@googlegroups.com.                                                                                                          |
+| [GitHub Issues](https://github.com/oscal-compass/community/issues)                                                                               | Communicates progress and resolutions.                                                                                                                                                                     |
+| [Zoom Meetings - Global](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d)        | Public meeting for updates and engagement held every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [(convert to your local time)](https://mytime.io/11am/ET).                              |
+| [Zoom Meetings - APAC Friendly](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) | Public meeting for updates and engagement held every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [(convert to your local time)](https://mytime.io/5am/GMT). |
+| [Meeting Agenda & Notes](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)                       | Transparent documentation for the community.                                                                                                                                                               |
+| [Shared Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/trestlegrc?view=week)                                                   | Schedule of upcoming meetings and events.                                                                                                                                                                  |
+| [YouTube Channel](https://www.youtube.com/@OSCAL-Compass)                                                                                        | Broadcasts presentations, webinars, and official announcements.                                                                                                                                            |
+
+</details>
+
 ### Ecosystem
+
 <!---How does your software fit into the cloud native ecosystem?  (e.g.
   Flibber is integrated with both Flocker and Noodles which covers
 virtualization for 80% of cloud users. So, our small number of "users" actually
@@ -243,14 +292,19 @@ Flibber encryption by default.)-->
 ## Security issue resolution
 
 ### Responsible Disclosures Process
+
 <!--- A outline of the project's responsible
   disclosures process should suspected security issues, incidents, or
 vulnerabilities be discovered both external and internal to the project. The
 outline should discuss communication methods/strategies.-->
+
 ### Vulnerability Response Process
+
 <!---Who is responsible for responding to a
     report. What is the reporting process? How would you respond?-->
+
 ### Incident Response
+
 <!--A description of the defined procedures for triage,
   confirmation, notification of vulnerability or security incident, and
 patching/update availability.--->
@@ -260,11 +314,12 @@ patching/update availability.--->
 <!---* Known Issues Over Time. List or summarize statistics of past vulnerabilities
   with links. If none have been reported, provide data, if any, about your track
 record in catching issues in code review or automated testing.-->
+
 ### [Open SSF Best Practices](https://www.bestpractices.dev/en)
 
-  OSCAL Compass is making great progress towards earning OpenSSF Best Practices badges across all repositories!
-  🚀 The team has focused on the most mature components, and we are excited to share that Trestle has already met the passing level criteria!
-  ✅ We're on track to achieve full compliance soon! 🎯
+OSCAL Compass is making great progress towards earning OpenSSF Best Practices badges across all repositories!
+🚀 The team has focused on the most mature components, and we are excited to share that Trestle has already met the passing level criteria!
+✅ We're on track to achieve full compliance soon! 🎯
 
 <!---* Case Studies. Provide context for reviewers by detailing 2-3 scenarios of
   real-world use cases.
