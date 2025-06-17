@@ -226,6 +226,42 @@ Automated testing is integrated into most repositories via GitHub Actions. These
 
 ### Communication Channels
 
+#### Internal
+
+##### Scheduled meetings
+
+Please attend! All are invited.
+
+|          | When    | Where |
+| -------- | ------- | -------- |
+| **Global**  | Every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [convert to your local time.](https://mytime.io/11am/ET)   | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d) |
+| **APAC friendly** | Every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [convert to your local time.](https://mytime.io/5am/GMT)    |[Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) |
+
+
+Meeting agenda and notes [Google Docs](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)
+
+We also have a [shared calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/trestlegrc?view=week).
+
+#### Outbound
+
+##### Recordings
+
+All of our meeting recordings are available for review on our YouTube [channel](https://www.youtube.com/@OSCAL-Compass).
+
+#### Inbound
+
+##### Email
+
+Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)\
+oscal-compass@googlegroups.com
+
+#### Chat anytime
+
+Slack: [#oscal-compass-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
+
+- **Note**: You can login to Slack using another account like Google, Apple
+
+
 <!--Reference where you document how to reach your team or
   describe in corresponding section.
   * Internal. How do team members communicate with each other?
