@@ -98,6 +98,34 @@ be in scope (e.g., Flibble does not intend to stop a party with a key from stori
 an arbitrarily large amount of data, possibly incurring financial cost or overwhelming
  the servers)--->
 
+#### Enterprise Support Services
+
+Commercial-grade support with guaranteed response times and dedicated engineering resources is not provided.
+As a community-driven open source project, formal support structures fall outside the current scope.
+Establishing enterprise support would necessitate creating tiered support offerings, formal service level commitments, specialized support personnel, and commercial licensing frameworks.
+The project relies on community assistance through GitHub issues and discussion forums.
+
+#### Certification Authority Functions
+
+OSCAL Compass does not serve as a certification body or issue compliance attestations to organizations.
+The project's role is limited to providing compliance documentation tools rather than performing compliance validation or certification.
+Acting as a certification authority would require developing formal certification procedures, audit methodologies, legal compliance frameworks, and obtaining regulatory recognition.
+Organizations use the tools to manage their own compliance documentation without receiving official certifications from the project.
+
+#### Built-in Vulnerability Scanning
+
+Integrated security scanning capabilities for documented systems are not included in the toolset.
+The project scope focuses on compliance documentation workflows rather than active security assessment.
+Adding vulnerability scanning would require developing detection engines, maintaining threat intelligence databases, building scanning infrastructure, and conducting ongoing security research.
+The tools assist organizations in documenting their security configurations without performing active security testing.
+
+#### Legacy Format Support
+
+Support for legacy compliance document formats or proprietary compliance management systems is explicitly excluded.
+The project deliberately concentrates on advancing the OSCAL standard rather than maintaining backward compatibility.
+Supporting legacy formats would involve reverse engineering proprietary systems, developing compatibility translation layers, and managing multiple competing data models.
+The project prioritizes OSCAL ecosystem growth over integration with existing legacy compliance tools.
+
 ## Self-assessment use
 
 <!---This self-assessment is created by the [project] team to perform an internal analysis of the
