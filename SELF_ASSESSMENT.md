@@ -196,11 +196,6 @@ Automated testing is integrated into most repositories via GitHub Actions. These
 - Integration tests
 - Linting and style enforcement
 
-Container images (where applicable) are:
-
-- Built via CI/CD pipelines defined in [Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring)
-- **Immutable and signed** to ensure artifact integrity and reproducibility
-
 ### Communication Channels
 
 <!--Reference where you document how to reach your team or
