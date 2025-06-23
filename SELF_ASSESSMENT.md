@@ -31,7 +31,7 @@
 ## Metadata
 
 |                   |                                                                                                                                                                                         |
-|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Assessment Stage  | Incomplete                                                                                                                                                                              |
 | Software          | [OSCAL Compass](https://github.com/oscal-compass)                                                                                                                                       |
 | Security Provider | No. OSCAL Compass is designed to enable compliance document authoring, validation, and transformation. It can integrate with security providers, but is not itself a security provider. |
@@ -41,7 +41,7 @@
 ### Security links
 
 | Document      | URL                                                              |
-|---------------|------------------------------------------------------------------|
+| ------------- | ---------------------------------------------------------------- |
 | Security file | https://github.com/oscal-compass/community/blob/main/SECURITY.md |
 
 ## Overview
@@ -76,9 +76,9 @@ what prevents an attacker from moving laterally after a compromise.--->
 
 <!---These are the steps that a project performs in order to provide some service
 or functionality.  These steps are performed by different actors in the system.
-Note, that an action need not be overly descriptive at the function call level.  
+Note, that an action need not be overly descriptive at the function call level.
 It is sufficient to focus on the security checks performed, use of sensitive
-data, and interactions between actors to perform an action.  
+data, and interactions between actors to perform an action.
 
 For example, the access server receives the client request, checks the format,
 validates that the request corresponds to a file the client is authorized to
@@ -98,6 +98,34 @@ be in scope (e.g., Flibble does not intend to stop a party with a key from stori
 an arbitrarily large amount of data, possibly incurring financial cost or overwhelming
  the servers)--->
 
+#### Enterprise Support Services
+
+Commercial-grade support with guaranteed response times and dedicated engineering resources is not provided.
+As a community-driven open source project, formal support structures fall outside the current scope.
+Establishing enterprise support would necessitate creating tiered support offerings, formal service level commitments, specialized support personnel, and commercial licensing frameworks.
+The project relies on community assistance through GitHub issues and discussion forums.
+
+#### Certification Authority Functions
+
+OSCAL Compass does not serve as a certification body or issue compliance attestations to organizations.
+The project's role is limited to providing compliance documentation tools rather than performing compliance validation or certification.
+Acting as a certification authority would require developing formal certification procedures, audit methodologies, legal compliance frameworks, and obtaining regulatory recognition.
+Organizations use the tools to manage their own compliance documentation without receiving official certifications from the project.
+
+#### Built-in Vulnerability Scanning
+
+Integrated security scanning capabilities for documented systems are not included in the toolset.
+The project scope focuses on compliance documentation workflows rather than active security assessment.
+Adding vulnerability scanning would require developing detection engines, maintaining threat intelligence databases, building scanning infrastructure, and conducting ongoing security research.
+The tools assist organizations in documenting their security configurations without performing active security testing.
+
+#### Legacy Format Support
+
+Support for legacy compliance document formats or proprietary compliance management systems is explicitly excluded.
+The project deliberately concentrates on advancing the OSCAL standard rather than maintaining backward compatibility.
+Supporting legacy formats would involve reverse engineering proprietary systems, developing compatibility translation layers, and managing multiple competing data models.
+The project prioritizes OSCAL ecosystem growth over integration with existing legacy compliance tools.
+
 ## Self-assessment use
 
 <!---This self-assessment is created by the [project] team to perform an internal analysis of the
@@ -116,6 +144,16 @@ together, this document and the joint-assessment serve as a cornerstone for if a
 
 ## Security functions and features
 
+<!---*This section of the security self-assessment is used to describe anything built into your project that is designed to improve the security for users.
+
+* Critical elements are non-configurable design decisions intended to increase the security of the project.
+* Security Relevant elements are parts of the project that can be configured by users to improve the security posture of an implementation.
+* Description of Importance is a sentence or two explaining why this feature is an important part of the project’s design and why it should be part of the threat model.
+
+Reference:
+https://training.linuxfoundation.org/express-learning/security-self-assessments-for-open-source-projects-lfel1005/
+--->
+
 <!---* Critical.  A listing critical security components of the project with a brief
 description of their importance.  It is recommended these be used for threat modeling.
 These are considered critical design elements that make the product itself secure and
@@ -125,6 +163,16 @@ for changes to the project.
   brief description.  These are considered important to enhance the overall security of
 the project, such as deployment configurations, settings, etc.  These should also be
 included in threat modeling.--->
+
+| Component                                       | Applicability     | Description of Importance                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OSCAL                                           | Critical          | OSCAL is a NIST framework and language for managing compliance artifacts as code end-to-end. This enables the easy selection and documentation of security controls using compliance-as-code and enables efficient creation of action plans for security remediations and risk mitigation.                                                  |
+| Trestle                                         | Critical          | Trestle is an opinionated implementation of the OSCAL standard. It makes sure that the schemas are enforced during the manipulation of OSCAL documents and provides an SDK which means that fewer user re-implementations of common functions are necessary, thereby decreasing the attack surface area.                                    |
+| Plugin Architecture Security                    | Critical          | Plugins (C2P only) allow modular integration with Policy Validation and Enforcement Points (PVPs/PEPs). Each plugin is run in a fully independent process that communicates with the main application via gRPC on a local network. This isolation helps prevent data corruption and leakage between plugins and the main application.       |
+| Git/SCM Infrastructure                          | Critical          | Git and other SCM infrastructures enables the creation of automated workflows when submitting code to a central repository for collaboration. OSCAL serves as the starting point of the automated workflow by declaring security controls as machine-readable code, which enables automated security checks even before manual code review. |
+| Agile Authoring                                 | Security Relevant | The Agile Authoring platform enables all involved compliance personnel to orchestrate their individual aspects of the compliance artifacts while ensuring artifacts' consistency and traceability, reducing the risk of outsider manipulation.                                                                                              |
+| Plugin Selection/External Command Configuration | Security Relevant | Plugins can be selected based on the needs of the users, reducing the attack surface by enabling only necessary integrations.                                                                                                                                                                                                               |
+| Compliance-to-Policy                            | Security Relevant | Compliance-to-Policy is a GitOps extension which creates a bridge between compliance-as-code and policy-as-code.                                                                                                                                                                                                                            |
 
 ## Project compliance
 
@@ -142,6 +190,60 @@ information such as if contributors are required to sign commits, if any contain
 images immutable and signed, how many reviewers before merging, any automated checks for
 vulnerabilities, etc.--->
 
+Code changes across OSCAL Compass repositories are managed through a well-defined pull request (PR) process.
+
+All contributions must be submitted via PRs — **direct commits to the `main` branch are disallowed**. The workflow enforces a **Developer Certificate of Origin (DCO) sign-off**, which ensures that contributors have the right to submit their code and agree to the license. This is enforced via the [DCO bot](https://github.com/dcoapp/app), and commits without a sign-off will not be accepted until properly rebased. Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
+
+```text
+Signed-off-by: John Doe <john.doe@example.com>
+```
+
+You can include this automatically when you commit a change to your
+local git repository using the following command:
+
+```bash
+git commit --signoff
+```
+
+Each source file must include a license header for the Apache
+Software License 2.0. Using the SPDX format is the simplest approach.
+e.g.
+
+```text
+# Copyright (c) 2024 The OSCAL Compass Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+```
+
+Commit merging rules include:
+
+- All merges into the `develop` branch must be done via squash merge.
+- Merges from `develop` into `main` must use a merge commit to preserve history.
+- Hotfixes into `main` must be squash-merged.
+- Merges into branches other than `main` and `develop` are left to developer discretion.
+- **Autocommit usage is encouraged** to maintain standardized commit messages and merge behavior.
+
+Code reviews are mandatory:
+
+- Each PR must be reviewed and approved by **at least one maintainer**.
+- Mature repositories (e.g., `compliance-trestle`) may require two reviewers prior to merge.
+
+Automated testing is integrated into most repositories via GitHub Actions. These checks typically include:
+
+- Unit tests
+- Integration tests
+- Linting and style enforcement
+
 ### Communication Channels
 
 <!--Reference where you document how to reach your team or
@@ -152,6 +254,7 @@ vulnerabilities, etc.--->
     mailing list)-->
 
 ### Ecosystem
+
 <!---How does your software fit into the cloud native ecosystem?  (e.g.
   Flibber is integrated with both Flocker and Noodles which covers
 virtualization for 80% of cloud users. So, our small number of "users" actually
@@ -161,14 +264,19 @@ Flibber encryption by default.)-->
 ## Security issue resolution
 
 ### Responsible Disclosures Process
+
 <!--- A outline of the project's responsible
   disclosures process should suspected security issues, incidents, or
 vulnerabilities be discovered both external and internal to the project. The
 outline should discuss communication methods/strategies.-->
+
 ### Vulnerability Response Process
+
 <!---Who is responsible for responding to a
     report. What is the reporting process? How would you respond?-->
+
 ### Incident Response
+
 <!--A description of the defined procedures for triage,
   confirmation, notification of vulnerability or security incident, and
 patching/update availability.--->
@@ -178,11 +286,12 @@ patching/update availability.--->
 <!---* Known Issues Over Time. List or summarize statistics of past vulnerabilities
   with links. If none have been reported, provide data, if any, about your track
 record in catching issues in code review or automated testing.-->
+
 ### [Open SSF Best Practices](https://www.bestpractices.dev/en)
 
-  OSCAL Compass is making great progress towards earning OpenSSF Best Practices badges across all repositories!
-  🚀 The team has focused on the most mature components, and we are excited to share that Trestle has already met the passing level criteria!
-  ✅ We're on track to achieve full compliance soon! 🎯
+OSCAL Compass is making great progress towards earning OpenSSF Best Practices badges across all repositories!
+🚀 The team has focused on the most mature components, and we are excited to share that Trestle has already met the passing level criteria!
+✅ We're on track to achieve full compliance soon! 🎯
 
 <!---* Case Studies. Provide context for reviewers by detailing 2-3 scenarios of
   real-world use cases.
