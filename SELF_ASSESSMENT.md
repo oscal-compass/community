@@ -72,6 +72,13 @@ what prevents an attacker from moving laterally after a compromise.--->
 
 #### Compliance-to-policy
 
+#### Agile Authoring
+
+### OSCAL SDKs
+
+### Git and CI/CD Infrastructure
+
+
 ### Actions
 
 <!---These are the steps that a project performs in order to provide some service
@@ -164,15 +171,27 @@ for changes to the project.
 the project, such as deployment configurations, settings, etc.  These should also be
 included in threat modeling.--->
 
-| Component                                       | Applicability     | Description of Importance                                                                                                                                                                                                                                                                                                                   |
-| ----------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OSCAL                                           | Critical          | OSCAL is a NIST framework and language for managing compliance artifacts as code end-to-end. This enables the easy selection and documentation of security controls using compliance-as-code and enables efficient creation of action plans for security remediations and risk mitigation.                                                  |
-| Trestle                                         | Critical          | Trestle is an opinionated implementation of the OSCAL standard. It makes sure that the schemas are enforced during the manipulation of OSCAL documents and provides an SDK which means that fewer user re-implementations of common functions are necessary, thereby decreasing the attack surface area.                                    |
-| Plugin Architecture Security                    | Critical          | Plugins (C2P only) allow modular integration with Policy Validation and Enforcement Points (PVPs/PEPs). Each plugin is run in a fully independent process that communicates with the main application via gRPC on a local network. This isolation helps prevent data corruption and leakage between plugins and the main application.       |
-| Git/SCM Infrastructure                          | Critical          | Git and other SCM infrastructures enables the creation of automated workflows when submitting code to a central repository for collaboration. OSCAL serves as the starting point of the automated workflow by declaring security controls as machine-readable code, which enables automated security checks even before manual code review. |
-| Agile Authoring                                 | Security Relevant | The Agile Authoring platform enables all involved compliance personnel to orchestrate their individual aspects of the compliance artifacts while ensuring artifacts' consistency and traceability, reducing the risk of outsider manipulation.                                                                                              |
-| Plugin Selection/External Command Configuration | Security Relevant | Plugins can be selected based on the needs of the users, reducing the attack surface by enabling only necessary integrations.                                                                                                                                                                                                               |
-| Compliance-to-Policy                            | Security Relevant | Compliance-to-Policy is a GitOps extension which creates a bridge between compliance-as-code and policy-as-code.                                                                                                                                                                                                                            |
+### Critical
+
+| Component                              | Description of Importance                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OSCAL                                  | OSCAL is a NIST framework and language for managing compliance artifacts as code end-to-end. This enables the easy selection and documentation of security controls using compliance-as-code and enables efficient creation of action plans for security remediations and risk mitigation.  OSCAL also serves as the starting point of the automated workflows by declaring security controls as machine-readable code, which enables automated security checks even before manual code review. |
+| OSCAL SDKs                             | The OSCAL SDKs acts as the interface for enforcing schema integrity during the manipulation of OSCAL documents. The SDKs are multi-language and can prevent re-implementations of common functions are necessary, thereby decreasing the attack surface area.                                                                                                                                                                                                                                   |
+| Plugin Architecture                    | Plugins (C2P only) allow modular integration with Policy Validation and Enforcement Points (PVPs/PEPs). Each plugin is run in a fully independent process that communicates with the main application via gRPC on a local network. This isolation helps prevent data corruption and leakage between plugins and the main application.                                                                                                                                                           |
+| Git Infrastructure and CI/CD Workflows | OSCAL Compass projects are designed around the GitOps approach for artifact management. GitOps principles are foundational for the auditability of the managed documents.                                                                                                                                                                                                                                                                                                                       |
+
+### Security Relevant
+
+| Component                                       | Description of Importance                                                                                                                                                                                                                                                                              |
+|-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trestle                                         | Trestle is an opinionated implementation of the OSCAL standard and supports authoring and validation of OSCAL and Markdown governance documents. Its processes are important for enhancing the overall integrity and traceability of compliance artifacts before they are committed to the repository. |
+| Agile Authoring                                 | The Agile Authoring platform enables all involved compliance personnel to orchestrate their individual aspects of the compliance artifacts while ensuring artifacts' consistency and traceability, reducing the risk of outsider manipulation.                                                         |
+| Compliance-to-Policy                            | Compliance-to-Policy (C2P) is a GitOps extension which creates a bridge between compliance-as-code and policy-as-code. C2P accepts compliance-as-code inputs to tailor policy documents and interpret results. Misconfiguration could lead to insecure policy deployments.                             |        
+| Plugin Selection/External Command Configuration | Plugins can be selected based on the needs of the users, reducing the attack surface by enabling only necessary integrations. The plugins are not vetted beyond what is documented in the plugin architecture.                                                                                         |                                                                                                                                                                                          |                                                                                                                                                                                                                                              |
+
+## Compliance-to-policy specific considerations
+
+
 
 ## Project compliance
 
