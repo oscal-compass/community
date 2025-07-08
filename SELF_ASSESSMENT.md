@@ -192,7 +192,7 @@ included in threat modeling.--->
 
 | Component                          | Description of Importance                                                                                                                                                                                                        |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Plugin Selection and Configuration | Plugin configuration provide the ability to select and configure specific plugins based on user needs, reducing the attack surface by enabling only necessary integrations.                                                      |
+| Plugin Selection and Configuration | Plugin configuration provides the ability to select and configure specific plugins based on user needs, reducing the attack surface by enabling only necessary integrations.                                                     |
 | Git Repository Configuration       | OSCAL Compass components source artifacts from Git repositories. Configurable settings such as branch protection rules and access controls for repositories are critical to maintain integrity of the sourced artifacts.         |
 | CI/CD Workflow Configuration       | OSCAL Compass components are installed and deployed in CI/CD workflows. Configurable settings and aspects such as secure secret management and least privilege execution for pipeline steps are critical for secure deployments. |
 
