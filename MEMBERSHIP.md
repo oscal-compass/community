@@ -42,12 +42,6 @@ To become a project Member, you must meet the following requirements:
 
 * You have been sponsored by two Maintainers.
 
-If you have met these expectations and wish to become an established member, you can be nominated by a contributor, or you can nominate yourself. To nominate a contributor or yourself:
-
-* Open an issue in the repository of interest detailing contributions to the project so far.
-* Ensure that the sponsors are `@mentioned` on the issue.
-* Make sure that the list of contributions included is representative of the work on the project.
-
 #### Member responsibilities and privileges
 
 As a project Member, you have the following responsibilities and privileges:
@@ -109,10 +103,6 @@ To become a project Maintainer, you must meet the following requirements:
 * You have directly contributed to the project through implementation and/or review.
 * You have been sponsored by two Maintainers.
 
-One of the sponsors should open an pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and add relevant details per the requirements.
-
-Maintainers will vote publicly on the pull request, expressing their support via a GitHub comment or emoji reaction to the nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately. Upon a decision, the pull request will be merged or closed.
-
 #### Maintainer responsibilities and Privileges
 
 As a project Maintainer, you have the following responsibilities and privileges:
@@ -131,6 +121,19 @@ As a project Maintainer, you have the following responsibilities and privileges:
 * You ensure that a healthy process for discussion and decision making is in place.
 * You work with other Maintainers to maintain the project's overall health and success holistically.
 * Unless otherwise specified, you will be provided with permission to merge commits to the project repository branches.
+
+## Nomination Process
+
+Any person who meets the requirements for a role may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
+
+* Open an issue in the repository of interest detailing contributions to the project so far. For general memebership, the issue can be opened in the `oscal-compass/community` repository.
+* Ensure that the sponsors are `@mentioned` on the issue.
+* Make sure that the list of contributions included is representative of the work on the project.
+
+### Addendum for Maintainer Nominations
+
+* One of the sponsors should open an pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and link the issue as the nomination summary.
+* Maintainers will vote publicly on the pull request, expressing their support via a GitHub comment or emoji reaction to the nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately. Upon a decision, the pull request will be merged or closed.
 
 ## Changes to contributor roles
 
