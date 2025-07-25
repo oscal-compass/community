@@ -25,17 +25,9 @@ To be considered an _active project Maintainer_, it is required to be associated
 
 More information about the Maintainer role can be found in the [Membership](./MEMBERSHIP.md) document. The list of current maintainers for each project can be found in the `MAINTAINERS.md` at the repository level.
 
-#### Stepping Down and the Emeritus Process
-
-It is inevitable that people's focuses will change over time. Contributors can retire and move to emeritus Maintainers. If a contributor needs to step down from their current role, they should inform the appropriate project Maintainers. No vote is required for a contributor to remove themselves, and any project Maintainer can approve the PR. Maintainers who step down become emeritus Maintainers.
-
-If a contributor has not been performing the duties of their role for a consecutive period of 12 months, they can be removed by the appropriate project's Maintainers. Maintainers will make reasonable efforts to contact the absent contributor.
-
-If an emeritus Maintainer or other retired contributor wants to regain an active role, they can do so by following the role requirements defined in in the [Membership](./MEMBERSHIP.md) document.
-
 ### OSCAL Compass Oversight Committee Overview
 
-The Oversight Committee functions as the organization maintainers.
+The Oversight Committee functions as the organization Maintainers.
 
 An initial Oversight Committee was appointed by the founding sponsors of the OSCAL Compass project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group. Current Oversight Committee members are defined in the community [MAINTAINERS.md](./MAINTAINERS.md) file.
 
