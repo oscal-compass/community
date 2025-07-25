@@ -70,7 +70,23 @@ what prevents an attacker from moving laterally after a compromise.--->
 
 #### Compliance Trestle
 
+Trestle is an opinionated implementation of the OSCAL standard and supports authoring and validation of OSCAL and Markdown governance documents.
+Its processes are important for enhancing the overall integrity and traceability of compliance artifacts before they are committed to the repository.
+
 #### Compliance-to-policy
+
+Compliance-to-Policy (C2P) is a GitOps extension which creates a bridge between compliance-as-code and policy-as-code. C2P accepts compliance-as-code inputs to tailor policy documents and interpret results.
+
+#### Agile Authoring
+
+The Agile Authoring platform enables all involved compliance personnel to orchestrate their individual aspects of the compliance artifacts while ensuring artifacts' consistency and traceability.
+
+### Git Infrastructure
+
+### CI/CD Infrastructure
+
+### Plugins
+
 
 ### Actions
 
@@ -164,15 +180,25 @@ for changes to the project.
 the project, such as deployment configurations, settings, etc.  These should also be
 included in threat modeling.--->
 
-| Component                                       | Applicability     | Description of Importance                                                                                                                                                                                                                                                                                                                   |
-| ----------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OSCAL                                           | Critical          | OSCAL is a NIST framework and language for managing compliance artifacts as code end-to-end. This enables the easy selection and documentation of security controls using compliance-as-code and enables efficient creation of action plans for security remediations and risk mitigation.                                                  |
-| Trestle                                         | Critical          | Trestle is an opinionated implementation of the OSCAL standard. It makes sure that the schemas are enforced during the manipulation of OSCAL documents and provides an SDK which means that fewer user re-implementations of common functions are necessary, thereby decreasing the attack surface area.                                    |
-| Plugin Architecture Security                    | Critical          | Plugins (C2P only) allow modular integration with Policy Validation and Enforcement Points (PVPs/PEPs). Each plugin is run in a fully independent process that communicates with the main application via gRPC on a local network. This isolation helps prevent data corruption and leakage between plugins and the main application.       |
-| Git/SCM Infrastructure                          | Critical          | Git and other SCM infrastructures enables the creation of automated workflows when submitting code to a central repository for collaboration. OSCAL serves as the starting point of the automated workflow by declaring security controls as machine-readable code, which enables automated security checks even before manual code review. |
-| Agile Authoring                                 | Security Relevant | The Agile Authoring platform enables all involved compliance personnel to orchestrate their individual aspects of the compliance artifacts while ensuring artifacts' consistency and traceability, reducing the risk of outsider manipulation.                                                                                              |
-| Plugin Selection/External Command Configuration | Security Relevant | Plugins can be selected based on the needs of the users, reducing the attack surface by enabling only necessary integrations.                                                                                                                                                                                                               |
-| Compliance-to-Policy                            | Security Relevant | Compliance-to-Policy is a GitOps extension which creates a bridge between compliance-as-code and policy-as-code.                                                                                                                                                                                                                            |
+### Critical
+
+| Component                | Description of Importance                                                                                                                                                                                                                                                                                                                                              |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Data Contract Validation | OSCAL Compass components communicate through the asynchronous exchange of OSCAL content. Projects use OSCAL SDKs as the mechanism for enforcement of OSCAL schema integrity and semantic validation in exchanged documents. Without this validation, malformed or inconsistent documents can be propagated leading to unreliable outputs exchanged between components. |
+| Secure Plugin Framework  | Each plugin (C2P-Go only) is run in a fully independent process (leveraging `hashicorp/go-plugin`). This isolation limits the blast radius in the event of a compromised or crashing plugin. Communication with the main application is done via mTLS-secured gRPC over a local network and an enforced API contract defined in `protobuf`.                            |
+| Git Infrastructure       | OSCAL Compass projects are designed around the GitOps approach for artifact management which relies on secure configuration of Git infrastructure. This design choice is foundational for the auditability project inputs and outputs.                                                                                                                                 |
+
+### Security Relevant
+
+| Component                          | Description of Importance                                                                                                                                                                                                        |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Plugin Selection and Configuration | Plugin configuration provides the ability to select and configure specific plugins based on user needs, reducing the attack surface by enabling only necessary integrations.                                                     |
+| Git Repository Configuration       | OSCAL Compass components source artifacts from Git repositories. Configurable settings such as branch protection rules and access controls for repositories are critical to maintain integrity of the sourced artifacts.         |
+| CI/CD Workflow Configuration       | OSCAL Compass components are installed and deployed in CI/CD workflows. Configurable settings and aspects such as secure secret management and least privilege execution for pipeline steps are critical for secure deployments. |
+
+## Compliance-to-policy specific considerations
+
+
 
 ## Project compliance
 
