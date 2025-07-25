@@ -109,7 +109,7 @@ To become a project Maintainer, you must meet the following requirements:
 * You have directly contributed to the project through implementation and/or review.
 * You have been sponsored by two Maintainers.
 
-The process for Maintainer nomination can be found in the Maintainer [guidelines](./MAINTAINER_GUIDELINES.md) 
+The process for Maintainer nomination can be found in the Maintainer [guidelines](./MAINTAINER_GUIDELINES.md).
 
 #### Maintainer responsibilities and Privileges
 
