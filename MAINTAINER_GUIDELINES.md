@@ -1,20 +1,16 @@
 # Maintainers Guidelines
 
-Maintainers are defined in our contributor ladder [documentation](/MEMBERSHIP.md#maintainer). The below documentation described the Maintainer onboarding and offboarding processes.
+Maintainers are defined in our contributor ladder [documentation](/MEMBERSHIP.md#maintainer). The below documentation describes the Maintainer onboarding and offboarding processes.
 
 ## Maintainer Nomination Process
 
 Any person who meets the requirements for the maintainer role may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
 
-* Open an issue in the repository of interest detailing contributions to the project so far. For general memebership, the issue can be opened in the `oscal-compass/community` repository.
-* Ensure that the sponsors are `@mentioned` on the issue.
-* Make sure that the list of contributions included is representative of the work on the project
-  
-* One of the sponsors should open an pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and link the issue as the nomination summary.
-* Maintainers will vote publicly on the pull request, expressing their support via a GitHub comment or emoji reaction to the nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately.
-
-* Upon a decision, the pull request will be merged or closed.
-* If the pull request is merged, an existing Maintainer with access to the `*-maintainers` [GitHub Team](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) will update the role of the new Maintainer. The OSCAL Compass [admins](./MAINTAINERS.md#org-admins) can assist as needed.
+1. Secure sponsorship from two existing Maintainers.
+2. Open an issue in the repository of interest detailing contributions to the project so far. Make sure that the list of contributions included is representative of the work on the project. Ensure that the sponsors are `@mentioned` on the issue.
+3. One of the sponsors should open an pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and link the issue as the nomination summary.
+4. Maintainers will vote publicly on the pull request, expressing their support via a GitHub comment or emoji reaction to the nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately.
+5. Upon a decision, the pull request will be merged or closed. If the pull request is merged, an existing Maintainer with access to the `*-maintainers` [GitHub Team](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) will update the role of the new Maintainer. The OSCAL Compass [admins](./MAINTAINERS.md#org-admins) can assist as needed.
 
 ## Stepping Down and the Emeritus Process
 
