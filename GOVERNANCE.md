@@ -79,6 +79,7 @@ After you've informed other members, create a pull request to remove yourself fr
 
 To be considered an _active_ Oversight Committee member, individuals are expected to be consistently engaged in the duties of the committee. Active participation includes, but is not limited to:
 
+* Be an active participant in one of the **core** projects, either through contributions (PR and review) or through technical discussions and solution design.
 * Regularly attending Oversight Committee meetings.
 * Actively participating in committee discussions and voting on proposals.
 * Helping to maintain the mission, vision, and scope of the project.
