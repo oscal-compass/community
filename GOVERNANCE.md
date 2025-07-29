@@ -122,10 +122,6 @@ Key Eligibility Requirements:
 
 Members of the Oversight Committee will serve a one-year term.
 
-### Company Affiliation
-
-To ensure diversity, no more than 50% of the members employed by the same company may serve on the Oversight Committee simultaneously. If the results of an election would cause this limit to be exceeded, the candidate(s) from the over-represented company with the lowest vote counts will be disqualified, and the seat(s) will be filled by the next highest-voted candidates who do not violate the company representation limit.
-
 ### Vacancies
 
 If a seat on the Oversight Committee becomes vacant, the committee may appoint a replacement to serve until the next election.
