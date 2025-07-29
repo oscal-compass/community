@@ -29,7 +29,7 @@ More information about the Maintainer and other project roles can be found in th
 
 OSCAL-Compass subprojects are divided into two types: **core** and **non-core**. The core projects are the main code-bases of the OSCAL-Compass project that provide the main functionality of OSCAL-Compass and have to follow a proper maintenance and release process, whereas non-core projects are for demos, documentation, and other purposes. There are currently 3 sets of core projects - **compliance-trestle**, **agile-authoring**, and **compliance-to-policy (C2P)**. Rest all are considered non-core projects unless explicitly included in the core projects list.
 
-Non-core projects have a strong affiliation with the core projects, but they are not required for the functionality of OSCAL-Compass. 
+Non-core projects have a strong affiliation with the core projects, but they are not required for the functionality of OSCAL-Compass.
 
 New **core** and **non-core projects** can be added by opening an issue to OSCAL-Compass community reporsitory. After discussions in the oversight committee meeting a vote for inclusion will be called. Core projects can be added only with 2/3 majority, whereas non-core projects can be added with a simple majority of the oversight committee as described below in the voting process.
 
@@ -86,7 +86,7 @@ To be considered an _active_ Oversight Committee member, individuals are expecte
 
 The process for moving an inactive member to **Emeritus** status is as follows:
 
-* Grace Period: If a member is unable to maintain active participation for a consecutive period of **3 months**, a Committee Chair will reach out privately to check in with them. Based on the outcome of the discussion, the member may choose to remove themselves from the MAINTAINERS file, as noted above in the "Stepping down policy" section. 
+* Grace Period: If a member is unable to maintain active participation for a consecutive period of **3 months**, a Committee Chair will reach out privately to check in with them. Based on the outcome of the discussion, the member may choose to remove themselves from the MAINTAINERS file, as noted above in the "Stepping down policy" section.
 * Vote: If the member remains inactive for another month or cannot be reached, a vote may be called. This requires a 2/3 majority vote from the other active members (excluding the member being voted out).
 * Offboarding: If the vote passes, a pull request will be opened by another member to remove the individual from the `MAINTAINERS.md` file. Following the merge of the pull request, their privileged access to resources will be revoked. They will be considered an **Emeritus Oversight Committee Members** and are welcome to become active again by following the standard nomination process.
 * In such cases, the vacancy will be filled according to the procedures outlined in this document.
@@ -102,11 +102,11 @@ The election process is as follows:
 1. **Voter Eligibility**: Only current oversight comittee members at the time of the election are eligible to vote.
 2. **Call for Nominations**: One month before the election, a call for nominations will be sent out to the OSCAL Compass community.
 3. **Nomination Period**: Community members will have one month to nominate candidates for the Oversight Committee. Self-nominations are permitted.
-5. **Candidate Statements**: Each candidate will be asked to provide a statement of interest and qualifications.
-6. **Vetting**: There is usually a process for the existing committee or another body to review the nominations and confirm that the candidates meet the eligibility criteria.
-7. **Voting Period**: A two-week voting period will be held.
-8. **Results**: The results of the election will be announced within one week of the close of voting.
-9. **Voting Process and Tie-Breaking**: Each voter will be eligible to specify upto N candidates (where N is the number of vacant positions). A ranked list of candidates (based on number of votes received) will be created. In the event of a tie for the last seat(s), a revoting would be done for selection amongst those candidates only.
+4. **Candidate Statements**: Each candidate will be asked to provide a statement of interest and qualifications.
+5. **Vetting**: There is usually a process for the existing committee or another body to review the nominations and confirm that the candidates meet the eligibility criteria.
+6. **Voting Period**: A two-week voting period will be held.
+7. **Results**: The results of the election will be announced within one week of the close of voting.
+8. **Voting Process and Tie-Breaking**: Each voter will be eligible to specify upto N candidates (where N is the number of vacant positions). A ranked list of candidates (based on number of votes received) will be created. In the event of a tie for the last seat(s), a revoting would be done for selection amongst those candidates only.
 
 #### Candidate Eligibility
 
