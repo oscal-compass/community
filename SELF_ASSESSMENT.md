@@ -279,6 +279,54 @@ Automated testing is integrated into most repositories via GitHub Actions. These
   * Outbound. How do you communicate with your users? (e.g. flibble-announce@
     mailing list)-->
 
+<details open>
+<summary><b>Internal</b>: How to communicate with your team mates?</summary>
+<!--All you need is a blank line-->
+
+| Communication Channel                                                                                                                            | Usage                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Slack](https://cloud-native.slack.com/archives/C06F3PEPNBW)                                                                                     | Real-time chats and team collaboration.                                                                                                                     |
+| [Google Group](https://groups.google.com/g/oscal-compass)                                                                                        | Formal email communications. Address is oscal-compass@googlegroups.com.                                                                                     |
+| [GitHub Issues](https://github.com/oscal-compass/community/issues)                                                                               | Tracks development tasks, bugs, and feature requests.                                                                                                       |
+| [GitHub Pull Requests](https://github.com/oscal-compass/community/pulls)                                                                         | Used exclusively for code reviews and internal feedback on contributions.                                                                                   |
+| [Zoom Meetings - Global](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d)        | Every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [(convert to your local time)](https://mytime.io/11am/ET).                              |
+| [Zoom Meetings - APAC Friendly](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) | Every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [(convert to your local time)](https://mytime.io/5am/GMT). |
+| [Meeting Agenda & Notes](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)                       | Shared notes and agendas for meetings.                                                                                                                      |
+| [Shared Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/trestlegrc?view=week)                                                   | Schedule of upcoming meetings and events.                                                                                                                   |
+| [YouTube Channel](https://www.youtube.com/@OSCAL-Compass)                                                                                        | Provides users access to video recordings, tutorials, and meeting recordings.                                                                               |
+
+</details>
+
+<details open>
+<summary><b>Inbound</b>: How do users or prospective users communicate with the team?</summary>
+<!--All you need is a blank line-->
+
+| Communication Channel                                              | Usage                                                                              |
+| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
+| [Slack](https://cloud-native.slack.com/archives/C06F3PEPNBW)       | Public channel for quick user questions.                                           |
+| [Google Group](https://groups.google.com/g/oscal-compass)          | Forum for user discussions and support. Address is oscal-compass@googlegroups.com. |
+| [GitHub Issues](https://github.com/oscal-compass/community/issues) | Enables users to report issues and request features.                               |
+| [YouTube Channel](https://www.youtube.com/@OSCAL-Compass)          | Provides users access to video recordings, tutorials, and meeting recordings.      |
+
+</details>
+
+<details open>
+<summary><b>Outbound</b>: How do contributors communicate with the users?</summary>
+<!--All you need is a blank line-->
+
+| Communication Channel                                                                                                                            | Usage                                                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Slack](https://cloud-native.slack.com/archives/C06F3PEPNBW)                                                                                     | Community announcements and engagement.                                                                                                                                                                    |
+| [Google Group](https://groups.google.com/g/oscal-compass)                                                                                        | Broadcasts updates and announcements to the community. Address is oscal-compass@googlegroups.com.                                                                                                          |
+| [GitHub Issues](https://github.com/oscal-compass/community/issues)                                                                               | Communicates progress and resolutions.                                                                                                                                                                     |
+| [Zoom Meetings - Global](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d)        | Public meeting for updates and engagement held every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [(convert to your local time)](https://mytime.io/11am/ET).                              |
+| [Zoom Meetings - APAC Friendly](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) | Public meeting for updates and engagement held every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [(convert to your local time)](https://mytime.io/5am/GMT). |
+| [Meeting Agenda & Notes](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)                       | Transparent documentation for the community.                                                                                                                                                               |
+| [Shared Calendar](https://zoom-lfx.platform.linuxfoundation.org/meetings/trestlegrc?view=week)                                                   | Schedule of upcoming meetings and events.                                                                                                                                                                  |
+| [YouTube Channel](https://www.youtube.com/@OSCAL-Compass)                                                                                        | Broadcasts presentations, webinars, and official announcements.                                                                                                                                            |
+
+</details>
+
 ### Ecosystem
 
 <!---How does your software fit into the cloud native ecosystem?  (e.g.
