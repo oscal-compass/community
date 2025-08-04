@@ -8,7 +8,6 @@ The project-wide oversight committee
 
 - [`ancatri`](https://github.com/ancatri)
 - [`degenaro`](https://github.com/degenaro)
-- [`jflowers`](https://github.com/jflowers) - Chair
 - [`jpower432`](https://github.com/jpower432)
 - [`mrgadgil`](https://github.com/mrgadgil) - Chair
 - [`yuji-watanabe-jp`](https://github.com/yuji-watanabe-jp)
@@ -23,7 +22,6 @@ Team with admin access to the `oscal-compass` org.
 - [`jpower432`](https://github.com/jpower432)
 - [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
 - [`mrgadgil`](https://github.com/mrgadgil)
-- [`jflowers`](https://github.com/jflowers)
 - [`degenaro`](https://github.com/degenaro)
 - [`thelinuxfoundation`](https://github.com/thelinuxfoundation)
 
