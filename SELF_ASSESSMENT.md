@@ -292,8 +292,7 @@ By adopting the NIST OSCAL standard as its foundation, OSCAL Compass ensures tha
 - **Evidence Gathering** – Automates compliance evidence collection and attestation with tools like Auditree, enabling continuous compliance monitoring.
 - **Scalability** – Supports distributed, multi-cluster, and hybrid deployments without compromising security or compliance posture.
 
-This tight coupling of compliance automation with cloud-native workflows helps organizations implement secure-by-design principles, reduces audit friction, and accelerates the delivery of compliant workloads.
-
+This tight coupling of compliance automation with cloud-native workflows helps organizations implement secure-by-design principles, reduces audit friction, and accelerates the delivery of compliant workloads. You can find a list of organizations that have publicly adopted OSCAL Compass [here](https://github.com/oscal-compass/community/blob/main/ADOPTERS.md).
 
 <!---How does your software fit into the cloud native ecosystem?  (e.g.
   Flibber is integrated with both Flocker and Noodles which covers
