@@ -109,6 +109,7 @@ The OSCAL Compass project will hold yearly elections to vote for new members of 
 ### Voter Eligibility
 
 Eligibility to vote for oversight committee members is generally defined by:
+
 * current or past (emeritus) oversight commitee members
 * current maintainers and reviewers of any **core** project
 * current maintainers of any non-core projects within OSCAL-Compass Github organization
@@ -121,7 +122,7 @@ Key Eligibility Requirements:
 * **Required**: The candidate must satisfy at least one of the below criteria to be eligibile to be nominated for oversight committee member.
   * a current or a past (emeritus) oversight commitee member, or
   * a current maintainer of any **core** project, or
-  * a current maintainer of a lab project or a significant adopter project/organization. Only one nomination per lab project or per significant adopter will be accepted. The lab project / significant adopter should internally decide on the nomination. 
+  * a current maintainer of a lab project or a significant adopter project/organization. Only one nomination per lab project or per significant adopter will be accepted. The lab project / significant adopter should internally decide on the nomination.
 * Technical Expertise: Candidates should be senior, respected technical contributors with significant experience relevant to the project's domain.
 * Demonstrated Commitment: They must have the time and willingness to actively participate in meetings, discussions, and the work of the committee.
 * Neutrality and Project-First Mindset: A crucial requirement is the ability to act as a neutral party, prioritizing the good of the project over any personal or company interests.
