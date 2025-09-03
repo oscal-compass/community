@@ -110,9 +110,9 @@ The OSCAL Compass project will hold yearly elections to vote for new members of 
 
 Eligibility to vote for oversight committee members is generally defined by:
 
-* current or past (emeritus) oversight commitee members
-* current maintainers and reviewers of any **core** project
-* current maintainers of any non-core projects within OSCAL-Compass Github organization
+* current oversight commitee members
+* current maintainers and reviewers of **core** projects
+* current maintainers of non-core projects within OSCAL-Compass Github organization
 * one person/maintainer per lab project and significant adopter. Each lab project and significant adopter will designate one person to participate in the voting.
 
 ### Candidate Eligibility
@@ -150,7 +150,7 @@ Election cycles are scheduled such that roughly half of the seats come up for re
 
 To ensure diversity, no more than two members employed by the same company/organization may serve on the Oversight Committee simultaneously. If the results of an election would cause this limit to be exceeded, the candidate(s) from the over-represented company with the lowest vote counts will be disqualified, and the seat(s) will be filled by the next highest-voted candidates who do not violate the company representation limit.
 
-No more than three members from lab projects and significant adopters can serve on the Oversight Committee. If the results of an election would cause this rule to be violated then only the top 3 elected members from lab projects and significant adopters would be selected, and the rest of the seat(s) will be filled by the next highest-voted candidates who do not violate this rule.
+No more than three members from lab projects and significant adopters can serve on the Oversight Committee simultaneously. If the results of an election would cause this rule to be violated then only the top 3 elected members from lab projects and significant adopters would be selected, and the rest of the seat(s) will be filled by the next highest-voted candidates who do not violate this rule.
 
 ### Vacancies
 
@@ -183,7 +183,7 @@ There are some constant configurations between voting profiles:
 
 - The Oversight Committee members have binding votes in the community repository. All in the community can and are encouraged to participate in the vote, even if their vote is not binding.
 - The duration for voting is four weeks with status checks occurring at the two week mark.
-- For a vote to pass a majority or supermajority (as the case may be) of oversight committee members should vote in favour.
+- For a vote to pass, a majority or supermajority (as the case may be) of oversight committee members should vote in favour.
 
 ##### Simple Majority Vote
 
@@ -210,4 +210,4 @@ Trivial changes that do not introduce policy changes may be approved by two memb
 
 ## Acknowledgements
 
-Sections of this document were adapted from [InstructLab](https://github.com/instructlab/community/blob/main/GOVERNANCE.md) and [CoreDNS](https://github.com/coredns/coredns/blob/master/GOVERNANCE.md) projects.
+Sections of this document were adapted from [Kubernetes](https://github.com/kubernetes/steering/blob/main/elections.md), [InstructLab](https://github.com/instructlab/community/blob/main/GOVERNANCE.md), and [CoreDNS](https://github.com/coredns/coredns/blob/master/GOVERNANCE.md) projects.
