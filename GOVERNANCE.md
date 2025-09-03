@@ -13,11 +13,11 @@ The OSCAL Compass community adheres to the following principles:
 
 ## Governance Structure Overview
 
-The OSCAL Compass Project has a two-level governance structure with an Oversight Committee (across all projects) and Project Maintainers (individual projects). The oversight committee members are also known as **core maintainers** of the OSCAL-Compass project and only they would be included in the CNCF maintainers list for OSCAL-Compass.
+The OSCAL Compass Project has a two-level governance structure with an Oversight Committee (across all projects) and Project Maintainers (individual projects).
 
 Except where otherwise noted, decisions should always start at the most local level of project governance. If a decision only affects a single project, the discussion should start with the project maintainers. While communication between the different project teams is important as they are all interconnected, minor decisions do not need organization-wide consensus and can be moved forward at the project level.
 
-In case of any conflict between the decision of the oversight committee and that of individual projects, the decision of the oversight committee will be binding.
+While technical decisions for a project reside with its maintainers, the Oversight Committee may be asked to help mediate cross-project disputes or resolve decisions that a project's maintainers are unable to reach a consensus on. In such cases, the decision of the oversight committee shall be binding on the project(s).
 
 ### Project Maintainers overview
 
@@ -35,9 +35,19 @@ New **core** and **non-core projects** can be added by opening an issue to OSCAL
 
 Changing the status of a project from non-core to core, or core to non-core will require a 2/3 majority of the oversight committee.
 
+### OSCAL-Compass 'lab projects' and 'significant adopters'
+
+New projects that are not directly related to the core functionality of OSCAL-Compass, but are closely related may be incubated as a lab project (either in the main OSCAL-Compass github org or a separate org managed by OSCAL-Compass). These projects will follow a similar project maintenance structure as projects in OSCAL-Compass.
+
+A new lab project can be added with simple majority of the oversight committee. As the project matures it can become a **core** project with 2/3 majority of the oversight committee.
+
+Significant adopters are those projects and/or organizations that are highly dependent (significant usage) on the OSCAL-Compass projects and are using it for at least six months or more. They also need to acitvely contribute/engage with **core** projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and should also be member of the OSCAL-Compass organization.
+
+An adoptor can be designated as a significant adopter with simple majority of the oversight committee.
+
 ## OSCAL Compass Oversight Committee Overview
 
-The Oversight Committee functions as the core maintainer for the OSCAL-Compass organization.
+The Oversight Committee functions as the organization maintainers for the OSCAL-Compass.
 
 An initial Oversight Committee was appointed by the founding sponsors of the OSCAL Compass project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group. Current Oversight Committee members are defined in the community [MAINTAINERS.md](./MAINTAINERS.md) file.
 
@@ -45,9 +55,9 @@ The Oversight Committee consists of 3 to 7 leaders on the OSCAL Compass project.
 
 The Oversight Committee is responsible for the following duties:
 
-* Maintaining the mission, vision, values, and scope of the project
+* Maintaining the mission, vision, values, and scope of all projects in OSCAL-Compass
 * Refining the governance and charter as needed
-* Making project-level decisions, including setting technical policies that apply across all components
+* Making cross-project decisions, including setting technical policies that apply across all projects
 * Resolving escalated project decisions when the team responsible is blocked
 * Managing the OSCAL Compass brand
 * Controlling access to OSCAL Compass assets such as source repositories and hosting
@@ -79,7 +89,7 @@ After you've informed other members, create a pull request to remove yourself fr
 
 To be considered an _active_ Oversight Committee member, individuals are expected to be consistently engaged in the duties of the committee. Active participation includes, but is not limited to:
 
-* Be an active participant in one of the **core** projects, either through contributions (PR and review) or through community discussions and issues (creation, triaging, solutions).
+* Be an active participant in one of the **core** projects, lab projects or significant adopter, either through contributions (PR and review) or through community discussions and issues (creation, triaging, solutions).
 * Regularly attending Oversight Committee meetings.
 * Actively participating in committee discussions and voting on proposals.
 * Helping to maintain the mission, vision, and scope of the project.
@@ -96,32 +106,50 @@ The process for moving an inactive member to **Emeritus** status is as follows:
 
 The OSCAL Compass project will hold yearly elections to vote for new members of the Oversight Committee.
 
-### Election Process
+### Voter Eligibility
 
-The election process is as follows:
+Eligibility to vote for oversight committee members is generally defined by:
+* current or past (emeritus) oversight commitee members
+* current maintainers and reviewers of any **core** project
+* current maintainers of any non-core projects within OSCAL-Compass Github organization
+* one person/maintainer per lab project and significant adopter. Each lab project and significant adopter will designate one person to participate in the voting.
 
-1. **Voter Eligibility**: Only current oversight comittee members at the time of the election are eligible to vote.
-2. **Call for Nominations**: One month before the election, a call for nominations will be sent out to the OSCAL Compass community.
-3. **Nomination Period**: Community members will have one month to nominate candidates for the Oversight Committee. Self-nominations are permitted.
-4. **Candidate Statements**: Each candidate will be asked to provide a statement of interest and qualifications.
-5. **Vetting**: There is usually a process for the existing committee or another body to review the nominations and confirm that the candidates meet the eligibility criteria.
-6. **Voting Period**: A two-week voting period will be held.
-7. **Results**: The results of the election will be announced within one week of the close of voting.
-8. **Voting Process and Tie-Breaking**: Each voter will be eligible to specify upto N candidates (where N is the number of vacant positions). A ranked list of candidates (based on number of votes received) will be created. In the event of a tie for the last seat(s), a revoting would be done for selection amongst those candidates only.
-
-#### Candidate Eligibility
+### Candidate Eligibility
 
 Key Eligibility Requirements:
 
-* **Required**: The candidate must either be a current or a past (emeritus) oversight commitee member, or current maintainer of any **core** project to be eligibile to be nominated for oversight committee member.
+* **Required**: The candidate must satisfy at least one of the below criteria to be eligibile to be nominated for oversight committee member.
+  * a current or a past (emeritus) oversight commitee member, or
+  * a current maintainer of any **core** project, or
+  * a current maintainer of a lab project or a significant adopter project/organization. Only one nomination per lab project or per significant adopter will be accepted. The lab project / significant adopter should internally decide on the nomination. 
 * Technical Expertise: Candidates should be senior, respected technical contributors with significant experience relevant to the project's domain.
 * Demonstrated Commitment: They must have the time and willingness to actively participate in meetings, discussions, and the work of the committee.
 * Neutrality and Project-First Mindset: A crucial requirement is the ability to act as a neutral party, prioritizing the good of the project over any personal or company interests.
 * Good Standing: Candidates should have a clean record with respect to the project's Code of Conduct. The CNCF, for example, requires that candidates for its Code of Conduct Committee have no violations in the past 18 months.
 
-### Term Length
+### Election Process
 
-Members of the Oversight Committee will serve a one-year term.
+The election process is as follows:
+
+1. **Call for Nominations**: One month before the election, a call for nominations will be sent out to the OSCAL Compass community.
+2. **Nomination Period**: Community members will have one month to nominate candidates for the Oversight Committee. Self-nominations are permitted.
+3. **Candidate Statements**: Each candidate will be asked to provide a statement of interest and qualifications.
+4. **Vetting**: There is usually a process for the existing committee or another body to review the nominations and confirm that the candidates meet the eligibility criteria.
+5. **Voting Period**: A two-week voting period will be held.
+6. **Results**: The results of the election will be announced within one week of the close of voting.
+7. **Voting Process and Tie-Breaking**: Elections will be held using an online preference election system which supports [Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) elections, using Schulze completion rule.
+
+### Terms and Election Cycles
+
+Oversight committee members are elected to serve a two year term. Members can serve two consecutive terms (4 years). Bootstrap and terms that result in equal to or less than one year served are exempt.
+
+Election cycles are scheduled such that roughly half of the seats come up for re-election each year for purposes of continuity. The exact number of seats alternates between 3 and 4.
+
+### Maximal representation
+
+To ensure diversity, no more than two members employed by the same company/organization may serve on the Oversight Committee simultaneously. If the results of an election would cause this limit to be exceeded, the candidate(s) from the over-represented company with the lowest vote counts will be disqualified, and the seat(s) will be filled by the next highest-voted candidates who do not violate the company representation limit.
+
+No more than three members from lab projects and significant adopters can serve on the Oversight Committee. If the results of an election would cause this rule to be violated then only the top 3 elected members from lab projects and significant adopters would be selected, and the rest of the seat(s) will be filled by the next highest-voted candidates who do not violate this rule.
 
 ### Vacancies
 
@@ -154,7 +182,7 @@ There are some constant configurations between voting profiles:
 
 - The Oversight Committee members have binding votes in the community repository. All in the community can and are encouraged to participate in the vote, even if their vote is not binding.
 - The duration for voting is four weeks with status checks occurring at the two week mark.
-- For a vote to pass a majority or supermajority (as the case may be) of oversight committee members should vote in favour. Abstaining from voting means a negative vote.
+- For a vote to pass a majority or supermajority (as the case may be) of oversight committee members should vote in favour.
 
 ##### Simple Majority Vote
 
