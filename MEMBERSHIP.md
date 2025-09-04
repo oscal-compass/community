@@ -35,15 +35,12 @@ Members are active contributors in the community. They can have issues and pull 
 To become a project Member, you must meet the following requirements:
 
 * You have made **multiple contributions** to the project or community. Contributions may include, but are not limited to:
-
   * Authoring or reviewing PRs on GitHub with at least **one merged (substantial) PR**. The PR(s) must demonstrate an ongoing and active commitment, for example:
     * A single issue that has taken several weeks of driving consensus
     * A larger number of smaller PRs over several weeks to months
-    * A smaller number of complex or technical PRs that required working with community members to resolve an issue
-  
+    * A smaller number of complex or technical PRs that required working with community members to resolve an issue  
   * Filing or commenting on issues on GitHub.
   * Contributing to community discussion, for example, meetings or on Slack.
-
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
   * Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
   * Sponsors must be from multiple member companies to demonstrate integration across community.
@@ -79,7 +76,6 @@ To become a project Reviewer, you must meet the following requirements:
   * Demonstrating knowledge of the codebase
   * Participating in design discussions.
   * Contributing to community discussions (e.g. meetings, Slack).
-
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
   * Sponsors must have close interactions with the prospective Reviewer - e.g. code/design/proposal review, coordinating on issues, etc.
   * Sponsors must be from multiple member companies to demonstrate integration across community.
