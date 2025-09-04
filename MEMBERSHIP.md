@@ -37,17 +37,16 @@ To become a project Member, you must meet the following requirements:
 * You have made **multiple contributions** to the project or community. Contributions may include, but are not limited to:
 
   * Authoring or reviewing PRs on GitHub with at least **one merged (substantial) PR**. The PR(s) must demonstrate an ongoing and active commitment, for example:
-     - A single issue that has taken several weeks of driving consensus
-     - A larger number of smaller PRs over several weeks to months
-     - A smaller number of complex or technical PRs that required working with community members to resolve an issue
+    * A single issue that has taken several weeks of driving consensus
+    * A larger number of smaller PRs over several weeks to months
+    * A smaller number of complex or technical PRs that required working with community members to resolve an issue
   
   * Filing or commenting on issues on GitHub.
   * Contributing to community discussion, for example, meetings or on Slack.
 
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
-
-     - Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
-     - Sponsors must be from multiple member companies to demonstrate integration across community.
+  * Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
+  * Sponsors must be from multiple member companies to demonstrate integration across community.
 
 If you have met these expectations and wish to become an established member, you can be nominated by a contributor, or you can nominate yourself. To nominate a contributor or yourself:
 
@@ -82,10 +81,10 @@ To become a project Reviewer, you must meet the following requirements:
   * Contributing to community discussions (e.g. meetings, Slack).
 
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
-   * Sponsors must have close interactions with the prospective Reviewer - e.g. code/design/proposal review, coordinating on issues, etc.
-   * Sponsors must be from multiple member companies to demonstrate integration across community.
-   * One of the sponsor has to be from the same sub-project
-   * With no objections from other maintainers of the same sub-project
+  * Sponsors must have close interactions with the prospective Reviewer - e.g. code/design/proposal review, coordinating on issues, etc.
+  * Sponsors must be from multiple member companies to demonstrate integration across community.
+  * One of the sponsor has to be from the same sub-project
+  * With no objections from other maintainers of the same sub-project
 
 Any person who meets the requirements may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
 
@@ -122,10 +121,10 @@ To become a project Maintainer, you must meet the following requirements:
   * Identifying subtle or complex issues in designs and implementation pull requests.
 * You have directly contributed to the project through implementation and/or review.
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
-   * Sponsors must have close interactions with the prospective Maintainer - e.g. code/design/proposal review, coordinating on issues, etc.
-   * Sponsors must be from multiple member companies to demonstrate integration across community.
-   * One of the sponsor has to be from the same sub-project
-   * With no objections from other maintainers of the same sub-project
+  * Sponsors must have close interactions with the prospective Maintainer - e.g. code/design/proposal review, coordinating on issues, etc.
+  * Sponsors must be from multiple member companies to demonstrate integration across community.
+  * One of the sponsor has to be from the same sub-project
+  * With no objections from other maintainers of the same sub-project
 
 One of the sponsors should open an pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and add relevant details per the requirements.
 
