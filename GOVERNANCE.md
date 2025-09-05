@@ -43,7 +43,7 @@ A new lab project can be added with simple majority of the oversight committee. 
 
 Significant adopters are those projects and/or organizations that are highly dependent (significant usage) on the OSCAL-Compass projects and are using it for at least six months or more. They need to acitvely contribute/engage with **core** projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and should be a member of the OSCAL-Compass organization.
 
-An adoptor can be designated as a significant adopter with a simple majority of the oversight committee. Their name would be added to the significant adopters list.
+An adoptor can be designated as a significant adopter with a simple majority of the oversight committee. Their name would be added to the significant [adopters list](./ADOPTERS.md).
 
 ## OSCAL Compass Oversight Committee Overview
 
