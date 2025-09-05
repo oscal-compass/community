@@ -34,11 +34,11 @@ Members are active contributors in the community. They can have issues and pull 
 
 To become a project Member, you must meet the following requirements:
 
-* You have made **multiple contributions** to the project or community. Contributions may include, but are not limited to:
+* You have made **multiple contributions** to the project or community. Contributions must include, but are not limited to:
   * Authoring or reviewing PRs on GitHub with at least **one merged (substantial) PR**. The PR(s) must demonstrate an ongoing and active commitment, for example:
-    * A single issue that has taken several weeks of driving consensus
-    * A larger number of smaller PRs over several weeks to months
-    * A smaller number of complex or technical PRs that required working with community members to resolve an issue  
+    * A single issue that has taken several weeks of driving consensus.
+    * A larger number of smaller PRs over several weeks to months.
+    * A smaller number of complex or technical PRs that required working with community members to resolve an issue.
   * Filing or commenting on issues on GitHub.
   * Contributing to community discussion, for example, meetings or on Slack.
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
@@ -69,11 +69,12 @@ Reviewers are knowledgeable about the codebase and are able review code for qual
 
 To become a project Reviewer, you must meet the following requirements:
 
-* Member for at least **3 months**
+* Member for at least **3 months**.
+* Primary reviewer or author for at least **5 substantial PRs** to the codebase.
 * You have made multiple contributions to the project or community. Contribution may include, but is not limited to:
   * Triaging open issues or PRs.
-  * Authoring or reviewing PRs on GitHub. Primary reviewer for at least **5 PRs** to the codebase
-  * Demonstrating knowledge of the codebase
+  * Authoring or reviewing PRs on GitHub.
+  * Demonstrating knowledge of the codebase.
   * Participating in design discussions.
   * Contributing to community discussions (e.g. meetings, Slack).
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
@@ -109,6 +110,7 @@ Maintainers are first and foremost contributors that have shown they are committ
 To become a project Maintainer, you must meet the following requirements:
 
 * You have been a Reviewer for at least **3 months**.
+* Primary reviewer or author for at least **10 substantial PRs** to the codebase.
 * You have a deep understanding of the technical goals and direction of the project.
 * You have a deep understanding of the technical domain of the project.
 * You have made sustained contributions to design and direction by:
@@ -165,4 +167,4 @@ Changes to contributor roles must be approved by a vote of the Oversight Committ
 
 ## Acknowledgements
 
-Contributor roles and responsibilities were adapted from InstructLab [contributor roles](https://raw.githubusercontent.com/instructlab/community/main/CONTRIBUTOR_ROLES.md)
+Contributor roles and responsibilities were adapted from InstructLab [contributor roles](https://raw.githubusercontent.com/instructlab/community/main/CONTRIBUTOR_ROLES.md) and [Kubernetes](https://github.com/kubernetes/community/blob/master/community-membership.md).
