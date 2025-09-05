@@ -34,15 +34,13 @@ Members are active contributors in the community. They can have issues and pull 
 
 To become a project Member, you must meet the following requirements:
 
-* You have made **multiple contributions** to the project or community. Contributions must include, but are not limited to:
-  * Authoring or reviewing PRs on GitHub with at least **one merged (substantial) PR**. The PR(s) must demonstrate an ongoing and active commitment, for example:
-    * A single issue that has taken several weeks of driving consensus.
-    * A larger number of smaller PRs over several weeks to months.
-    * A smaller number of complex or technical PRs that required working with community members to resolve an issue.
+* You have made **multiple contributions** to the project or community. Contributions may include, but are not limited to:
+  * Authoring or reviewing PRs on GitHub.
   * Filing or commenting on issues on GitHub.
   * Contributing to community discussion, for example, meetings or on Slack.
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
   * Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
+  * One of the sponsors should be from a **core** OSCAL-Compass project.
   * Sponsors must be from multiple member companies to demonstrate integration across community.
 
 If you have met these expectations and wish to become an established member, you can be nominated by a contributor, or you can nominate yourself. To nominate a contributor or yourself:
@@ -80,7 +78,7 @@ To become a project Reviewer, you must meet the following requirements:
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
   * Sponsors must have close interactions with the prospective Reviewer - e.g. code/design/proposal review, coordinating on issues, etc.
   * Sponsors must be from multiple member companies to demonstrate integration across community.
-  * One of the sponsor has to be from the same sub-project
+  * One of the sponsor has to be from the same sub-project.
   * With no objections from other maintainers of the same sub-project
 
 Any person who meets the requirements may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
@@ -164,6 +162,12 @@ contributions, after which they can be re-instated by a decision of the appropri
 ## Changes to contributor roles
 
 Changes to contributor roles must be approved by a vote of the Oversight Committee or a majority of the current project's Maintainers.
+
+## OSCAL-Compass Ecosystem
+
+OSCAL-Compass also has a 'lab' GitHub organization for incubating new projects and hosting closely related projects from the community. If you are an OSCAL-Compass org member, you are implicitly eligible for membership in the related 'lab' Github org, and can request membership when it becomes relevant, by creating a PR directly or opening an issue against the 'lab' Github org community repo.
+
+However, if you are a member of the 'lab' GitHub org but not of the OSCAL-Compass org, you will need explicit sponsorship for your membership request.
 
 ## Acknowledgements
 
