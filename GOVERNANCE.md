@@ -35,15 +35,15 @@ New **core** and **non-core projects** can be added by opening an issue to OSCAL
 
 Changing the status of a project from non-core to core, or core to non-core will require a 2/3 majority of the oversight committee.
 
-### OSCAL-Compass 'lab projects' and 'significant adopters'
+### OSCAL-Compass 'lab' projects and 'significant adopters'
 
-New projects that are not directly related to the core functionality of OSCAL-Compass, but are closely related may be incubated as a lab project (either in the main OSCAL-Compass github org or a separate org managed by OSCAL-Compass). These projects will follow a similar project maintenance structure as projects in OSCAL-Compass.
+New projects can that are not core to the functionality of OSCAL-Compass but are closely related may be incubated as a lab project in a separate 'lab' Github org managed by OSCAL-Compass maintainers. Existing projects closely related to OSCAL-Compass, but in a separate github org can also be moved to this 'lab' Github org. All the lab projects will follow a similar project maintenance structure as projects in OSCAL-Compass.
 
 A new lab project can be added with simple majority of the oversight committee. As the project matures it can become a **core** project with 2/3 majority of the oversight committee.
 
-Significant adopters are those projects and/or organizations that are highly dependent (significant usage) on the OSCAL-Compass projects and are using it for at least six months or more. They also need to acitvely contribute/engage with **core** projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and should also be member of the OSCAL-Compass organization.
+Significant adopters are those projects and/or organizations that are highly dependent (significant usage) on the OSCAL-Compass projects and are using it for at least six months or more. They need to acitvely contribute/engage with **core** projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and should be a member of the OSCAL-Compass organization.
 
-An adoptor can be designated as a significant adopter with simple majority of the oversight committee.
+An adoptor can be designated as a significant adopter with a simple majority of the oversight committee. Their name would be added to the significant adopters list.
 
 ## OSCAL Compass Oversight Committee Overview
 
@@ -112,8 +112,8 @@ Eligibility to vote for oversight committee members is generally defined by:
 
 * current oversight commitee members
 * current maintainers and reviewers of **core** projects
-* current maintainers of non-core projects within OSCAL-Compass Github organization
-* one person/maintainer per lab project and significant adopter. Each lab project and significant adopter will designate one person to participate in the voting.
+* current maintainers of **non-core** projects within OSCAL-Compass Github organization
+* one person/maintainer per lab project and significant adopter. Each lab project and significant adopter will designate one person to participate in the voting. If a person from the lab project or significant adpopter is already eligible based on other criteria (such as maintainer of core projects, etc.) then that lab project or significant adopter will not get another vote.
 
 ### Candidate Eligibility
 
@@ -122,7 +122,7 @@ Key Eligibility Requirements:
 * **Required**: The candidate must satisfy at least one of the below criteria to be eligibile to be nominated for oversight committee member.
   * a current or a past (emeritus) oversight commitee member, or
   * a current maintainer of any **core** project, or
-  * a current maintainer of a lab project or a significant adopter project/organization. Only one nomination per lab project or per significant adopter will be accepted. The lab project / significant adopter should internally decide on the nomination.
+  * a current maintainer of a lab project or a significant adopter project/organization. Only one nomination per lab project or per significant adopter will be accepted. The lab project / significant adopter should internally decide on the nomination. **NOTE**: If one or more persons from a lab project or significant adpopter is already eligible based on other criteria (such as maintainer of core projects, etc.) and they are being nominated, then that lab project or significant adopter cannot nominate another person.
 * Technical Expertise: Candidates should be senior, respected technical contributors with significant experience relevant to the project's domain.
 * Demonstrated Commitment: They must have the time and willingness to actively participate in meetings, discussions, and the work of the committee.
 * Neutrality and Project-First Mindset: A crucial requirement is the ability to act as a neutral party, prioritizing the good of the project over any personal or company interests.
