@@ -17,7 +17,7 @@ The OSCAL Compass Project has a two-level governance structure with an Oversight
 
 Except where otherwise noted, decisions should always start at the most local level of project governance. If a decision only affects a single project, the discussion should start with the project maintainers. While communication between the different project teams is important as they are all interconnected, minor decisions do not need organization-wide consensus and can be moved forward at the project level.
 
-While technical decisions for a project reside with its maintainers, the Oversight Committee may be asked to help mediate cross-project disputes or resolve decisions that a project's maintainers are unable to reach a consensus on. In such cases, the decision of the oversight committee shall be binding on the project(s).
+While technical decisions for a project reside with its maintainers, the Oversight Committee may be asked to help mediate cross-project disputes or resolve decisions that a project's maintainers are unable to reach a consensus on. The objective is to drive toward consensus with the help of the oversight committee, and only as a last resort is the oversight committee decision necessary and binding.
 
 ### Project Maintainers overview
 
