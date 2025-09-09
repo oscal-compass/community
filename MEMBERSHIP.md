@@ -78,7 +78,7 @@ To become a project Reviewer, you must meet the following requirements:
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
   * Sponsors must have close interactions with the prospective Reviewer - e.g. code/design/proposal review, coordinating on issues, etc.
   * Sponsors must be from multiple member companies to demonstrate integration across community.
-  * One of the sponsor has to be from the same sub-project.
+  * One of the sponsors has to be from the same sub-project.
   * With no objections from other maintainers of the same sub-project
 
 Any person who meets the requirements may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
@@ -119,7 +119,7 @@ To become a project Maintainer, you must meet the following requirements:
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
   * Sponsors must have close interactions with the prospective Maintainer - e.g. code/design/proposal review, coordinating on issues, etc.
   * Sponsors must be from multiple member companies to demonstrate integration across community.
-  * One of the sponsor has to be from the same sub-project
+  * One of the sponsors has to be from the same sub-project
   * With no objections from other maintainers of the same sub-project
 
 One of the sponsors should open an pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and add relevant details per the requirements.
