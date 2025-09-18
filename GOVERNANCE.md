@@ -39,7 +39,7 @@ Changing the status of a project from non-core to core, or core to non-core will
 
 New projects that are not core to the functionality of OSCAL Compass but are closely related may be incubated as a lab/workgroup project in a separate [oscal-compass-lab](https://github.com/oscal-compass-lab) Github org managed by OSCAL Compass maintainers. Existing projects closely related to OSCAL Compass, but in a separate github org can also be moved to oscal-compass-lab Github org. All the lab projects will follow a similar project maintenance structure as projects in OSCAL Compass.
 
-New lab projects can be added (or existing projects in other org can be moved) by opening an issue in OSCAL Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting a vote for inclusion will be called. A new lab project can be added with simple majority of the oversight committee. 
+New lab projects can be added (or existing projects in other org can be moved) by opening an issue in OSCAL Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting a vote for inclusion will be called. A new lab project can be added with simple majority of the oversight committee.
 
 Once a new lab project gets added, upto two maintainers of that project will be added as members of the OSCAL Compass org. As the project matures it can move to the OSCAL Compass org as a **core** project with 2/3 majority or a **non-core** project with a simple majority of the oversight committee.
 
