@@ -6,7 +6,7 @@ The following document outlines how the OSCAL Compass project governance operate
 
 The OSCAL Compass community adheres to the following principles:
 
-**Open**: OSCAL-Compass is open source. See project guidelines [here](./CONTRIBUTING.md).  
+**Open**: OSCAL Compass is open source. See project guidelines [here](./CONTRIBUTING.md).  
 **Welcoming and respectful**: See [Code of Conduct](./CODE_OF_CONDUCT.md).  
 **Transparent and accessible**: Work and collaboration should be done in public.  
 **Merit**: Ideas and contributions are accepted according to their technical merit and alignment with project objectives, scope, and design principles. See our design proposal [process](./proposals/README.md)  
@@ -27,29 +27,29 @@ More information about the Maintainer and other project roles can be found in th
 
 ### OSCAL Compass 'core' and 'non-core' projects
 
-OSCAL-Compass subprojects are divided into two types: **core** and **non-core**. The core projects are the main code-bases of the OSCAL-Compass project that provide the main functionality of OSCAL-Compass and have to follow a proper maintenance and release process, whereas non-core (supporting) projects are for demos, documentation, and other purposes. There are currently 3 sets of core projects - **compliance-trestle**, **agile-authoring**, and **compliance-to-policy (C2P)**. Rest all are considered non-core (supporting) projects unless explicitly included in the core projects list.
+OSCAL Compass subprojects are divided into two types: **core** and **non-core**. The core projects are the main code-bases of the OSCAL Compass project that provide the main functionality of OSCAL Compass and have to follow a proper maintenance and release process, whereas non-core (supporting) projects are for demos, documentation, and other purposes. There are currently 3 sets of core projects - **compliance-trestle**, **agile-authoring**, and **compliance-to-policy (C2P)**. Rest all are considered non-core (supporting) projects unless explicitly included in the core projects list.
 
-Non-core projects have a strong affiliation with the core projects, but they are not required for the functionality of OSCAL-Compass.
+Non-core projects have a strong affiliation with the core projects, but they are not required for the functionality of OSCAL Compass.
 
-New **core** and **non-core projects** can be added by opening an issue in OSCAL-Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting, a vote for inclusion will be called. Core projects can be added only with 2/3 majority, whereas non-core projects can be added with a simple majority of the oversight committee as described below in the voting process.
+New **core** and **non-core projects** can be added by opening an issue in OSCAL Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting, a vote for inclusion will be called. Core projects can be added only with 2/3 majority, whereas non-core projects can be added with a simple majority of the oversight committee as described below in the voting process.
 
 Changing the status of a project from non-core to core, or core to non-core will require a 2/3 majority of the oversight committee.
 
-### OSCAL-Compass 'lab/workgroup' projects and 'significant adopters'
+### OSCAL Compass 'lab/workgroup' projects and 'significant adopters'
 
-New projects that are not core to the functionality of OSCAL-Compass but are closely related may be incubated as a lab/workgroup project in a separate [oscal-compass-lab](https://github.com/oscal-compass-lab) Github org managed by OSCAL-Compass maintainers. Existing projects closely related to OSCAL-Compass, but in a separate github org can also be moved to oscal-compass-lab Github org. All the lab projects will follow a similar project maintenance structure as projects in OSCAL-Compass.
+New projects that are not core to the functionality of OSCAL Compass but are closely related may be incubated as a lab/workgroup project in a separate [oscal-compass-lab](https://github.com/oscal-compass-lab) Github org managed by OSCAL Compass maintainers. Existing projects closely related to OSCAL Compass, but in a separate github org can also be moved to oscal-compass-lab Github org. All the lab projects will follow a similar project maintenance structure as projects in OSCAL Compass.
 
-New lab projects can be added (or existing projects in other org can be moved) by opening an issue in OSCAL-Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting a vote for inclusion will be called. A new lab project can be added with simple majority of the oversight committee. 
+New lab projects can be added (or existing projects in other org can be moved) by opening an issue in OSCAL Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting a vote for inclusion will be called. A new lab project can be added with simple majority of the oversight committee. 
 
-Once a new lab project gets added, upto two maintainers of that project will be added as members of the OSCAL-Compass org. As the project matures it can move to the OSCAL-Compass org as a **core** project with 2/3 majority or a **non-core** project with a simple majority of the oversight committee.
+Once a new lab project gets added, upto two maintainers of that project will be added as members of the OSCAL Compass org. As the project matures it can move to the OSCAL Compass org as a **core** project with 2/3 majority or a **non-core** project with a simple majority of the oversight committee.
 
-Significant adopters are those projects and/or organizations that have significant usage of OSCAL-Compass **core** projects and are using it for at least six months or more. They need to acitvely contribute/engage with the projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and/or other activities such as publishing joint blogs/papers, giving joint talks, demos, etc. and should also be a member of the OSCAL-Compass organization.
+Significant adopters are those projects and/or organizations that have significant usage of OSCAL Compass **core** projects and are using it for at least six months or more. They need to acitvely contribute/engage with the projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and/or other activities such as publishing joint blogs/papers, giving joint talks, demos, etc. and should also be a member of the OSCAL Compass organization.
 
 An adoptor can be designated as a significant adopter with a simple majority of the oversight committee. Their name would be added to the [significant adopters list](./ADOPTERS.md).
 
 ## OSCAL Compass Oversight Committee
 
-The Oversight Committee functions as the organization owners for the OSCAL-Compass.
+The Oversight Committee functions as the organization owners for the OSCAL Compass.
 
 An initial Oversight Committee was appointed by the founding sponsors of the OSCAL Compass project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group. Current Oversight Committee members are defined in the community [MAINTAINERS.md](./MAINTAINERS.md) file.
 
@@ -57,7 +57,7 @@ The Oversight Committee consists of 3 to 7 leaders on the OSCAL Compass project.
 
 The Oversight Committee is responsible for the following duties:
 
-* Maintaining the mission, vision, values, and scope of all projects in OSCAL-Compass
+* Maintaining the mission, vision, values, and scope of all projects in OSCAL Compass
 * Refining the governance and charter as needed
 * Making cross-project decisions, including setting technical policies that apply across all projects
 * Resolving escalated project decisions when the team responsible is blocked
@@ -112,7 +112,7 @@ The OSCAL Compass project will hold yearly elections to vote for new members of 
 
 Eligibility to vote for oversight committee members is defined by:
 
-* All [OSCAL-Compass org members](https://github.com/orgs/oscal-compass/people). Note: This requirement may be updated in future to restrict it to only active members with guidelines for measuring actitivy/contribution.
+* All [OSCAL Compass org members](https://github.com/orgs/oscal-compass/people). Note: This requirement may be updated in future to restrict it to only active members with guidelines for measuring actitivy/contribution.
 
 ### Candidate Eligibility
 
