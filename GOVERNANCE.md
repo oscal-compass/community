@@ -27,27 +27,29 @@ More information about the Maintainer and other project roles can be found in th
 
 ### OSCAL Compass 'core' and 'non-core' projects
 
-OSCAL-Compass subprojects are divided into two types: **core** and **non-core**. The core projects are the main code-bases of the OSCAL-Compass project that provide the main functionality of OSCAL-Compass and have to follow a proper maintenance and release process, whereas non-core projects are for demos, documentation, and other purposes. There are currently 3 sets of core projects - **compliance-trestle**, **agile-authoring**, and **compliance-to-policy (C2P)**. Rest all are considered non-core projects unless explicitly included in the core projects list.
+OSCAL-Compass subprojects are divided into two types: **core** and **non-core**. The core projects are the main code-bases of the OSCAL-Compass project that provide the main functionality of OSCAL-Compass and have to follow a proper maintenance and release process, whereas non-core (supporting) projects are for demos, documentation, and other purposes. There are currently 3 sets of core projects - **compliance-trestle**, **agile-authoring**, and **compliance-to-policy (C2P)**. Rest all are considered non-core (supporting) projects unless explicitly included in the core projects list.
 
 Non-core projects have a strong affiliation with the core projects, but they are not required for the functionality of OSCAL-Compass.
 
-New **core** and **non-core projects** can be added by opening an issue to OSCAL-Compass community reporsitory. After discussions in the oversight committee meeting a vote for inclusion will be called. Core projects can be added only with 2/3 majority, whereas non-core projects can be added with a simple majority of the oversight committee as described below in the voting process.
+New **core** and **non-core projects** can be added by opening an issue in OSCAL-Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting, a vote for inclusion will be called. Core projects can be added only with 2/3 majority, whereas non-core projects can be added with a simple majority of the oversight committee as described below in the voting process.
 
 Changing the status of a project from non-core to core, or core to non-core will require a 2/3 majority of the oversight committee.
 
-### OSCAL-Compass 'lab' projects and 'significant adopters'
+### OSCAL-Compass 'lab/workgroup' projects and 'significant adopters'
 
-New projects can that are not core to the functionality of OSCAL-Compass but are closely related may be incubated as a lab project in a separate 'lab' Github org managed by OSCAL-Compass maintainers. Existing projects closely related to OSCAL-Compass, but in a separate github org can also be moved to this 'lab' Github org. All the lab projects will follow a similar project maintenance structure as projects in OSCAL-Compass.
+New projects that are not core to the functionality of OSCAL-Compass but are closely related may be incubated as a lab/workgroup project in a separate [oscal-compass-lab](https://github.com/oscal-compass-lab) Github org managed by OSCAL-Compass maintainers. Existing projects closely related to OSCAL-Compass, but in a separate github org can also be moved to oscal-compass-lab Github org. All the lab projects will follow a similar project maintenance structure as projects in OSCAL-Compass.
 
-A new lab project can be added with simple majority of the oversight committee. As the project matures it can become a **core** project with 2/3 majority of the oversight committee.
+New lab projects can be added (or existing projects in other org can be moved) by opening an issue in OSCAL-Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting a vote for inclusion will be called. A new lab project can be added with simple majority of the oversight committee. 
 
-Significant adopters are those projects and/or organizations that are highly dependent (significant usage) on the OSCAL-Compass projects and are using it for at least six months or more. They need to acitvely contribute/engage with **core** projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and should be a member of the OSCAL-Compass organization.
+Once a new lab project gets added, upto two maintainers of that project will be added as members of the OSCAL-Compass org. As the project matures it can move to the OSCAL-Compass org as a **core** project with 2/3 majority or a **non-core** project with a simple majority of the oversight committee.
+
+Significant adopters are those projects and/or organizations that have significant usage of OSCAL-Compass **core** projects and are using it for at least six months or more. They need to acitvely contribute/engage with the projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and/or other activities such as publishing joint blogs/papers, giving joint talks, demos, etc. and should also be a member of the OSCAL-Compass organization.
 
 An adoptor can be designated as a significant adopter with a simple majority of the oversight committee. Their name would be added to the [significant adopters list](./ADOPTERS.md).
 
-## OSCAL Compass Oversight Committee Overview
+## OSCAL Compass Oversight Committee
 
-The Oversight Committee functions as the organization maintainers for the OSCAL-Compass.
+The Oversight Committee functions as the organization owners for the OSCAL-Compass.
 
 An initial Oversight Committee was appointed by the founding sponsors of the OSCAL Compass project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group. Current Oversight Committee members are defined in the community [MAINTAINERS.md](./MAINTAINERS.md) file.
 
@@ -108,22 +110,19 @@ The OSCAL Compass project will hold yearly elections to vote for new members of 
 
 ### Voter Eligibility
 
-Eligibility to vote for oversight committee members is generally defined by:
+Eligibility to vote for oversight committee members is defined by:
 
-* current oversight commitee members
-* current maintainers and reviewers of **core** projects
-* current maintainers of **non-core** projects within OSCAL-Compass Github organization
-* one person/maintainer per lab project and significant adopter. Each lab project and significant adopter will designate one person to participate in the voting. If a person from the lab project or significant adpopter is already eligible based on other criteria (such as maintainer of core projects, etc.) then that lab project or significant adopter will not get another vote.
+* All [OSCAL-Compass org members](https://github.com/orgs/oscal-compass/people). Note: This requirement may be updated in future to restrict it to only active members with guidelines for measuring actitivy/contribution.
 
 ### Candidate Eligibility
 
 Key Eligibility Requirements:
 
-* **Required**: The candidate must satisfy at least one of the below criteria to be eligibile to be nominated for oversight committee member.
-  * a current or a past (emeritus) oversight commitee member, or
-  * a current maintainer of any **core** project, or
-  * a current maintainer of a lab project or a significant adopter project/organization. Only one nomination per lab project or per significant adopter will be accepted. The lab project / significant adopter should internally decide on the nomination. **NOTE**: If one or more persons from a lab project or significant adpopter is already eligible based on other criteria (such as maintainer of core projects, etc.) and they are being nominated, then that lab project or significant adopter cannot nominate another person.
-* Technical Expertise: Candidates should be senior, respected technical contributors with significant experience relevant to the project's domain.
+* **Required**: The candidate must satisfy at least one of the below criteria to be eligibile to stand for election for oversight committee membership.
+  * current oversight commitee member, or
+  * current maintainer of any **core** project, or
+  * any eligible voter with endorsement from two other eligible voters from different companies/organizations (one endorsement can be from the same organization as the candidate's organization). Note: Eligibility may be addressed in future to ensure at least one of the endorsements is from a maintainer of the **core** project.
+* Technical Expertise: Candidates should be senior, respected technical leaders or contributors with significant experience relevant to the project's domain.
 * Demonstrated Commitment: They must have the time and willingness to actively participate in meetings, discussions, and the work of the committee.
 * Neutrality and Project-First Mindset: A crucial requirement is the ability to act as a neutral party, prioritizing the good of the project over any personal or company interests.
 * Good Standing: Candidates should have a clean record with respect to the project's Code of Conduct. The CNCF, for example, requires that candidates for its Code of Conduct Committee have no violations in the past 18 months.
@@ -146,11 +145,14 @@ Oversight committee members are elected to serve a two year term. Members can se
 
 Election cycles are scheduled such that roughly half of the seats come up for re-election each year for purposes of continuity. The exact number of seats alternates between 3 and 4.
 
-### Maximal representation
+Note: In future the committee will revisit if of the two election cycles, one can be resrticted to just the maintainers of **core** projects being candidates.
+
+### Maximal and minimal representation
 
 To ensure diversity, no more than two members employed by the same company/organization may serve on the Oversight Committee simultaneously. If the results of an election would cause this limit to be exceeded, the candidate(s) from the over-represented company with the lowest vote counts will be disqualified, and the seat(s) will be filled by the next highest-voted candidates who do not violate the company representation limit.
 
-No more than three members from lab projects and significant adopters can serve on the Oversight Committee simultaneously. If the results of an election would cause this rule to be violated then only the top 3 elected members from lab projects and significant adopters would be selected, and the rest of the seat(s) will be filled by the next highest-voted candidates who do not violate this rule.
+It should be ensured that at least 3 members in the Oversight Committee are from the mainatiners of the **core** projects (unless there is insufficient nomination from **core** projects maintainers). If the results of an election would cause this rule to be violated, the candidate(s) who are not maintainers of **core** projects with the lowest vote counts will be disqualified, and the seat(s) will be filled by the next highest-voted **core** projects maintainer candidate(s).
+
 
 ### Vacancies
 
