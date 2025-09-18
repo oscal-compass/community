@@ -53,7 +53,7 @@ The Oversight Committee functions as the organization owners for the OSCAL Compa
 
 An initial Oversight Committee was appointed by the founding sponsors of the OSCAL Compass project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group. Current Oversight Committee members are defined in the community [MAINTAINERS.md](./MAINTAINERS.md) file.
 
-The Oversight Committee consists of 3 to 7 leaders on the OSCAL Compass project. These members will serve to supervise the overall project and its health.
+The Oversight Committee consists of 3 to 7 leaders of the OSCAL Compass project. These members will serve to supervise the overall project and its health.
 
 The Oversight Committee is responsible for the following duties:
 
@@ -112,7 +112,7 @@ The OSCAL Compass project will hold yearly elections to vote for new members of 
 
 Eligibility to vote for oversight committee members is defined by:
 
-* All [OSCAL Compass org members](https://github.com/orgs/oscal-compass/people). Note: This requirement may be updated in future to restrict it to only active members with guidelines for measuring actitivy/contribution.
+* All [OSCAL Compass org members](https://github.com/orgs/oscal-compass/people). Note: This requirement may be updated in future to restrict it to only active members with guidelines for measuring contributions.
 
 ### Candidate Eligibility
 
@@ -121,7 +121,7 @@ Key Eligibility Requirements:
 * **Required**: The candidate must satisfy at least one of the below criteria to be eligibile to stand for election for oversight committee membership.
   * current oversight commitee member, or
   * current maintainer of any **core** project, or
-  * any eligible voter with endorsement from two other eligible voters from different companies/organizations (one endorsement can be from the same organization as the candidate's organization). Note: Eligibility may be addressed in future to ensure at least one of the endorsements is from a maintainer of the **core** project.
+  * any eligible voter with endorsement from two other eligible voters from different companies/organizations (one endorsement can be from the same organization as the candidate's organization). Note: Eligibility may be updated in future to ensure at least one of the endorsements is from a maintainer of the **core** project.
 * Technical Expertise: Candidates should be senior, respected technical leaders or contributors with significant experience relevant to the project's domain.
 * Demonstrated Commitment: They must have the time and willingness to actively participate in meetings, discussions, and the work of the committee.
 * Neutrality and Project-First Mindset: A crucial requirement is the ability to act as a neutral party, prioritizing the good of the project over any personal or company interests.
