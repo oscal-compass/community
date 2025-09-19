@@ -99,7 +99,7 @@ To be considered an _active_ Oversight Committee member, individuals are expecte
 
 The process for moving an inactive member to **Emeritus** status is as follows:
 
-* Grace Period: If a member is unable to maintain active participation for a consecutive period of **3 months**, a Committee Chair will reach out privately to check in with them. Based on the outcome of the discussion, the member may choose to remove themselves from the MAINTAINERS file, as noted above in the "Stepping down policy" section.
+* Grace Period: If a member is unable to maintain active participation for a consecutive period of **3 months**, a Committee Chair will reach out privately to check in with them. Based on the outcome of the discussion, the member may choose to remove themselves from the MAINTAINERS file, as d above in the "Stepping down policy" section.
 * Vote: If the member remains inactive for another month or cannot be reached, a vote may be called. This requires a 2/3 majority vote from the other active members (excluding the member being voted out).
 * Offboarding: If the vote passes, a pull request will be opened by another member to remove the individual from the `MAINTAINERS.md` file. Following the merge of the pull request, their privileged access to resources will be revoked. They will be considered an **Emeritus Oversight Committee Members** and are welcome to become active again by following the standard nomination process.
 * In such cases, the vacancy will be filled according to the procedures outlined in this document.
@@ -112,7 +112,7 @@ The OSCAL Compass project will hold yearly elections to vote for new members of 
 
 Eligibility to vote for oversight committee members is defined by:
 
-* All [OSCAL Compass org members](https://github.com/orgs/oscal-compass/people). Note: This requirement may be updated in future to restrict it to only active members with guidelines for measuring contributions.
+* All [OSCAL Compass org members](https://github.com/orgs/oscal-compass/people). **Note:** This requirement may be updated in future to restrict it to only active members with guidelines for measuring contributions.
 
 ### Candidate Eligibility
 
@@ -121,7 +121,7 @@ Key Eligibility Requirements:
 * **Required**: The candidate must satisfy at least one of the below criteria to be eligibile to stand for election for oversight committee membership.
   * current oversight commitee member, or
   * current maintainer of any **core** project, or
-  * any eligible voter with endorsement from two other eligible voters from different companies/organizations (one endorsement can be from the same organization as the candidate's organization). Note: Eligibility may be updated in future to ensure at least one of the endorsements is from a maintainer of the **core** project.
+  * any eligible voter with endorsement from two other eligible voters from different companies/organizations (one endorsement can be from the same organization as the candidate's organization). **Note:** Eligibility may be updated in future to ensure at least one of the endorsements is from a maintainer of the **core** project.
 * Technical Expertise: Candidates should be senior, respected technical leaders or contributors with significant experience relevant to the project's domain.
 * Demonstrated Commitment: They must have the time and willingness to actively participate in meetings, discussions, and the work of the committee.
 * Neutrality and Project-First Mindset: A crucial requirement is the ability to act as a neutral party, prioritizing the good of the project over any personal or company interests.
@@ -145,7 +145,7 @@ Oversight committee members are elected to serve a two year term. Members can se
 
 Election cycles are scheduled such that roughly half of the seats come up for re-election each year for purposes of continuity. The exact number of seats alternates between 3 and 4.
 
-Note: In future the committee will revisit if of the two election cycles, one can be resrticted to just the maintainers of **core** projects being candidates.
+**Note:** In future the committee will revisit if of the two election cycles, one can be resrticted to just the maintainers of **core** projects being candidates.
 
 ### Maximal and minimal representation
 
