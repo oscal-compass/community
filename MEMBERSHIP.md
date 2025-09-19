@@ -41,7 +41,7 @@ To become a project Member, you must meet the following requirements:
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
   * Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
   * One of the sponsors should be from a **core** OSCAL Compass project.
-  * Note: In future the following requirement may be added: Sponsors must be from multiple member companies to demonstrate integration across community.
+  * **In future**, when there is sufficient diversity amongst members, the following requirement may be added: Sponsors must be from multiple member companies to demonstrate integration across community.
 
 If you have met these expectations and wish to become an established member, you can be nominated by a contributor, or you can nominate yourself. To nominate a contributor or yourself:
 
