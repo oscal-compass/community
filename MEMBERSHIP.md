@@ -28,7 +28,7 @@ The following table provides information about the current roles available to th
 
 ### Member
 
-Members are active contributors in the community. They can have issues and pull requests (PRs) assigned to them. Members are expected to be active contributors to the community.
+Members are active contributors in the community. They can have issues and pull requests (PRs) assigned to them. Members are expected to remain active contributors to the community.
 
 #### Member requirements
 
@@ -40,8 +40,8 @@ To become a project Member, you must meet the following requirements:
   * Contributing to community discussion, for example, meetings or on Slack.
 * You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
   * Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
-  * One of the sponsors should be from a **core** OSCAL-Compass project.
-  * Sponsors must be from multiple member companies to demonstrate integration across community.
+  * One of the sponsors should be from a **core** OSCAL Compass project.
+  * Note: In future the following requirement may be added: Sponsors must be from multiple member companies to demonstrate integration across community.
 
 If you have met these expectations and wish to become an established member, you can be nominated by a contributor, or you can nominate yourself. To nominate a contributor or yourself:
 
@@ -145,6 +145,10 @@ As a project Maintainer, you have the following responsibilities and privileges:
 * You work with other Maintainers to maintain the project's overall health and success holistically.
 * Unless otherwise specified, you will be provided with permission to merge commits to the project repository branches.
 
+## Security Team
+
+In future, OSCAL Compass may have a separate Security Team created by the Oversight Committee to respond to security issues and CVEs. The security team will be common across all projects in OSCAL Compass org. It should have at least one member from each **core** project (prefereably a maintainer), nominated by the project to the team. Other members may be appointed by the Oversight Committee from amongst OSCAL Compass org members. The charter and other details will be approved/governed by the Oversght committee when the Security Team is formed.
+
 ## Stepping Down and the Emeritus Process
 
 Life priorities, interests, and passions can change. Contributors can retire and move to _emeritus Maintainers_. If a
@@ -163,11 +167,11 @@ contributions, after which they can be re-instated by a decision of the appropri
 
 Changes to contributor roles must be approved by a vote of the Oversight Committee or a majority of the current project's Maintainers.
 
-## OSCAL-Compass Ecosystem
+## OSCAL Compass Ecosystem
 
-OSCAL-Compass also has a 'lab' GitHub organization for incubating new projects and hosting closely related projects from the community. If you are an OSCAL-Compass org member, you are implicitly eligible for membership in the related 'lab' Github org, and can request membership when it becomes relevant, by creating a PR directly or opening an issue against the 'lab' Github org community repo.
+OSCAL Compass also has a 'lab' GitHub organization for incubating new projects and hosting closely related projects from the community. If you are an OSCAL Compass org member, you are implicitly eligible for membership in the related 'lab' Github org, and can request membership when it becomes relevant, by creating a PR directly or opening an issue against the 'lab' Github org community repo.
 
-However, if you are a member of the 'lab' GitHub org but not of the OSCAL-Compass org, you will need explicit sponsorship for your membership request.
+However, if you are a member of the 'lab' GitHub org but not of the OSCAL Compass org, you will need explicit sponsorship for your membership request.
 
 ## Acknowledgements
 
