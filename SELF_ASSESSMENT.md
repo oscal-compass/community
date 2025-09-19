@@ -281,6 +281,19 @@ Automated testing is integrated into most repositories via GitHub Actions. These
 
 ### Ecosystem
 
+
+OSCAL Compass plays a crucial role in the cloud-native ecosystem by addressing the increasing need for automated compliance management, often referred to as "compliance-as-code". As organizations, particularly those in regulated industries (like finance, life sciences, government), migrate workloads to cloud-native environments, they face challenges in meeting complex compliance requirements (related to privacy, data protection, resilience) using traditional, manual processes. The shift towards continuous compliance further necessitates automation.
+
+By adopting the NIST OSCAL standard as its foundation, OSCAL Compass ensures that compliance artifacts are portable, machine-readable, and interoperable across diverse tools and platforms in the CNCF landscape. Its integration points span:
+
+- **Standardization** – Provides a unified, structured format for compliance documentation and controls, enabling consistent interpretation across the ecosystem.
+- **Automation** – Embeds compliance validation and governance into CI/CD and GitOps workflows, reducing manual effort and human error.
+- **Policy Integration** – Translates OSCAL-defined requirements into enforceable configurations within policy engines like OPA or Kyverno.
+- **Evidence Gathering** – Automates compliance evidence collection and attestation with tools like Auditree, enabling continuous compliance monitoring.
+- **Scalability** – Supports distributed, multi-cluster, and hybrid deployments without compromising security or compliance posture.
+
+This tight coupling of compliance automation with cloud-native workflows helps organizations implement secure-by-design principles, reduces audit friction, and accelerates the delivery of compliant workloads. You can find a list of organizations that have publicly adopted OSCAL Compass [here](https://github.com/oscal-compass/community/blob/main/ADOPTERS.md).
+
 <!---How does your software fit into the cloud native ecosystem?  (e.g.
   Flibber is integrated with both Flocker and Noodles which covers
 virtualization for 80% of cloud users. So, our small number of "users" actually
