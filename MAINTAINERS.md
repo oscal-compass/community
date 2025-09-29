@@ -11,6 +11,7 @@ The project-wide oversight committee
 - [`mrgadgil`](https://github.com/mrgadgil) - Chair
 - [`yuji-watanabe-jp`](https://github.com/yuji-watanabe-jp)
 - [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
+- [`butler54`](https://github.com/butler54)
 
 ### Org Admins
 
