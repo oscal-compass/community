@@ -39,6 +39,8 @@ Compliance-to-Policy (C2P) bridges Compliance as Code and Policy as Code. C2P ta
  <img src="http://img.youtube.com/vi/wC9QEUoCcuo/mqdefault.jpg" alt="Watch the video"/>
 </a>
 
+Presentation [slides](presentations/oscal-compass-End-to-End-final.pdf)
+
 ## Community meetings and communications
 
 ### Scheduled meetings
