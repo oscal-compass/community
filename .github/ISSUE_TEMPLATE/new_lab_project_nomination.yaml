@@ -1,0 +1,94 @@
+name: New lab project nomination
+description: Nomination for OSCAL Compass Lab project establishment
+title: 'New Lab project'
+labels: ["nomination"]
+assignees:
+  - community-maintainers
+body:
+      
+  - type: input
+    id: project-name
+    attributes:
+      label: Project Name
+      placeholder: e.g., Super cool OSCAL Compass addition
+    validations:
+      required: true
+
+  - type: markdown
+    id: project-description
+    attributes:
+      label: Project Description
+      description: Briefly describe the purpose and goals of this new project.
+      placeholder: What problem does this project solve? What are its key features? How does it relate to and/or benefit OSCAL Compass?
+    validations:
+      required: true
+ 
+  - type: input
+    id: proposed-repo-name
+    attributes:
+      label: Proposed Repository Name
+      placeholder: e.g., super-cool-oscal-compass-addition
+    validations:
+      required: true
+      
+  - type: input
+    id: project-repo-url
+    attributes:
+      label: Current Repository URL
+      description: If this is a transfer of an existing project, specify the current repository URL.
+      placeholder: e.g., https://github.com/dontation-org/donation-project
+    validations:
+      required: false
+      
+  - type: textarea
+    id: project-maintainers
+    attributes:
+      label: Maintainers
+      description: |
+        List the GitHub usernames of the one or more maintainers who are dontating/creating and maintaining the addition.
+      placeholder: |
+        @maintainer1
+        @maintainer2
+    validations:
+      required: true
+      
+  - type: checkboxes
+    id: project-maintainer-requirements
+    attributes:
+      label: Maintainer Requirements
+      description: |
+        Please confirm the following requirements are met.
+        
+        [Community membership guidelines](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md)
+        [Contributing guidelines](https://github.com/oscal-compass/community/blob/main/CONTRIBUTING.md)
+        [Code of Conduct](https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I have reviewed the community membership guidelines
+          required: true
+        - label: I have read the organization contributing guidelines
+          required: true
+        - label: I have reviewed and agree to follow the OSCAL-Compass Code of Conduct
+          required: true
+      
+  - type: checkboxes
+    id: compliance-check
+    attributes:
+      label: Compliance & Licensing Check
+      options:
+        - label: I confirm that the project's licensing is compatible with our organization's policies.
+          required: true
+        - label: I have reviewed potential security implications of this transfer.
+          required: true
+      
+  - type: textarea
+    
+    attributes:
+      label: Sponsors
+      description: |
+        List the GitHub usernames of the two OSCAL Compass core project Maintainers or Oversight Committee members who are sponsoring the application.
+        The sponsors need to be contacted ahead of the application.
+      placeholder: |
+        @sponsor1
+        @sponsor2
+    validations:
+      required: true
