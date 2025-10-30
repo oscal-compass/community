@@ -69,6 +69,7 @@ body:
         List the GitHub usernames of two OSCAL Compass sponsors who must be
           - OSCAL Compass core project Maintainers and/or 
           - OSCAL Compass Oversight Committee members
+          
         The sponsors need to be contacted ahead of the application.
       placeholder: |
         @sponsor1
