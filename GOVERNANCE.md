@@ -35,7 +35,7 @@ New **core** and **non-core projects** can be added by opening an issue in OSCAL
 
 Changing the status of a project from non-core to core, or core to non-core will require a 2/3 majority of the oversight committee.
 
-### OSCAL Compass 'lab/workgroup' projects and 'significant adopters'
+### OSCAL Compass 'lab/workgroup' projects
 
 New projects that are not core to the functionality of OSCAL Compass but are closely related may be incubated as a lab/workgroup project in a separate [oscal-compass-lab](https://github.com/oscal-compass-lab) Github org managed by OSCAL Compass maintainers. Existing projects closely related to OSCAL Compass, but in a separate github org can also be moved to oscal-compass-lab Github org. All the lab projects will follow a similar project maintenance structure as projects in OSCAL Compass.
 
@@ -43,9 +43,13 @@ New lab projects can be added (or existing projects in other org can be moved) b
 
 Once a new lab project gets added, upto two maintainers of that project will be added as members of the OSCAL Compass org. As the project matures it can move to the OSCAL Compass org as a **core** project with 2/3 majority or a **non-core** project with a simple majority of the oversight committee.
 
-Significant adopters are those projects and/or organizations that have significant usage of OSCAL Compass **core** projects and are using it for at least six months or more. They need to acitvely contribute/engage with the projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and/or other activities such as publishing joint blogs/papers, giving joint talks, demos, etc. and should also be a member of the OSCAL Compass organization.
+Unmaintained OSCAL-Compass project can be moved to lab Github org if not maintained, with a simple majority of the oversight committee.
 
-An adoptor can be designated as a significant adopter with a simple majority of the oversight committee. Their name would be added to the [significant adopters list](./ADOPTERS.md).
+### OSCAL Compass 'advocates'
+
+Advocates are those projects and/or organizations that have significant usage of OSCAL Compass **core** projects and are using it for at least six months or more. They also acitvely contribute to/engage with the projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and/or other activities such as publishing joint blogs/papers, giving joint talks, demos, etc.
+
+A project/organization can be designated as an 'advocate' of OSCAL Compass with a simple majority of the oversight committee. Their name would be added to the [advocates list](./ADVOCATES.md). Once a project/organization is added as an 'advocate' one person from that project/organzaiton will be added as member of the OSCAL Compass org.
 
 ## OSCAL Compass Oversight Committee
 
@@ -129,23 +133,24 @@ Key Eligibility Requirements:
 
 ### Election Process
 
-The election process is as follows:
+The election process is as given below. Tooling and precise process for election will be captured in a separate [election document](./election-process.md) and approved by oversight committee before the election.
 
 1. **Call for Nominations**: One month before the election, a call for nominations will be sent out to the OSCAL Compass community.
 2. **Nomination Period**: Community members will have one month to nominate candidates for the Oversight Committee. Self-nominations are permitted.
 3. **Candidate Statements**: Each candidate will be asked to provide a statement of interest and qualifications.
 4. **Vetting**: There is usually a process for the existing committee or another body to review the nominations and confirm that the candidates meet the eligibility criteria.
-5. **Voting Period**: A two-week voting period will be held.
+   - Negative determination of eligibility needs to be affirmed by a majority vote of the current oversight committee.
+5. **Voting Period**: A four-week voting period will be held.
 6. **Results**: The results of the election will be announced within one week of the close of voting.
-7. **Voting Process and Tie-Breaking**: Elections will be held using an online preference election system which supports [Condorcet](https://en.wikipedia.org/wiki/Condorcet_method) elections, using Schulze completion rule.
+7. **Voting Process and Tie-Breaking**: Elections will be held using an online preference election system which supports [Condorcet](https://en.wikipedia.org/w/index.php?title=Condorcet_method&oldid=1320812541) elections, using [Schulze completion rule](https://en.wikipedia.org/w/index.php?title=Schulze_method&oldid=1319288463).
 
 ### Terms and Election Cycles
 
-Oversight committee members are elected to serve a two year term. Members can serve two consecutive terms (4 years). Bootstrap and terms that result in equal to or less than one year served are exempt.
+Oversight committee members are elected to serve a two year term. Members can serve upto two consecutive terms (max. 4 years) after which they must leave for at least one term before being eligible for oversight committee again. Bootstrap and terms that result in equal to or less than one year served are exempt.
 
-Election cycles are scheduled such that roughly half of the seats come up for re-election each year for purposes of continuity. The exact number of seats alternates between 3 and 4.
+Elections are held annually and are scheduled such that roughly half of the seats come up for re-election each year for purposes of continuity. The exact number of seats alternates between 3 and 4.
 
-**Note:** In future the committee will revisit if of the two election cycles, one can be resrticted to just the maintainers of **core** projects being candidates.
+**Note:** In future the committee will revisit if of the two election cycles, one can be restricted to just the maintainers of **core** projects being candidates.
 
 ### Maximal and minimal representation
 
