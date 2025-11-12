@@ -68,7 +68,7 @@ Reviewers are knowledgeable about the codebase and are able review code for qual
 To become a project Reviewer, you must meet the following requirements:
 
 * Member for at least **3 months**.
-* Primary reviewer or author for at least **5 substantial PRs** to the codebase.
+* Primary reviewer or author for **multiple substantial PRs** to the codebase.
 * You have made multiple contributions to the project or community. Contribution may include, but is not limited to:
   * Triaging open issues or PRs.
   * Authoring or reviewing PRs on GitHub.
@@ -108,7 +108,7 @@ Maintainers are first and foremost contributors that have shown they are committ
 To become a project Maintainer, you must meet the following requirements:
 
 * You have been a Reviewer for at least **3 months**.
-* Primary reviewer or author for at least **10 substantial PRs** to the codebase.
+* Primary reviewer or author for **multiple substantial PRs** to the codebase (after becoming reviewer).
 * You have a deep understanding of the technical goals and direction of the project.
 * You have a deep understanding of the technical domain of the project.
 * You have made sustained contributions to design and direction by:
@@ -165,11 +165,11 @@ contributions, after which they can be re-instated by a decision of the appropri
 
 ## Changes to contributor roles
 
-Changes to contributor roles must be approved by a vote of the Oversight Committee or a majority of the current project's Maintainers.
+Changes to contributor roles must be approved by a vote of the Oversight Committee or a majority of the current project's Maintainers. Any dispute of contributor roles that are not resolved at project level are decided by vote of the oversight committee.
 
 ## OSCAL Compass Ecosystem
 
-OSCAL Compass also has a 'lab' GitHub organization for incubating new projects and hosting closely related projects from the community. If you are an OSCAL Compass org member, you are implicitly eligible for membership in the related 'lab' Github org, and can request membership when it becomes relevant, by creating a PR directly or opening an issue against the 'lab' Github org community repo.
+OSCAL Compass also has a 'lab' GitHub organization - [oscal-compass-lab](https://github.com/oscal-compass-lab) for incubating new projects and hosting closely related projects from the community. If you are an OSCAL Compass org member, you are implicitly eligible for membership in the related 'lab' Github org, and can request membership when it becomes relevant, by creating a PR directly or opening an issue against the 'lab' Github org community repo.
 
 However, if you are a member of the 'lab' GitHub org but not of the OSCAL Compass org, you will need explicit sponsorship for your membership request.
 
