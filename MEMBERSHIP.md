@@ -122,9 +122,14 @@ To become a project Maintainer, you must meet the following requirements:
   * One of the sponsors has to be from the same sub-project
   * With no objections from other maintainers of the same sub-project
 
-One of the sponsors should open an pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and add relevant details per the requirements.
+Any person who meets the requirements may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
 
-Maintainers will vote publicly on the pull request, expressing their support via a GitHub comment or emoji reaction to the nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately. Upon a decision, the pull request will be merged or closed.
+* Open an issue in the repository of interest detailing contributions to the project so far.
+* Ensure that the sponsors are `@mentioned` on the issue.
+* Make sure that the list of contributions included is representative of the work on the project.
+* Have your sponsoring maintainers reply confirmation of sponsorship: +1
+
+Maintainers will vote publicly on the issue, expressing their support via a GitHub comment or emoji reaction to the nomination issue. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately. Upon a positive decision, one of the sponsors should open a pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and  merge the PR.
 
 #### Maintainer responsibilities and Privileges
 
