@@ -1,6 +1,6 @@
 # Community roles and membership
 
-This document outlines the various responsibilities of contributor roles in the OSCAL Compass organization. OSCAL Compass is made up of several projects that are defined as codebases and services with different release cycles, thus the responsibilities for roles are scope to individual projects. Where applicable for OSCAL Compass overall, contributor status is equal to the highest status that they have on any project.
+This document outlines the various responsibilities of contributor roles in the OSCAL Compass organization. OSCAL Compass is made up of several projects that are defined as codebases and services with different release cycles, thus the responsibilities for roles are scoped to individual projects. Where applicable for OSCAL Compass overall, contributor status is equal to the highest status that they have on any project.
 
 This document outlines a core number of contributor roles for OSCAL Compass projects, such as _Member_, _Reviewer_, and _Maintainer_. An _Oversight Committee_ also serves to supervise the overall OSCAL Compass project and its health. Using transparent criteria, the journey between roles is based on individual participation. Criteria will be reevaluated periodically to ensure that we can meet the needs of each project with the resources available to contribute.
 
@@ -28,25 +28,27 @@ The following table provides information about the current roles available to th
 
 ### Member
 
-Members are active contributors in the community. They can have issues and pull requests (PRs) assigned to them. Members are expected to be active contributors to the community.
+Members are active contributors in the community. They can have issues and pull requests (PRs) assigned to them. Members are expected to remain active contributors to the community.
 
 #### Member requirements
 
 To become a project Member, you must meet the following requirements:
 
-* You have made multiple contributions to the project or community. Contributions may include, but are not limited to:
-
+* You have made **multiple contributions** to the project or community. Contributions may include, but are not limited to:
   * Authoring or reviewing PRs on GitHub.
   * Filing or commenting on issues on GitHub.
   * Contributing to community discussion, for example, meetings or on Slack.
-
-* You have been sponsored by two Maintainers.
+* You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
+  * Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
+  * One of the sponsors should be from a **core** OSCAL Compass project.
+  * **In future**, when there is sufficient diversity amongst members, the following requirement may be added: Sponsors must be from multiple member companies to demonstrate integration across community.
 
 If you have met these expectations and wish to become an established member, you can be nominated by a contributor, or you can nominate yourself. To nominate a contributor or yourself:
 
 * Open an issue in the repository of interest detailing contributions to the project so far.
 * Ensure that the sponsors are `@mentioned` on the issue.
 * Make sure that the list of contributions included is representative of the work on the project.
+* Have your sponsoring maintainers reply confirmation of sponsorship: +1
 
 #### Member responsibilities and privileges
 
@@ -65,20 +67,26 @@ Reviewers are knowledgeable about the codebase and are able review code for qual
 
 To become a project Reviewer, you must meet the following requirements:
 
+* Member for at least **3 months**.
+* Primary reviewer or author for **multiple substantial PRs** to the codebase.
 * You have made multiple contributions to the project or community. Contribution may include, but is not limited to:
   * Triaging open issues or PRs.
   * Authoring or reviewing PRs on GitHub.
-  * Demonstrating knowledge of the codebase
+  * Demonstrating knowledge of the codebase.
   * Participating in design discussions.
   * Contributing to community discussions (e.g. meetings, Slack).
-
-* You have been sponsored by two Maintainers.
+* You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
+  * Sponsors must have close interactions with the prospective Reviewer - e.g. code/design/proposal review, coordinating on issues, etc.
+  * Sponsors must be from multiple member companies to demonstrate integration across community.
+  * One of the sponsors has to be from the same sub-project.
+  * With no objections from other maintainers of the same sub-project
 
 Any person who meets the requirements may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
 
 * Open an issue in the repository of interest detailing contributions to the project so far.
 * Ensure that the sponsors are `@mentioned` on the issue.
 * Make sure that the list of contributions included is representative of the work on the project.
+* Have your sponsoring maintainers reply confirmation of sponsorship: +1
 
 #### Reviewer responsibilities and privileges
 
@@ -99,7 +107,8 @@ Maintainers are first and foremost contributors that have shown they are committ
 
 To become a project Maintainer, you must meet the following requirements:
 
-* You have been a Member for at least 1 month.
+* You have been a Reviewer for at least **3 months**.
+* Primary reviewer or author for **multiple substantial PRs** to the codebase (after becoming reviewer).
 * You have a deep understanding of the technical goals and direction of the project.
 * You have a deep understanding of the technical domain of the project.
 * You have made sustained contributions to design and direction by:
@@ -107,11 +116,20 @@ To become a project Maintainer, you must meet the following requirements:
   * Initiating, contributing, and resolving discussions, such as emails, Slack, GitHub issues, meetings.
   * Identifying subtle or complex issues in designs and implementation pull requests.
 * You have directly contributed to the project through implementation and/or review.
-* You have been sponsored by two Maintainers.
+* You have been sponsored by **two Maintainers**. **Note the following requirements for sponsors**:
+  * Sponsors must have close interactions with the prospective Maintainer - e.g. code/design/proposal review, coordinating on issues, etc.
+  * Sponsors must be from multiple member companies to demonstrate integration across community.
+  * One of the sponsors has to be from the same sub-project
+  * With no objections from other maintainers of the same sub-project
 
-One of the sponsors should open an pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and add relevant details per the requirements.
+Any person who meets the requirements may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
 
-Maintainers will vote publicly on the pull request, expressing their support via a GitHub comment or emoji reaction to the nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately. Upon a decision, the pull request will be merged or closed.
+* Open an issue in the repository of interest detailing contributions to the project so far.
+* Ensure that the sponsors are `@mentioned` on the issue.
+* Make sure that the list of contributions included is representative of the work on the project.
+* Have your sponsoring maintainers reply confirmation of sponsorship: +1
+
+Maintainers will vote publicly on the issue, expressing their support via a GitHub comment or emoji reaction to the nomination issue. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately. Upon a positive decision, one of the sponsors should open a pull request in the relevant repository to add the nominee to the `MAINTAINERS.md` file and  merge the PR.
 
 #### Maintainer responsibilities and Privileges
 
@@ -132,10 +150,34 @@ As a project Maintainer, you have the following responsibilities and privileges:
 * You work with other Maintainers to maintain the project's overall health and success holistically.
 * Unless otherwise specified, you will be provided with permission to merge commits to the project repository branches.
 
+## Security Team
+
+In future, OSCAL Compass may have a separate Security Team created by the Oversight Committee to respond to security issues and CVEs. The security team will be common across all projects in OSCAL Compass org. It should have at least one member from each **core** project (prefereably a maintainer), nominated by the project to the team. Other members may be appointed by the Oversight Committee from amongst OSCAL Compass org members. The charter and other details will be approved/governed by the Oversght committee when the Security Team is formed.
+
+## Stepping Down and the Emeritus Process
+
+Life priorities, interests, and passions can change. Contributors can retire and move to _emeritus Maintainers_. If a
+contributor needs to step down from their current role, they should inform the appropriate project Maintainers. No vote
+is required for a contributor to remove themselves, and any project Maintainer can approve the PR. Maintainers who step
+down become emeritus Maintainers.
+
+If a contributor has not been performing the duties of their role for a consecutive period of 12 months, they can be
+removed by the appropriate project's Maintainers. Maintainers will make reasonable efforts to contact the absent
+contributor.
+
+If an emeritus Maintainer or other retired contributor wants to regain an active role, they can do so by renewing their
+contributions, after which they can be re-instated by a decision of the appropriate project's Maintainers.
+
 ## Changes to contributor roles
 
-Changes to contributor roles must be approved by a vote of the Oversight Committee or a majority of the current project's Maintainers.
+Changes to contributor roles must be approved by a vote of the Oversight Committee or a majority of the current project's Maintainers. Any dispute of contributor roles that are not resolved at project level are decided by vote of the oversight committee.
+
+## OSCAL Compass Ecosystem
+
+OSCAL Compass also has a 'lab' GitHub organization - [oscal-compass-lab](https://github.com/oscal-compass-lab) for incubating new projects and hosting closely related projects from the community. If you are an OSCAL Compass org member, you are implicitly eligible for membership in the related 'lab' Github org, and can request membership when it becomes relevant, by creating a PR directly or opening an issue against the 'lab' Github org community repo.
+
+However, if you are a member of the 'lab' GitHub org but not of the OSCAL Compass org, you will need explicit sponsorship for your membership request.
 
 ## Acknowledgements
 
-Contributor roles and responsibilities were adapted from InstructLab [contributor roles](https://raw.githubusercontent.com/instructlab/community/main/CONTRIBUTOR_ROLES.md)
+Contributor roles and responsibilities were adapted from InstructLab [contributor roles](https://raw.githubusercontent.com/instructlab/community/main/CONTRIBUTOR_ROLES.md) and [Kubernetes](https://github.com/kubernetes/community/blob/master/community-membership.md).
