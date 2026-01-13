@@ -19,7 +19,6 @@ Team with admin access to the `oscal-compass` org.
 > Note: The purpose of this role is to restrict access to admin level functionality in the org. This team serves the community, but does not have decision-making power on their own. This team consists of the community maintainers and the Oversight Committee Chairs.
 
 - [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
-- [`mrgadgil`](https://github.com/mrgadgil)
 - [`degenaro`](https://github.com/degenaro)
 - [`thelinuxfoundation`](https://github.com/thelinuxfoundation)
 
@@ -36,6 +35,7 @@ Team with maintainer access to the Community repository
 
 Former Oversight Committee Members, thanks for your service!
 
+- [`mrgadgil`](https://github.com/mrgadgil)
 - [`jpower432`](https://github.com/jpower432)
 - [`jflowers`](https://github.com/jflowers)
 
