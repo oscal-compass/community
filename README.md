@@ -70,6 +70,7 @@ oscal-compass@googlegroups.com
 
 Slack: [#oscal-compass-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
 
+- [Sign in to Cloud Native Computing Foundation](https://cloud-native.slack.com/)
 - **Note**: You can login to Slack using another account like Google, Apple
 
 ## Contribution
