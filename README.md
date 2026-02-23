@@ -66,6 +66,10 @@ All of our meeting recordings are available for review on our YouTube [channel](
 Google Group: [oscal-compass](https://groups.google.com/g/oscal-compass)\
 oscal-compass@googlegroups.com
 
+### CNCF Community invite
+
+Cloud Native Computing Foundation on Slack: [Join](https://communityinviter.com/apps/cloud-native/cncf)
+
 ### Chat anytime
 
 Slack: [#oscal-compass-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
