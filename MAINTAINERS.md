@@ -2,58 +2,18 @@
 
 ## OSCAL Compass
 
-<h3>Oversight Committee</h3>
+### Oversight Committee
 
-<p>The project-wide oversight committee</p>
+The project-wide oversight committee
 
-<table style="border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Oversight Committee Member</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Date of Election/Appointment</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Date of Chairpersonship</th>
-      <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Affiliation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://github.com/rficcaglia"><code>rficcaglia</code></a></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">2026</td>
-      <td style="border: 1px solid #ddd; padding: 8px;"></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">Sunstone Secure</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://github.com/butler54"><code>butler54</code></a></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">2025</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">2026</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">Red Hat</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://github.com/ancatri"><code>ancatri</code></a></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">2024</td>
-      <td style="border: 1px solid #ddd; padding: 8px;"></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">IBM</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://github.com/degenaro"><code>degenaro</code></a></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">2024</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">2026</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">IBM</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://github.com/vikas-agarwal76"><code>vikas-agarwal76</code></a></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">2024</td>
-      <td style="border: 1px solid #ddd; padding: 8px;"></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">IBM</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ddd; padding: 8px;"><a href="https://github.com/yuji-watanabe-jp"><code>yuji-watanabe-jp</code></a></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">2024</td>
-      <td style="border: 1px solid #ddd; padding: 8px;"></td>
-      <td style="border: 1px solid #ddd; padding: 8px;">IBM</td>
-    </tr>
-  </tbody>
-</table>
+| Oversight Committee Member | Date of Election/Appointment | Date of Chairpersonship | Affiliation |
+|----------------------------|------------------------------|------------------------|-------------|
+| [`rficcaglia`](https://github.com/rficcaglia) | 2026 |  | Sunstone Secure |
+| [`butler54`](https://github.com/butler54) | 2025 | 2026 | Red Hat |
+| [`ancatri`](https://github.com/ancatri) | 2024 |  | IBM |
+| [`degenaro`](https://github.com/degenaro) | 2024 | 2026 | IBM |
+| [`vikas-agarwal76`](https://github.com/vikas-agarwal76) | 2024 |  | IBM |
+| [`yuji-watanabe-jp`](https://github.com/yuji-watanabe-jp) | 2024 |  | IBM |
 
 ### Org Admins
 
