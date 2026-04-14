@@ -6,11 +6,14 @@
 
 The project-wide oversight committee
 
-- [`ancatri`](https://github.com/ancatri)
-- [`degenaro`](https://github.com/degenaro) - Chair
-- [`yuji-watanabe-jp`](https://github.com/yuji-watanabe-jp)
-- [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
-- [`butler54`](https://github.com/butler54) - Chair
+| Oversight Committee Member | Date of Election/Appointment | Date of Chairpersonship | Affiliation |
+|----------------------------|------------------------------|------------------------|-------------|
+| [`rficcaglia`](https://github.com/rficcaglia) | 2026 |  | Sunstone Secure |
+| [`butler54`](https://github.com/butler54) | 2025 | 2026 | Red Hat |
+| [`ancatri`](https://github.com/ancatri) | 2024 |  | IBM |
+| [`degenaro`](https://github.com/degenaro) | 2024 | 2026 | IBM |
+| [`vikas-agarwal76`](https://github.com/vikas-agarwal76) | 2024 |  | IBM |
+| [`yuji-watanabe-jp`](https://github.com/yuji-watanabe-jp) | 2024 |  | IBM |
 
 ### Org Admins
 
