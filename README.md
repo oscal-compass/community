@@ -102,7 +102,7 @@ Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for va
 
 ```
 
------
+______________________________________________________________________
 
 We are a Cloud Native Computing Foundation sandbox project.
 
