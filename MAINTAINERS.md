@@ -33,12 +33,3 @@ Team with maintainer access to the Community repository
 
 - [`vikas-agarwal76`](https://github.com/vikas-agarwal76)
 - [`degenaro`](https://github.com/degenaro)
-
-### Emeritus Oversight Committee Members
-
-Former Oversight Committee Members, thanks for your service!
-
-- [`mrgadgil`](https://github.com/mrgadgil)
-- [`jpower432`](https://github.com/jpower432)
-- [`jflowers`](https://github.com/jflowers)
-
