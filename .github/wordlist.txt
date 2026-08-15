@@ -1,0 +1,17 @@
+OSCAL
+oscal
+trestle
+Trestle
+SSP
+SSPs
+FedRAMP
+NIST
+compass
+Compass
+config
+CI
+CD
+YAML
+yaml
+dependabot
+Dependabot
