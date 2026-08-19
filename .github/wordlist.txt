@@ -15,3 +15,7 @@ YAML
 yaml
 dependabot
 Dependabot
+C2P
+GitOps
+DCO
+CNCF
