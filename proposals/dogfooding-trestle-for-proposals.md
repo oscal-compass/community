@@ -64,7 +64,7 @@ Ensuring rigour in the process can be difficult. The objective is to ensure the 
 ## Non-Goals
 
 - Apply to individual project issues / design goals
-- Be a stand alone demostration of trestle.
+- Be a stand alone demonstration of trestle.
 
 ## Proposal
 

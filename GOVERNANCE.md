@@ -31,7 +31,7 @@ OSCAL Compass subprojects are divided into two types: **core** and **non-core**.
 
 Non-core projects have a strong affiliation with the core projects, but they are not required for the functionality of OSCAL Compass.
 
-New **core** and **non-core projects** can be added by opening an issue in OSCAL Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting, a vote for inclusion will be called. Core projects can be added only with 2/3 majority, whereas non-core projects can be added with a simple majority of the oversight committee as described below in the voting process.
+New **core** and **non-core projects** can be added by opening an issue in OSCAL Compass community repository. The issue should contain a charter and the initial maintainers (up to two) for the new project. After discussions in the oversight committee meeting, a vote for inclusion will be called. Core projects can be added only with 2/3 majority, whereas non-core projects can be added with a simple majority of the oversight committee as described below in the voting process.
 
 Changing the status of a project from non-core to core, or core to non-core will require a 2/3 majority of the oversight committee.
 
@@ -39,17 +39,17 @@ Changing the status of a project from non-core to core, or core to non-core will
 
 New projects that are not core to the functionality of OSCAL Compass but are closely related may be incubated as a lab/workgroup project in a separate [oscal-compass-lab](https://github.com/oscal-compass-lab) Github org managed by OSCAL Compass maintainers. Existing projects closely related to OSCAL Compass, but in a separate github org can also be moved to oscal-compass-lab Github org. All the lab projects will follow a similar project maintenance structure as projects in OSCAL Compass.
 
-New lab projects can be added (or existing projects in other org can be moved) by opening an issue in OSCAL Compass community repository. The issue should contain a charter and the initial maintainers (upto two) for the new project. After discussions in the oversight committee meeting a vote for inclusion will be called. A new lab project can be added with simple majority of the oversight committee.
+New lab projects can be added (or existing projects in other org can be moved) by opening an issue in OSCAL Compass community repository. The issue should contain a charter and the initial maintainers (up to two) for the new project. After discussions in the oversight committee meeting a vote for inclusion will be called. A new lab project can be added with simple majority of the oversight committee.
 
-Once a new lab project gets added, upto two maintainers of that project will be added as members of the OSCAL Compass org. As the project matures it can move to the OSCAL Compass org as a **core** project with 2/3 majority or a **non-core** project with a simple majority of the oversight committee.
+Once a new lab project gets added, up to two maintainers of that project will be added as members of the OSCAL Compass org. As the project matures it can move to the OSCAL Compass org as a **core** project with 2/3 majority or a **non-core** project with a simple majority of the oversight committee.
 
 Unmaintained OSCAL-Compass project can be moved to lab Github org if not maintained, with a simple majority of the oversight committee.
 
 ### OSCAL Compass 'advocates'
 
-Advocates are those projects and/or organizations that have significant usage of OSCAL Compass **core** projects and are using it for at least six months or more. They also acitvely contribute to/engage with the projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and/or other activities such as publishing joint blogs/papers, giving joint talks, demos, etc.
+Advocates are those projects and/or organizations that have significant usage of OSCAL Compass **core** projects and are using it for at least six months or more. They also actively contribute to/engage with the projects through GitHub events like creating issues, creating PRs, reviewing PRs, commenting on issues, etc. and/or other activities such as publishing joint blogs/papers, giving joint talks, demos, etc.
 
-A project/organization can be designated as an 'advocate' of OSCAL Compass with a simple majority of the oversight committee. Their name would be added to the [advocates list](./ADVOCATES.md). Once a project/organization is added as an 'advocate' one person from that project/organzaiton will be added as member of the OSCAL Compass org.
+A project/organization can be designated as an 'advocate' of OSCAL Compass with a simple majority of the oversight committee. Their name would be added to the [advocates list](./ADVOCATES.md). Once a project/organization is added as an 'advocate' one person from that project/organization will be added as member of the OSCAL Compass org.
 
 ## OSCAL Compass Oversight Committee
 
@@ -122,8 +122,8 @@ Eligibility to vote for oversight committee members is defined by:
 
 Key Eligibility Requirements:
 
-* **Required**: The candidate must satisfy at least one of the below criteria to be eligibile to stand for election for oversight committee membership.
-  * current oversight commitee member, or
+* **Required**: The candidate must satisfy at least one of the below criteria to be eligible to stand for election for oversight committee membership.
+  * current oversight committee member, or
   * current maintainer of any **core** project, or
   * any eligible voter with endorsement from two other eligible voters from different companies/organizations (one endorsement can be from the same organization as the candidate's organization). **Note:** Eligibility may be updated in future to ensure at least one of the endorsements is from a maintainer of the **core** project.
 * Technical Expertise: Candidates should be senior, respected technical leaders or contributors with significant experience relevant to the project's domain.
@@ -146,7 +146,7 @@ The election process is as given below. Tooling and precise process for election
 
 ### Terms and Election Cycles
 
-Oversight committee members are elected to serve a two year term. Members can serve upto two consecutive terms (max. 4 years) after which they must leave for at least one term before being eligible for oversight committee again. Bootstrap and terms that result in equal to or less than one year served are exempt.
+Oversight committee members are elected to serve a two year term. Members can serve up to two consecutive terms (max. 4 years) after which they must leave for at least one term before being eligible for oversight committee again. Bootstrap and terms that result in equal to or less than one year served are exempt.
 
 Elections are held annually and are scheduled such that roughly half of the seats come up for re-election each year for purposes of continuity. The exact number of seats alternates between 3 and 4.
 
@@ -156,7 +156,7 @@ Elections are held annually and are scheduled such that roughly half of the seat
 
 To ensure diversity, no more than two members employed by the same company/organization may serve on the Oversight Committee simultaneously. If the results of an election would cause this limit to be exceeded, the candidate(s) from the over-represented company with the lowest vote counts will be disqualified, and the seat(s) will be filled by the next highest-voted candidates who do not violate the company representation limit.
 
-It should be ensured that at least 3 members in the Oversight Committee are from the mainatiners of the **core** projects (unless there is insufficient nomination from **core** projects maintainers). If the results of an election would cause this rule to be violated, the candidate(s) who are not maintainers of **core** projects with the lowest vote counts will be disqualified, and the seat(s) will be filled by the next highest-voted **core** projects maintainer candidate(s).
+It should be ensured that at least 3 members in the Oversight Committee are from the maintainers of the **core** projects (unless there is insufficient nomination from **core** projects maintainers). If the results of an election would cause this rule to be violated, the candidate(s) who are not maintainers of **core** projects with the lowest vote counts will be disqualified, and the seat(s) will be filled by the next highest-voted **core** projects maintainer candidate(s).
 
 
 ### Vacancies

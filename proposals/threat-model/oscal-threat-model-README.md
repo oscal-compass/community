@@ -130,7 +130,7 @@ As you consider threats to [a] data flow, it may occur to you..."
 
 Ignoring for now the ability of newer multi-modal LLMs to process diagrams, diagrams are not a code artifact.  
 Nor is the subjective, ad hoc, and intuition-based nature of manually mapping properties to DFD elements,
-and arbitrarily defining trust, measurably precise or repetable. 
+and arbitrarily defining trust, measurably precise or repeatable. 
 There is no measurable, objective definition of "analyze", "consider", "susceptibility", "mitigation", "comfortable", 
 "remaining threats", "right", "enough", or "complex".
 
@@ -144,7 +144,7 @@ that can change state and elicit unexpected behavior or data.
 
 2.3.2 [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
 
-The Threat Modeling Manifesto is aligned with an Agile Manfiesto philosophy.
+The Threat Modeling Manifesto is aligned with an Agile Manifesto philosophy.
 
 ```
 "The Manifesto contains ideas, but is not a how-to, and is methodology-agnostic."
@@ -715,7 +715,7 @@ to manually or via LLM construct pytm code from the OSCAL threat model output. A
 
 ## 4. Next Steps
 
-Once the schema proposal is reviewed, refined, corrected and approved we see the roamap steps as follows:
+Once the schema proposal is reviewed, refined, corrected and approved we see the roadmap steps as follows:
 - implement a python (e.g. trestle) C-R-U-D implementation
 - demonstrate interoperability via tools like OpenCTI
 - create at least 1 real-world open source complete example representing a compliant cloud native (and AI native) system.

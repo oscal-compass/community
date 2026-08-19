@@ -152,7 +152,7 @@ As a project Maintainer, you have the following responsibilities and privileges:
 
 ## Security Team
 
-In future, OSCAL Compass may have a separate Security Team created by the Oversight Committee to respond to security issues and CVEs. The security team will be common across all projects in OSCAL Compass org. It should have at least one member from each **core** project (prefereably a maintainer), nominated by the project to the team. Other members may be appointed by the Oversight Committee from amongst OSCAL Compass org members. The charter and other details will be approved/governed by the Oversght committee when the Security Team is formed.
+In future, OSCAL Compass may have a separate Security Team created by the Oversight Committee to respond to security issues and CVEs. The security team will be common across all projects in OSCAL Compass org. It should have at least one member from each **core** project (preferably a maintainer), nominated by the project to the team. Other members may be appointed by the Oversight Committee from amongst OSCAL Compass org members. The charter and other details will be approved/governed by the Oversight committee when the Security Team is formed.
 
 ## Stepping Down and the Emeritus Process
 
