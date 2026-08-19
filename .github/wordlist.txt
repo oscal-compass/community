@@ -122,6 +122,7 @@ oscal
 OSCAL
 pluggable
 POA
+pre
 prem
 PR's
 PRs
@@ -134,6 +135,7 @@ rebased
 repo
 reviewable
 rigour
+roadmap
 Runtime
 SaaS
 SBOM
