@@ -64,7 +64,6 @@ EBS
 eg
 embeddings
 Exfiltration
-favour
 FedRAMP
 github
 Github
@@ -89,7 +88,6 @@ IPs
 IST
 jpower
 JSON
-judgement
 Kubernetes
 Kyverno
 lang
@@ -134,7 +132,6 @@ README
 rebased
 repo
 reviewable
-rigour
 roadmap
 Runtime
 SaaS
@@ -151,7 +148,6 @@ SDKs
 SDLC
 SDO
 SDOs
-serialisation
 SMOs
 SPDX
 SPOFs

@@ -190,7 +190,7 @@ There are some constant configurations between voting profiles:
 
 - The Oversight Committee members have binding votes in the community repository. All in the community can and are encouraged to participate in the vote, even if their vote is not binding.
 - The duration for voting is four weeks with status checks occurring at the two week mark.
-- For a vote to pass, a majority or supermajority (as the case may be) of oversight committee members should vote in favour.
+- For a vote to pass, a majority or supermajority (as the case may be) of oversight committee members should vote in favor.
 
 ##### Simple Majority Vote
 

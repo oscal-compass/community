@@ -109,7 +109,7 @@ This section defines the common data types used throughout this modified Cloud a
 
 ## 2.1 Binary
 
-The `binary` data type represents a sequence of bytes. In a JSON serialisation, this MUST be represented as a base64-encoded string.
+The `binary` data type represents a sequence of bytes. In a JSON serialization, this MUST be represented as a base64-encoded string.
 
 * **Example**: `dGhpcyBpcyBhIHRlc3Q=` (Base64 for "this is a test")
 * **Usage**: Used for non-textual data, such as encrypted payloads, opaque API tokens, or small fragments of compiled agent code.

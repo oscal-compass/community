@@ -14,7 +14,7 @@ The following table provides information about the current roles available to th
 |------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|
 | Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 Maintainers         | OSCAL Compass GitHub org member |
 | Reviewer    | Reviews issues and PRs                      | History of issue triage and PR review and sponsored by 2 Maintainers           | OSCAL Compass GitHub Reviewer team member       |
-| Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by Maintainers team. | OSCAL Compass GitHub Maintainer team member, [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), and `MAINTAINERS.md` in each project |
+| Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgment. Nominated and approved by Maintainers team. | OSCAL Compass GitHub Maintainer team member, [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), and `MAINTAINERS.md` in each project |
 
 ### Team to GitHub Permissions
 
