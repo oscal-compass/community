@@ -1,4 +1,4 @@
-The following specification outlines modifications to the widely used STIX specification focusing specifically on modern Cloud-Native and AI-Native (i.e. Agentic) systems. It adheres to the structure of the original STIX 2.1 specification but has been pruned and modified to focus only Cloud API and AI Agentic system concepts and as a secondary benefit, attempts to be more understandable by AI-native systems vs. manual human analysis only. It explicitly assumes a future world where human-in-the-loop AI surpasses human-only expertise on system design, operation, and therefore attack and defense of these systems.  A system that does not recognize that future state ought NOT use this specification and instead rely on the existing human analyst focused STIX 2.1 (or later) specification. Similarly, if you are building modern, but on-prem systems or industrial control systems or hardware, then this is probably not the specification you need as this specificcation ignores these specific concepts entirely by design to keep the focus on cloud native agentic threats.
+The following specification outlines modifications to the widely used STIX specification focusing specifically on modern Cloud-Native and AI-Native (i.e. Agentic) systems. It adheres to the structure of the original STIX 2.1 specification but has been pruned and modified to focus only Cloud API and AI Agentic system concepts and as a secondary benefit, attempts to be more understandable by AI-native systems vs. manual human analysis only. It explicitly assumes a future world where human-in-the-loop AI surpasses human-only expertise on system design, operation, and therefore attack and defense of these systems.  A system that does not recognize that future state ought NOT use this specification and instead rely on the existing human analyst focused STIX 2.1 (or later) specification. Similarly, if you are building modern, but on-prem systems or industrial control systems or hardware, then this is probably not the specification you need as this specification ignores these specific concepts entirely by design to keep the focus on cloud native agentic threats.
 
 ---
 
@@ -75,7 +75,7 @@ Represents the output of any system state that is not explicitly defined as an e
 * **Threat Actor**
 Individuals, groups, or organizations believed to be operating with malicious intent. Expanded to include **Machine-to-Machine processes** and **AI Agents** operating independently or in coordination with human actors.
 * **Tool**
-Legitimate software that calls systme services (often cloud infrastructure or AI APIs) that can be used by threat actors. Expanded to explicitly include **AI Agents**, **LLMs**, **MCP (Model Context Protocol) Servers**, and **Agentic Tools**.
+Legitimate software that calls system services (often cloud infrastructure or AI APIs) that can be used by threat actors. Expanded to explicitly include **AI Agents**, **LLMs**, **MCP (Model Context Protocol) Servers**, and **Agentic Tools**.
 * **Vulnerability**
 A violation of defined State transition logic. This is rigorously defined as:
 1. An unexpected transition that occurs by either not being explicitly defined in the logic or a policy statement, or by being explicitly defined as prohibited for a given State/Action combination.
@@ -109,7 +109,7 @@ This section defines the common data types used throughout this modified Cloud a
 
 ## 2.1 Binary
 
-The `binary` data type represents a sequence of bytes. In a JSON serialisation, this MUST be represented as a base64-encoded string.
+The `binary` data type represents a sequence of bytes. In a JSON serialization, this MUST be represented as a base64-encoded string.
 
 * **Example**: `dGhpcyBpcyBhIHRlc3Q=` (Base64 for "this is a test")
 * **Usage**: Used for non-textual data, such as encrypted payloads, opaque API tokens, or small fragments of compiled agent code.
@@ -899,7 +899,7 @@ NOTE: Why isn't this just an Extension?  Given the goal here is not STIX tooling
 
 # 8. STIX Bundle Object
 
-No changes. Use the normative specfication.
+No changes. Use the normative specification.
 
 ---
 

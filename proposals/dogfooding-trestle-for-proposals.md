@@ -32,7 +32,7 @@ As OSCAL-compass is maturing as a project there exists the need to develop more 
 One of the processes is a design proposal process described at a [high level here](./README.md)
 There exist many templates for proposals, however, the [CNCF has a template](https://github.com/cncf/project-template/blob/main/DESIGN-PROPOSALS.md) which aligns with the communities goals.
 
-Ensuring rigour in the process can be difficult. The objective is to ensure the templates are followed for all uses.
+Ensuring rigor in the process can be difficult. The objective is to ensure the templates are followed for all uses.
 
 
 
@@ -64,7 +64,7 @@ Ensuring rigour in the process can be difficult. The objective is to ensure the 
 ## Non-Goals
 
 - Apply to individual project issues / design goals
-- Be a stand alone demostration of trestle.
+- Be a stand alone demonstration of trestle.
 
 ## Proposal
 
