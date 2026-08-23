@@ -1,6 +1,8 @@
 # Introduction
 
-Welcome to the reusable presentation materials for OSCAL Compass! These materials are designed to be easily customized and adapted by anyone in the community who wants to present on the project.
+Welcome to the reusable presentation materials for OSCAL Compass! These materials are designed to be easily customized and adapted by anyone in the community who wants to present on the project. Please add editable sources too.
+
+
 
 ## Overview
 
