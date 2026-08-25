@@ -116,6 +116,7 @@ Offboarding
 onboarding
 OPA
 OpenAI
+OpenCode
 OpenCTI
 OpenSSF
 oscal
