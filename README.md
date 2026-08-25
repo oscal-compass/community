@@ -27,7 +27,7 @@ Trestle is designed to operate as a CI/CD pipeline running on top of compliance 
 
 [Agentic Agile Authoring](https://github.com/oscal-compass/agentic-agile-authoring)
 
-Agentic Agile Authoring is compliance authoring for OSCAL artifacts based on MCP Server and GenAI agentic solution with Human-in-the-Loop (HITL).
+Compliance authoring for OSCAL artifacts based on the OSCAL Compass MCP Server and a GenAI agentic solution with Human-in-the-Loop (HITL) by design, as authoring skills run inside your IDE (Claude Code, OpenCode).
 
 [Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring)
 
