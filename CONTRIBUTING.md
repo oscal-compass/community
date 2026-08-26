@@ -90,7 +90,7 @@ We use the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertif
 
 The DCO requires developers to sign off each of their commits to certify that they have the right to submit the code to the project and that they agree to license their contribution under the project's open source license.
 
-You can read more about the DCO and its guidelines [here](https://github.com/cncf/foundation/blob/main/dco-guidelines.md).
+You can read more about the [DCO guidelines](https://github.com/cncf/foundation/blob/main/dco-guidelines.md).
 
 Note that DCO sign-off is enforced on all repositories by [DCO bot](https://github.com/probot/dco). Commits with a missing sign-off will be required to be rebased with the sign-off statement added before being accepted.
 

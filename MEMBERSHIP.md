@@ -10,19 +10,19 @@ OSCAL Compass welcomes new contributors. Not all contributors are able to provid
 
 The following table provides information about the current roles available to the OSCAL Compass project.
 
-| Role       | Responsibilities                             | Requirements                                                  | Defined by                    |
-|------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|
-| Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 Maintainers         | OSCAL Compass GitHub org member |
-| Reviewer    | Reviews issues and PRs                      | History of issue triage and PR review and sponsored by 2 Maintainers           | OSCAL Compass GitHub Reviewer team member       |
+| Role       | Responsibilities                            | Requirements                                                                                              | Defined by                                                                                                                                                                                                                             |
+|------------|---------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Member     | Active contributor in the community         | Multiple contributions and sponsored by 2 Maintainers                                                     | OSCAL Compass GitHub org member                                                                                                                                                                                                        |
+| Reviewer   | Reviews issues and PRs                      | History of issue triage and PR review and sponsored by 2 Maintainers                                      | OSCAL Compass GitHub Reviewer team member                                                                                                                                                                                              |
 | Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgment. Nominated and approved by Maintainers team. | OSCAL Compass GitHub Maintainer team member, [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), and `MAINTAINERS.md` in each project |
 
 ### Team to GitHub Permissions
 
-| Role       | GitHub Permissions                           |
-|------------|----------------------------------------------|
-| Member     | Read                                         |
+| Role       | GitHub Permissions                                |
+|------------|---------------------------------------------------|
+| Member     | Read                                              |
 | Reviewer   | Write with merge restricted by CODEOWNER approval |
-| Maintainer | Maintain                                     |
+| Maintainer | Maintain                                          |
 
 > Note: Each project will require branch protection rule to require CODEOWNER approval for PRs to default branches. In GitHub, this would mean setting the `Require review from Code Owners` in branch protection rule setting.
 

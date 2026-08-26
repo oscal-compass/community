@@ -6,8 +6,7 @@ This policy describes OSCAL Compass security and disclosure information.
 
 To report a vulnerability, either:
 
-1. Report it on Github directly you can follow the procedure described
-   [here](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability)
+1. Report it on Github directly you can follow the [procedure for privately reporting a security vulnerability](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability)
    and:
 
     - Navigate to the security tab (e.g. `trestle` [security tab](https://github.com/oscal-compass/compliance-trestle/security)) on the repository
