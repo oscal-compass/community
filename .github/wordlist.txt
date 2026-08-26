@@ -65,12 +65,14 @@ eg
 embeddings
 Exfiltration
 FedRAMP
+GenAI
 github
 Github
 GitOps
 GitVote
 googlegroups
 gRPC
+HITL
 hoc
 Hotfixes
 https
@@ -114,6 +116,7 @@ Offboarding
 onboarding
 OPA
 OpenAI
+OpenCode
 OpenCTI
 OpenSSF
 oscal

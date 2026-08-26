@@ -25,6 +25,10 @@ Trestle is an ensemble of tools that enable the creation, validation, and govern
 
 Trestle is designed to operate as a CI/CD pipeline running on top of compliance artifacts in git, to provide transparency for the state of compliance across multiple stakeholders in an environment friendly to developers. Trestle passes the generated artifacts onto tools that orchestrate the enforcement, measurement, and reporting of compliance.
 
+[Agentic Agile Authoring](https://github.com/oscal-compass/agentic-agile-authoring)
+
+Compliance authoring for OSCAL artifacts based on the OSCAL Compass MCP Server and a GenAI agentic solution with Human-in-the-Loop (HITL) by design, as authoring skills run inside your IDE (Claude Code, OpenCode).
+
 [Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring)
 
 Agile Authoring is a collaborative platform enabling various compliance personas to orchestrate their individual aspects of the compliance artifacts via an interface of their choice. It is a Trestle-based GitOps automated workflow and ensures artifacts consistency and traceability. It provides ready to use CI/CD pipeline configuration and setup using a GitOps approach with Trestle for OSCAL document management and collaboration.
