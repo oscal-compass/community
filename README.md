@@ -47,10 +47,10 @@ Presentation [slides](presentations/oscal-compass-End-to-End-final.pdf)
 
 Please attend! All are invited.
 
-|          | When    | Where |
-| -------- | ------- | -------- |
-| **Global**  | Every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [convert to your local time.](https://mytime.io/11am/ET)   | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d) |
-| **APAC friendly** | Every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [convert to your local time.](https://mytime.io/5am/GMT)    |[Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) |
+| Meeting           | When                                                                                                                                                      | Where                                                                                                                   |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Global**        | Every other Tuesday starting on April 23, 2024 · 11:00 – 12:00pm ET [convert to your local time.](https://mytime.io/11am/ET)                              | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/91709345128?password=5510325d-895f-4932-a843-df728dc3028d) |
+| **APAC friendly** | Every other following Thursday starting on November 30, 2024 - 05:00 GMT / 16:00 AEDT / 1030 IST [convert to your local time.](https://mytime.io/5am/GMT) | [Zoom](https://zoom-lfx.platform.linuxfoundation.org/meeting/97945872533?password=abad1bfe-cc9a-49d8-9aa6-99bb469a434d) |
 
 
 Meeting agenda and notes [Google Docs](https://docs.google.com/document/d/1XTYM7xnWlIqd-8Nn5-qtgvgk8kH3NSmYle5yZvaS7qs/edit?usp=sharing)
@@ -82,7 +82,7 @@ Our project welcomes external contributions. Please consult [contributing](CONTR
 
 ## License & Authors
 
-If you would like to see the detailed LICENSE click [here](LICENSE).
+If you would like to see the [detailed LICENSE](LICENSE).
 Consult [maintainers](MAINTAINERS.md) for the current list of maintainers for various projects in the oscal-compass community.
 
 ```text
