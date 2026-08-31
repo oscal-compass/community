@@ -78,7 +78,8 @@ Cloud Native Computing Foundation on Slack: [Join](https://communityinviter.com/
 
 Slack: [#oscal-compass-trestle-agileauthoring-c2p](https://cloud-native.slack.com/archives/C06F3PEPNBW)
 
-- **Note**: You can login to Slack using another account like Google, Apple
+- Use an LFID to login to slack, see [https://identity.linuxfoundation.org/](https://identity.linuxfoundation.org/)
+- You can login to Slack using another account like Google, Apple
 
 ## Contribution
 
