@@ -211,7 +211,7 @@ Some examples include:
 
 ## Access Continuity
 
-The project is structured so that no single person is a point of failure. The multi-member [Oversight Committee](./MAINTAINERS.md) and multiple [Org Admins](./MAINTAINERS.md#org-admins) — including a Linux Foundation backstop — ensure that all necessary repository access, credentials, and legal rights are held by more than one person across multiple organizations, so that issues, pull requests, and releases can all be handled within one week of losing any individual contributor. Vacancies are filled by appointment per [Vacancies](#vacancies). As a result, the project maintains a bus factor of 2 or more.
+The project is structured so that no single person is a point of failure. The multi-member [Oversight Committee](./MAINTAINERS.md) and multiple [Org Admins](./MAINTAINERS.md#org-admins) — including a Linux Foundation backstop — ensure that all necessary repository access, credentials, and legal rights are held by more than one person across multiple organizations, so that issues, pull requests, and releases can all be handled within one week of losing any individual contributor. Vacancies are filled by appointment per [Vacancies](#vacancies). Project knowledge is distributed across multiple active contributors from different organizations, so the project maintains a bus factor of 2 or more.
 
 ## Modifications to this Governance
 
