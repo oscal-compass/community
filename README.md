@@ -45,6 +45,10 @@ Compliance-to-Policy (C2P) bridges Compliance as Code and Policy as Code. C2P ta
 
 Presentation [slides](presentations/oscal-compass-End-to-End-final.pdf)
 
+### Technical presentations
+
+- **OSCAL Artifact Integrity (Google Summer of Code 2026)** — Signing and verifying JSON artifacts and connected OSCAL packages, including proposed GitHub Actions release workflows. [PDF](presentations/oscal-artifact-integrity-gsoc-2026.pdf) · [PowerPoint](presentations/oscal-artifact-integrity-gsoc-2026.pptx)
+
 ## Community meetings and communications
 
 ### Scheduled meetings
