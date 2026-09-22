@@ -69,6 +69,10 @@ The means by which actors are isolated should also be described, as this is ofte
 what prevents an attacker from moving laterally after a compromise.--->
 
 #### Compliance Trestle
+![Badge](https://www.bestpractices.dev/projects/9408/badge)
+
+OSCAL Compass is making progress towards achieving OpenSSF Best Practices badges across all repositories.  
+The main focus has been on the most mature components. Trestle has achieved the passing level criteria.
 
 Trestle is an opinionated implementation of the OSCAL standard and supports authoring and validation of OSCAL and Markdown governance documents.
 Its processes are important for enhancing the overall integrity and traceability of compliance artifacts before they are committed to the repository.
