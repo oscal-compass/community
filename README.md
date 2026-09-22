@@ -8,6 +8,17 @@ OSCAL Compass is made up of several projects with different release cycles. Coll
 
 Contributing new features, resolving bugs and issues, and refining the documentation experience through pull requests are welcome. More information about contributing to the OSCAL Compass projects, contributor roles, governance and legal, and licenses can be found in proceeding sections of this document.
 
+## End User
+The OSCAL Compass project intends to support an end-to-end workflow for compliance management  
+that can be integrated into an automated pipeline.
+
+### Security
+
+- Allow for secure configuration of project components
+- Isolating plugin processes
+- Protect sensitive data in transit using mTLS to secure plugin communication.
+- Plugins only receive configuration that is pre-declared in the plugin manifest and user associated selections
+  
 ## Community Goals
 
 The goals of this open source community includes the following:
