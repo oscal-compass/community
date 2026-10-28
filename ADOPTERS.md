@@ -2,6 +2,7 @@
 
 This is a list of organizations that have publicly shared their adoption:
 
+- [Government Technology Agency of Singapore](https://www.tech.gov.sg/)
 - [IBM](https://www.ibm.com)
 - [Red Hat](https://www.redhat.com)
 
