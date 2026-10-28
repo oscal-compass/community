@@ -15,6 +15,10 @@ It covers:
 - Benefits of using the project
 - Use cases and examples
 
+## Technical presentations
+
+- **OSCAL Artifact Integrity (Google Summer of Code 2026)** — Signing and verifying JSON artifacts and connected OSCAL packages, including proposed GitHub Actions release workflows. [PDF](oscal-artifact-integrity-gsoc-2026.pdf) · [PowerPoint](oscal-artifact-integrity-gsoc-2026.pptx)
+
 ## License
 
 These materials are licensed under the Apache 2.0 License - see the [LICENSE](https://github.com/oscal-compass/community/blob/main/LICENSE) file for details.
