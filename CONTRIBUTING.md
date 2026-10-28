@@ -14,10 +14,12 @@ Please report unacceptable behavior to one of the Code of Conduct [Committee mem
 
 ### Related repositories
 
-In addition to this repository, OSCAL Compass has three main repositories:
+In addition to this repository, OSCAL Compass has four main repositories:
 
 
 * [Trestle](https://github.com/oscal-compass/compliance-trestle) - Command line tool and SDK for interacting with OSCAL-based documents
+
+* [Agentic Agile Authoring](https://github.com/oscal-compass/agentic-agile-authoring) - Compliance authoring for OSCAL artifacts based on the OSCAL Compass MCP Server and a GenAI agentic solution with Human-in-the-Loop (HITL) by design, as authoring skills run inside your IDE.
 
 * [Agile Authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring) - Ready to use CI/CD pipeline configuration and setup using a GitOps approach with Trestle for OSCAL document management and collaboration.
 
