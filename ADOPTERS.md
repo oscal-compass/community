@@ -5,6 +5,7 @@ This is a list of organizations that have publicly shared their adoption:
 - [Amazon Web Services (AWS)](https://aws.amazon.com/)
 - [Government Technology Agency of Singapore](https://www.tech.gov.sg/)
 - [IBM](https://www.ibm.com)
+- [OWASP GovOps Working Group](https://owasp.org/groups/govops-working-group)
 - [Red Hat](https://www.redhat.com)
 - [Sunstone Secure](https://sunstonesecure.com/)
 

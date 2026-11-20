@@ -71,6 +71,7 @@ Github
 GitOps
 GitVote
 googlegroups
+GovOps
 gRPC
 HITL
 hoc
@@ -121,6 +122,7 @@ OpenAI
 OpenCode
 OpenCTI
 OpenSSF
+OWASP
 oscal
 OSCAL
 pluggable
