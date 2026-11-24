@@ -142,6 +142,7 @@ reviewable
 roadmap
 Runtime
 SaaS
+sbomify
 SBOM
 SBOMs
 Scalability
