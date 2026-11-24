@@ -7,6 +7,7 @@ This is a list of organizations that have publicly shared their adoption:
 - [IBM](https://www.ibm.com)
 - [OWASP GovOps Working Group](https://owasp.org/groups/govops-working-group)
 - [Red Hat](https://www.redhat.com)
+- [sbomify](https://github.com/sbomify/sbomify)
 - [Sunstone Secure](https://sunstonesecure.com/)
 
 If your organization is using OSCAL Compass and would like to be included in this list, please open a pull request.
